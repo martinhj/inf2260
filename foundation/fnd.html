@@ -2,6 +2,7 @@
 <head>
 <title>Foundation test</title>
 <link rel="stylesheet" href="css/foundation.css">
+<script src="js/vendor/custom.modernizr.js"></script> 
 </head>
 <body>
 <!-- Navigation -->
@@ -11,7 +12,7 @@
       <!-- Title Area -->
       <li class="name">
         <h1>
-          <a href="#"> Top Bar Title </a>
+          <a href="#"> Telespinn </a>
         </h1>
       </li>
       <li class="toggle-topbar menu-icon"><a href="#"><span>menu</span></a></li>
@@ -70,5 +71,15 @@
         <h1>test</h1>
     </div>
 </div>
+  <script>
+  document.write('<script src=' +
+  ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
+  '.js><\/script>')
+  </script>
+  
+  <script src="js/foundation.min.js"></script>
+  <script>
+    $(document).foundation();
+  </script>
 </body>
 </html>
