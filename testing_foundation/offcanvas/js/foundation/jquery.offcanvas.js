@@ -13,21 +13,34 @@
     });
   }
 
+  var $selector5 = $('#leftSidebarButton2');
+  if ($selector5.length > 0) {
+    $('#leftSidebarButton2').on(events, function (e) {
+      e.preventDefault();
+      $('body').toggleClass('active');
+    });
+  }
 
+  var $selector6 = $('#rightSidebarButton');
+  if ($selector6.length > 0) {
+    $('#rightSidebarButton').on(events, function (e) {
+      e.preventDefault();
+      $('body').toggleClass('active');
+    });
+  }
+  var $selector7 = $('#rightSidebarButton2');
+  if ($selector7.length > 0) {
+    $('#rightSidebarButton2').on(events, function (e) {
+      e.preventDefault();
+      $('body').toggleClass('active');
+    });
+  }
   // Watch for clicks to show the menu for slide-menu pages
   var $selector3 = $('#menuButton');
   if ($selector3.length > 0)  {
     $('#menuButton').on(events, function (e) {
       e.preventDefault();
       $('body').toggleClass('active-menu');
-    });
-  }
-
-  var $selector4 = $('#leftsidebarButton2');
-  if ($selector4.length > 0) {
-    $('#leftSidebarButton2').on(events, function (e) {
-      e.preventDefault();
-      $('body').toggleClass('active');
     });
   }
 
