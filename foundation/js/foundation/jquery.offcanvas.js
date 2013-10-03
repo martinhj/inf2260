@@ -13,12 +13,21 @@
     });
   }
 
+
   // Watch for clicks to show the menu for slide-menu pages
   var $selector3 = $('#menuButton');
   if ($selector3.length > 0)  {
     $('#menuButton').on(events, function (e) {
       e.preventDefault();
       $('body').toggleClass('active-menu');
+    });
+  }
+
+  var $selector4 = $('#sidebarButton2');
+  if ($selector4.length > 0) {
+    $('#sidebarButton').on(events, function (e) {
+      e.preventDefault();
+      $('body').toggleClass('active');
     });
   }
 
