@@ -13,26 +13,13 @@
 <div class="container">
 
 <header	id="header" class="row">
-    <div class="four columns phone-two">
+    <div class="eight columns phone-two">
     <h1 id="site-title"><a href="">TELESPINN!</a></h1>
+    <a id="leftSidebarButton" href="#sidebar">Menu-L</a>
+    <a id="leftSidebarButtonOff">Close-Menu-L</a>
+    <a id="rightSidebarButton" href="#sidebar">Menu-R</a>
+    <a id="rightSidebarButtonOff">Close-Menu-R</a>
     </div>
-    <!--<div class="eight columns phone-two">-->
-    <!--<nav id="menu" role="navigation" class="hide-for-small">
-    <nav>
-    <ul id="mainNav" class="nav-bar">
-    <li><a href="">One</a></li>
-    <li><a href="">Two</a></li>
-    <li><a href="">Three</a></li>
-    <li><a href="">Four</a></li>
-    </ul>
-    </nav>
-    <p class="show-for-small"> -->
-    <!--<a class='sidebar-button button' id="sidebarButton" href="#sidebar"
-    >Menu</a>-->
-    <a id="leftSidebarButton" href="#sidebar">Menu</a>
-    <a id="leftSidebarButton2" href="#sidebar">Menu</a>
-    <!--</p> -->
-    <!--</div>-->
 </header>
 
 <div class="row">
@@ -41,6 +28,9 @@
     </section>
     <section id="sidebar" role="complementary">
     <!--#include file="ocl.html" -->
+    </section>
+    <section id="rSidebar" role="rComplementary">
+    <h1>HEIHEIHEI</h1>
     </section>
 </div>
 
