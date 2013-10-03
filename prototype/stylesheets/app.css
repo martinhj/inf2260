@@ -5262,13 +5262,6 @@ label.error {
   width: 100px;
   z-index: 10;
 }
-/* line 189, ../../../../../../var/lib/gems/1.9.1/gems/zurb-foundation-4.3.2/scss/foundation/components/_orbit.scss */
-.orbit-container .orbit-timer .orbit-progress {
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.6);
-  display: block;
-  width: 0%;
-}
 /* line 199, ../../../../../../var/lib/gems/1.9.1/gems/zurb-foundation-4.3.2/scss/foundation/components/_orbit.scss */
 .orbit-container .orbit-timer > span {
   display: none;

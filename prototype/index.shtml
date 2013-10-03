@@ -1,5 +1,18 @@
 <!--#include virtual="snippets/head.html" --> 
 <body>
-<div>Test</div>
-
+<div>
+<h1>Orbit</h1>
+<p>http://foundation.zurb.com/docs/components/orbit.html</p>
+</div>
+<!--#include virtual="snippets/orbit.html" -->
+<div>
+<h1>Section - Accordion</h1>
+<p>http://foundation.zurb.com/docs/components/section.html</p>
+</div>
+<!--#include virtual="snippets/section_accordion.html" -->
+<div>
+<h1>Section - Tabs</h1>
+<p>http://foundation.zurb.com/docs/components/section.html</p>
+</div>
+<!--#include virtual="snippets/section_tabs.html" -->
 <!--#include virtual="snippets/sidebunn.html" --> 
