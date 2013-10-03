@@ -23,8 +23,8 @@
     });
   }
 
-  var $selector4 = $('#leftsidebarButton2');
-  if ($selector4.length > 0) {
+  var $selector5 = $('#leftsidebarButton2');
+  if ($selector5.length > 0) {
     $('#leftSidebarButton2').on(events, function (e) {
       e.preventDefault();
       $('body').toggleClass('active');
