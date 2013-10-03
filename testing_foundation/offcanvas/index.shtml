@@ -29,6 +29,7 @@
     <p class="show-for-small"> -->
     <!--<a class='sidebar-button button' id="sidebarButton" href="#sidebar"
     >Menu</a>-->
+    <a id="leftSidebarButton" href="#sidebar">Menu</a>
     <!--</p> -->
     <!--</div>-->
 </header>
