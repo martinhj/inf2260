@@ -17,7 +17,7 @@
     <h1 id="site-title"><a href="">TELESPINN!</a></h1>
     <a id="leftSidebarButton" href="#sidebar">Menu-L</a>
     <a id="leftSidebarButtonOff">Close-Menu-L</a>
-    <a id="rightSidebarButton" href="#sidebar">Menu-R</a>
+    <a id="rightSidebarButton" href="#rsidebar">Menu-R</a>
     <a id="rightSidebarButtonOff">Close-Menu-R</a>
     </div>
 </header>
@@ -30,7 +30,10 @@
     <!--#include file="ocl.html" -->
     </section>
     <section id="rSidebar" role="rComplementary">
+    <!--#include file="ocl.html" -->
     <h1>HEIHEIHEI</h1>
+    <p> testtesttestetststestes</p>
+    <p> testtesttesttesttestttt</p>
     </section>
 </div>
 
