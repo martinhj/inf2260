@@ -1,5 +1,5 @@
-<!--#include virtual="head.html" --> 
+<!--#include virtual="snippets/head.html" --> 
 <body>
 <div>Test</div>
 
-<!--#include virtual="sidebunn.html" --> 
+<!--#include virtual="snippets/sidebunn.html" --> 
