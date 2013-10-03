@@ -10,6 +10,7 @@
     $('#leftSidebarButton').on(events, function (e) {
       e.preventDefault();
       $('body').toggleClass('active');
+	  $('body').toggleClass('rActive', false);
     });
   }
 
@@ -26,6 +27,7 @@
     $('#rightSidebarButton').on(events, function (e) {
       e.preventDefault();
       $('body').toggleClass('rActive');
+	  $('body').toggleClass('active', false);
     });
   }
   var $selector7 = $('#rightSidebarButtonOff');
