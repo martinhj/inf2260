@@ -5,9 +5,9 @@
   if ($selector1.length > 0) $selector1.css("margin-top", $selector1.height() * -1);
 
   // Watch for clicks to show the sidebar
-  var $selector2 = $('#sidebarButton');
+  var $selector2 = $('#leftSidebarButton');
   if ($selector2.length > 0) {
-    $('#sidebarButton').on(events, function (e) {
+    $('#leftSidebarButton').on(events, function (e) {
       e.preventDefault();
       $('body').toggleClass('active');
     });
@@ -23,9 +23,9 @@
     });
   }
 
-  var $selector4 = $('#sidebarButton2');
+  var $selector4 = $('#leftsidebarButton2');
   if ($selector4.length > 0) {
-    $('#sidebarButton2').on(events, function (e) {
+    $('#leftSidebarButton2').on(events, function (e) {
       e.preventDefault();
       $('body').toggleClass('active');
     });
