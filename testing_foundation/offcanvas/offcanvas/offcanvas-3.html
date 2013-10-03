@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+
+	<!-- Set the viewport width to device width for mobile -->
+	<meta name="viewport" content="width=device-width" />
+
+	<title>Welcome to Foundation Testing</title>
+
+	<!-- Included CSS Files -->
+  <link rel="stylesheet" href="stylesheets/app.css">
+  <link rel="stylesheet" href="stylesheets/offcanvas.css">
+
+  <script src="javascripts/foundation/modernizr.foundation.js"></script>
+
+</head>
+
+  <body id="page" class="off-canvas paneled">
+	<div class="container">
+
+		<header id="header" class="row">
+		  <div class="four columns">
+		    <h1 id="site-title"><a href="http://zurb.com/playground/">ZURB</a></h1>
+		  </div>
+		  <div class="eight columns">
+		    <nav id="menu" role="navigation" class="hide-for-small">
+  				<ul id="nav" class="nav-bar">
+  					<li><a href="#panel-1" class="main nav-item">Panel 1</a></li>
+  					<li><a href="#panel-2" class="main nav-item">Panel 2</a></li>
+  					<li><a href="#panel-3" class="main nav-item">Panel 3</a></li>
+  					<li><a href="#panel-4" class="main nav-item">Panel 4</a></li>
+  					<li><a href="#panel-5" class="main nav-item">Panel 5</a></li>
+  				</ul>
+  			</nav>
+
+  			<dl class="tabs five-up show-for-small" id="switchPanels">
+          <dd class="active"><a href="#panel-1">1</a></dd>
+          <dd><a href="#panel-2">2</a></dd>
+          <dd><a href="#panel-3">3</a></dd>
+          <dd><a href="#panel-4">4</a></dd>
+          <dd><a href="#panel-5">5</a></dd>
+  			</dl>
+		  </div>
+		</header>
+
+		<div class="row">
+  		<section role="main" id="main">
+  		  <article id="panel-1" class="page-panel">
+				  <h1>Panel 1</h1>
+				  <p>Quisque lacinia est a libero tempor quis gravida nibh luctus. Nulla facilisi. Vestibulum bibendum ipsum a lacus molestie pulvinar a nec risus. Nulla facilisi. Aenean nec tellus ligula. Ut tortor mi, consequat in ornare in, condimentum sed leo. Phasellus et luctus ipsum. Mauris gravida molestie velit ac iaculis. Integer quis libero id erat consectetur accumsan ut eget diam. In hac habitasse platea dictumst.</p>
+				</article><!-- /#panel-1 -->
+
+
+  			<article id="panel-2" class="page-panel">
+  				<h1>Panel 2</h1>
+  				<p>Quisque lacinia est a libero tempor quis gravida nibh luctus. Nulla facilisi. Vestibulum bibendum ipsum a lacus molestie pulvinar a nec risus. Nulla facilisi. Aenean nec tellus ligula. Ut tortor mi, consequat in ornare in, condimentum sed leo. Phasellus et luctus ipsum. Mauris gravida molestie velit ac iaculis. Integer quis libero id erat consectetur accumsan ut eget diam. In hac habitasse platea dictumst.</p>
+  		  </article><!-- /#panel-2 -->
+
+
+			  <article id="panel-3" class="page-panel">
+				  <h1>Panel 3</h1>
+				  <p>Quisque lacinia est a libero tempor quis gravida nibh luctus. Nulla facilisi. Vestibulum bibendum ipsum a lacus molestie pulvinar a nec risus. Nulla facilisi. Aenean nec tellus ligula. Ut tortor mi, consequat in ornare in, condimentum sed leo. Phasellus et luctus ipsum. Mauris gravida molestie velit ac iaculis. Integer quis libero id erat consectetur accumsan ut eget diam. In hac habitasse platea dictumst.</p>
+				  <p>Quisque lacinia est a libero tempor quis gravida nibh luctus. Nulla facilisi. Vestibulum bibendum ipsum a lacus molestie pulvinar a nec risus. Nulla facilisi. Aenean nec tellus ligula. Ut tortor mi, consequat in ornare in, condimentum sed leo. Phasellus et luctus ipsum. Mauris gravida molestie velit ac iaculis. Integer quis libero id erat consectetur accumsan ut eget diam. In hac habitasse platea dictumst.</p>
+				  <p>Quisque lacinia est a libero tempor quis gravida nibh luctus. Nulla facilisi. Vestibulum bibendum ipsum a lacus molestie pulvinar a nec risus. Nulla facilisi. Aenean nec tellus ligula. Ut tortor mi, consequat in ornare in, condimentum sed leo. Phasellus et luctus ipsum. Mauris gravida molestie velit ac iaculis. Integer quis libero id erat consectetur accumsan ut eget diam. In hac habitasse platea dictumst.</p>
+				</article><!-- /#panel-3 -->
+
+
+			  <article id="panel-4" class="page-panel">
+				  <h1>Panel 4</h1>
+				  <p>Quisque lacinia est a libero tempor quis gravida nibh luctus. Nulla facilisi. Vestibulum bibendum ipsum a lacus molestie pulvinar a nec risus. Nulla facilisi. Aenean nec tellus ligula. Ut tortor mi, consequat in ornare in, condimentum sed leo. Phasellus et luctus ipsum. Mauris gravida molestie velit ac iaculis. Integer quis libero id erat consectetur accumsan ut eget diam. In hac habitasse platea dictumst.</p>
+				</article><!-- /#panel-4 -->
+
+
+			  <article id="panel-5" class="page-panel">
+				  <h1>Panel 5</h1>
+				  <p>Quisque lacinia est a libero tempor quis gravida nibh luctus. Nulla facilisi. Vestibulum bibendum ipsum a lacus molestie pulvinar a nec risus. Nulla facilisi. Aenean nec tellus ligula. Ut tortor mi, consequat in ornare in, condimentum sed leo. Phasellus et luctus ipsum. Mauris gravida molestie velit ac iaculis. Integer quis libero id erat consectetur accumsan ut eget diam. In hac habitasse platea dictumst.</p>
+				</article><!-- /#panel-5 -->
+
+		  </section>
+		</div>
+
+    <footer class="site-footer row" role="contentinfo">
+      <div class="twelve columns">
+        Created by ZURB for Foundation 3, based on code from Jason Weaver and Luke Wroblewski
+      </div>
+    </footer>
+  </div>
+
+
+	<!-- Included JS Files -->
+  <script src="javascripts/foundation/jquery.js"></script>
+  <script src="javascripts/foundation/jquery.foundation.reveal.js"></script>
+  <script src="javascripts/foundation/jquery.foundation.orbit.js"></script>
+  <script src="javascripts/foundation/jquery.foundation.forms.js"></script>
+  <script src="javascripts/foundation/jquery.placeholder.js"></script>
+  <script src="javascripts/foundation/jquery.foundation.tooltips.js"></script>
+  <script src="javascripts/foundation/jquery.foundation.alerts.js"></script>
+  <script src="javascripts/foundation/jquery.foundation.buttons.js"></script>
+  <script src="javascripts/foundation/jquery.foundation.accordion.js"></script>
+  <script src="javascripts/foundation/jquery.foundation.navigation.js"></script>
+  <script src="javascripts/foundation/jquery.foundation.mediaQueryToggle.js"></script>
+  <script src="javascripts/foundation/jquery.foundation.tabs.js"></script>
+  <script src="javascripts/foundation/jquery.offcanvas.js"></script>
+  <script src="javascripts/foundation/app.js"></script>
+
+</body>
