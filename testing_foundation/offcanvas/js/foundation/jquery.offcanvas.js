@@ -13,11 +13,11 @@
     });
   }
 
-  var $selector5 = $('#leftSidebarButton2');
+  var $selector5 = $('#leftSidebarButtonOff');
   if ($selector5.length > 0) {
-    $('#leftSidebarButton2').on(events, function (e) {
+    $('#leftSidebarButtonOff').on(events, function (e) {
       e.preventDefault();
-      $('body').toggleClass('active');
+      $('body').toggleClass('active', false);
     });
   }
 
@@ -25,14 +25,14 @@
   if ($selector6.length > 0) {
     $('#rightSidebarButton').on(events, function (e) {
       e.preventDefault();
-      $('body').toggleClass('active');
+      $('body').toggleClass('rActive');
     });
   }
-  var $selector7 = $('#rightSidebarButton2');
+  var $selector7 = $('#rightSidebarButtonOff');
   if ($selector7.length > 0) {
-    $('#rightSidebarButton2').on(events, function (e) {
+    $('#rightSidebarButtonOff').on(events, function (e) {
       e.preventDefault();
-      $('body').toggleClass('active');
+      $('body').toggleClass('rActive');
     });
   }
   // Watch for clicks to show the menu for slide-menu pages
