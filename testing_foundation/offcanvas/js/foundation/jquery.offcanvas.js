@@ -32,7 +32,7 @@
   if ($selector7.length > 0) {
     $('#rightSidebarButtonOff').on(events, function (e) {
       e.preventDefault();
-      $('body').toggleClass('rActive');
+      $('body').toggleClass('rActive', false);
     });
   }
   // Watch for clicks to show the menu for slide-menu pages
