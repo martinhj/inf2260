@@ -11,6 +11,10 @@
 </div>
 <!--#include virtual="snippets/section_accordion.html" -->
 <div>
+<h1>Overlay (manglende funksjonalitet)</h1>
+<p>http://foundation.zurb.com/docs/components/reveal.html</p>
+<!--#include virtual="snippets/overlay.html" -->
+</div>
 <h1>Section - Tabs</h1>
 <p>http://foundation.zurb.com/docs/components/section.html</p>
 </div>
