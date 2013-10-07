@@ -21,4 +21,6 @@
 <p><a href="http://foundation.zurb.com/docs/components/section.html">fondation doco </a></p>
 </div>
 <!--#include virtual="snippets/section_tabs.html" -->
+<h1>Checkout</h1>
+<!--#include virtual="snippets/checkout.html" -->
 <!--#include virtual="snippets/sidebunn.html" --> 
