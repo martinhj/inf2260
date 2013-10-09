@@ -7,11 +7,11 @@
 
 
 
-      	<form action="checkout.html" method="get" autocomplete="on">
+      	<form action="checkout.html" method="get" autocomplete="on" class="custom">
 	<fieldset>
 		<legend>1. Personlig informasjon</legend>
-
-
+	<div class="progress small-12"><span class="meter" style="width: 25%"></span></div>
+	<div class="small large-6 success round"><span class="meter" style="width: 25%"></span></div>
 	<div class="row">
 		<div class="small-8 rows">
 			<input type="text" name="fname" x-autocompletetype="given-name" placeholder="Fornavn">
@@ -23,10 +23,10 @@
 			<input type="email" name="email" x-autocompletetype="email" placeholder="e-postadresse">
 		</div> 	
 		<div class="small-12 rows">
-			<div class="small-8 columns">
+			<div class="small-4 pull-5 columns">
 				<input type="text" name="address" x-autocompletetype="street-address" placeholder="Gate/vei 1">
 			</div> 
-			<div class="small-3 columns">
+			<div class="small-2 columns">
 				<input type="number"  placeholder="Gatenr">
 			</div>
 		</div>
@@ -56,17 +56,28 @@
 
 <fieldset>	
 	<legend>2. Frakt</legend>
-	- brevpost (B-økonomi)<br>
-	- faktura (Klimanøytral Servicepakke)
-</fieldset>
-<fieldset>
-	<legend>3. Betaling</legend>
-		-paypal<br>
-		-faktura
+	<div class="progress small-12"><span class="meter" style="width: 50%"></span></div>
+	<div class="row">
+	 <div class="large-4 columns">
+      <label for="brevpost"><input type="checkbox" id="brevpost" style="display: none;"><span class="custom checkbox"></span> Brevpost (5-7 dager B-økonomi)</label>
+      <label for="servicepakke"><input type="checkbox" id="servicepakke" style="display: none;"><span class="custom checkbox"></span> Klimanøytral Servicepakke (3-5 dager)</label>
+	</div>
 </fieldset>
 
+
+<fieldset>
+	<legend>3. Betaling</legend>
+	<div class="progress small-12"><span class="meter" style="width: 75%"></span></div>
+	<div class="row">
+	 <div class="large-4 columns">
+      <label for="paypal"><input type="checkbox" id="paypal" style="display: none;"><span class="custom checkbox"></span> Paypal</label>
+      <label for="faktura"><input type="checkbox" id="faktura" style="display: none;"><span class="custom checkbox"></span> Faktura</label>
+	</div>
+</fieldset>
 <fieldset>
 	<legend>4. Bekreftelse</legend>
+	<div class="progress small-12"><span class="meter" style="width: 100%"></span></div>
+
 </fieldset>
 </form>
     </div>
@@ -104,11 +115,6 @@
 	</form>     
     </div>
   </section>
-  <section>
-  	 <p class="title" data-section-title><a href="#">Enda en tab? jøss.. det var da voldsomt da<br>(bare tester)</a></p>
-    	<div class="content" data-section-content>
-    		hei på deg :)
-    	</div>
-  </section>
+  
 </div>
 
