@@ -3,35 +3,39 @@
     <p class="title" data-section-title><a href="#">Sjekk ut som gjest</a></p>
     <div class="content" data-section-content>
 
-      	<form>
+      	<form action="checkout.html" method="get" autocomplete="on">
 	<fieldset>
 		<legend>1. Personlig informasjon</legend>
 
 	<div class="row">
-		<div class="small-6 rows">
-			<input type="text" placeholder="Fornavn">
+		<div class="small-8 rows">
+			<input type="text" x-autocompletetype="given-name" placeholder="Fornavn">
 		</div> 
-		<div class="large-6 rows">
-			<input type="text" placeholder ="Etternavn">
+		<div class="small-8 rows">
+			<input type="text" name="lname" x-autocompletetype="family-name" placeholder ="Etternavn">
 		</div>
-		<div class="large-6 rows">
-			<input type="email" placeholder="e-postadresse">
+		<div class="small-10 rows">
+			<input type="email" name="email" x-autocompletetype="email" placeholder="e-postadresse">
 		</div> 	
-		<div class="large-6 rows">
-			<input type="text" placeholder="Gate/vei 1">
-			<input type="number" placeholder="Gatenr">
-		</div> 
-		<div class="large-6 rows">
-			<input type="text" placeholder="Gate/vei 2">
-	 	</div>
-		<div class="large-6 rows">
-			<input type="number" placeholder="Postnr">
+		<div class="small-12 rows">
+			<div class="small-8 columns">
+				<input type="text" x-autocompletetype="street-address" placeholder="Gate/vei 1">
+			</div> 
+			<div class="small-3 columns">
+				<input type="number"  placeholder="Gatenr">
+			</div>
 		</div>
-		<div class="large-6 rows">
-			<input type="text" placeholder="P.Sted">
+		<div class="small-6 rows">
+			<input type="text" x-autocompletetype="address-line2" placeholder="Gate/vei 2">
+	 	</div>
+		<div class="small-4 rows">
+			<input type="number" x-autocompletetype="postal-code" placeholder="Postnr">
+		</div>
+		<div class="small-6 rows">
+			<input type="text" x-autocompletetype="administrative-area" placeholder="P.Sted">
 		</div> 
 
-		<div class="large-4 rows">
+		<div class="small-4 rows">
 			<label for="customDropdown1">Velg land</label>
 			<select id="customDropdown1" class="medium">
 				<option calue"NO">Norge</option>
