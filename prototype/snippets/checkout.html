@@ -3,13 +3,18 @@
     <p class="title" data-section-title><a href="#">Sjekk ut som gjest</a></p>
     <div class="content" data-section-content>
 
+    	<p>Handlet hos oss tidligere? <br>Så fint da kan du <a href="#" data-reveal-id="ikke-implementert">logge inn</a> for raskere utsjekking</p>
+
+
+
       	<form action="checkout.html" method="get" autocomplete="on">
 	<fieldset>
 		<legend>1. Personlig informasjon</legend>
 
+
 	<div class="row">
 		<div class="small-8 rows">
-			<input type="text" x-autocompletetype="given-name" placeholder="Fornavn">
+			<input type="text" name="fname" x-autocompletetype="given-name" placeholder="Fornavn">
 		</div> 
 		<div class="small-8 rows">
 			<input type="text" name="lname" x-autocompletetype="family-name" placeholder ="Etternavn">
@@ -19,7 +24,7 @@
 		</div> 	
 		<div class="small-12 rows">
 			<div class="small-8 columns">
-				<input type="text" x-autocompletetype="street-address" placeholder="Gate/vei 1">
+				<input type="text" name="address" x-autocompletetype="street-address" placeholder="Gate/vei 1">
 			</div> 
 			<div class="small-3 columns">
 				<input type="number"  placeholder="Gatenr">
@@ -32,7 +37,7 @@
 			<input type="number" x-autocompletetype="postal-code" placeholder="Postnr">
 		</div>
 		<div class="small-6 rows">
-			<input type="text" x-autocompletetype="administrative-area" placeholder="P.Sted">
+			<input type="text" name="postal-code" x-autocompletetype="administrative-area" placeholder="P.Sted">
 		</div> 
 
 		<div class="small-4 rows">
@@ -98,6 +103,12 @@
 
 	</form>     
     </div>
+  </section>
+  <section>
+  	 <p class="title" data-section-title><a href="#">Enda en tab? jøss.. det var da voldsomt da<br>(bare tester)</a></p>
+    	<div class="content" data-section-content>
+    		hei på deg :)
+    	</div>
   </section>
 </div>
 
