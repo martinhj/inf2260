@@ -2,6 +2,7 @@
 <body>
 <div>
 
+<!--#include virtual="snippets/forsider.html" -->
 <h1>Orbit</h1>
 <p><a href="http://foundation.zurb.com/docs/components/orbit.html">fondation docs</a></p>
 </div>
