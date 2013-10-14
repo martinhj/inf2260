@@ -33,4 +33,7 @@
 <h1>Checkout</h1>
 <!--#include virtual="snippets/checkout.html" -->
 
+<!--#include virtual="snippets/footer.html" --> 
+
+
 <!--#include virtual="snippets/sidebunn.html" --> 

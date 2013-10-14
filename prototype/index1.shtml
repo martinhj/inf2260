@@ -1,0 +1,15 @@
+<!--#include virtual="snippets/head.html" --> 
+<body>
+
+
+
+<div><h2>Forside 1 </h2></div>
+<p>innhold: Det finnes mange varianter av passeringer av Lorem Ipsum tilgjengelig, men de fleste har lidd endring i noen form, av injisert humor, eller randomiserte ord som ikke ser enda litt troverdig. Hvis du skal bruke en passasje av Lorem Ipsum, må du være sikker på at det ikke er noe flaut gjemt i midten av teksten. Alle Lorem Ipsum generatorer på internett har en tendens til å gjenta forhåndsdefinerte biter som nødvendig, noe som gjør dette den første virkelige generator på Internett. Den bruker en ordliste med over 200 latinske ord, kombinert med en håndfull modell setning strukturer, å generere Lorem Ipsum som ser fornuftig. Den genererte Lorem Ipsum er derfor alltid fri for repetisjon, injisert humor, eller ikke-karakteristiske ord osv.</p>
+
+
+
+
+
+
+<!--#include virtual="snippets/footer.html" --> 
+<!--#include virtual="snippets/sidebunn.html" --> 
