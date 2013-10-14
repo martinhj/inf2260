@@ -1,7 +1,7 @@
 <!--#include virtual="snippets/head.html" --> 
 <body>
 <div class="row">
-<div class="large-12 columns">
+<div class="large-12 small-12 columns">
     <div class="row">
     <h2>Marigarn - m001</h2>
     </div>
@@ -67,8 +67,6 @@
     </div>
     </section>
     </div>
-    
-    
 </div>
 </div>
 
