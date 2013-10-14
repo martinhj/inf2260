@@ -1,6 +1,5 @@
 <!--#include virtual="snippets/head.html" --> 
 <body>
-<<<<<<< HEAD
 <div class="row">
 <div class="large-12 columns">
     <div class="row">
@@ -72,19 +71,7 @@
     
 </div>
 </div>
-<!--#include virtual="snippets/sidebunn.html" --> 
-=======
-
-
-
-<div><h2>Mari M001 </h2></div>
-<p>innhold: Det finnes mange varianter av passeringer av Lorem Ipsum tilgjengelig, men de fleste har lidd endring i noen form, av injisert humor, eller randomiserte ord som ikke ser enda litt troverdig. Hvis du skal bruke en passasje av Lorem Ipsum, må du være sikker på at det ikke er noe flaut gjemt i midten av teksten. </p>
-
-
-
-
 
 
 <!--#include virtual="snippets/footer.html" --> 
 <!--#include virtual="snippets/sidebunn.html" --> 
->>>>>>> e9beec43991b4596487b2931a76c3245ef2304f5
