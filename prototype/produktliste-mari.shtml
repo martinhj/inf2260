@@ -1,15 +1,113 @@
+
 <!--#include virtual="snippets/head.html" --> 
 <body>
 
+<div class="panel">
+<h1>Mari kidmohairgarn</h1>
+<p><em>Egenskaper:</em> Mari gir ca. 170 meter per 50 gram, strikkepinner: 2 - 3,5.<br />
+<em>Vaskeanvisning:</em> Vaskes på ullvask 30 grader.<br />
+<em>Strikkefasthet:</em> ca. 25m per 10cm på pinne nr.3.<br />
+<em>Materialer:</em> 80% kidmohair og 20% merinoull.</p>
+</div>
 
+<div class="row">
+<div class="large-12 columns"><a href="#" data-reveal-id="ikke-implementert" class="large button expand">Bestill fargekart/ vareprøve!</a></div>
+<div class="large-4 columns"><img src="http://placehold.it/400" /></div>
+<div class="large-12 columns"><p>Gratis når du handler hos oss!</p></div>
+</div>
 
-<div><h2>Produktside Mari</h2></div>
-<p>innhold: Det finnes mange varianter av passeringer av Lorem Ipsum tilgjengelig, men de fleste har lidd endring i noen form, av injisert humor, eller randomiserte ord som ikke ser enda litt troverdig. Hvis du skal bruke en passasje av Lorem Ipsum, må du være sikker på at det ikke er noe flaut gjemt i midten av teksten. </p>
+<div class="section-container tabs" data-section="tabs">
+  <section class="active">
+    <p class="title" data-section-title><a href="#panel1">Alle Mari Garn</a></p>
+    <div class="content" data-section-content>
 
+<form>
+  <div class="row">
+    <div class="large-12 columns"><h2>Mari M001</h2></div>
+  </div>
+  <div class="row">
+    <div class="large-4 columns"><img src="http://placehold.it/400" /></div>
+    <div class=" large-8 columns"><p>Farge: xxx</p>
+      <div class="row">
+	<div class="large-12 columns"><p>Lagerstatus: 10+ på lager</p></div>
+      </div>
+    </div>
+  </div>  
+  <div class="row">
+    <div class="large-12 columns"><div class="row collapse">
+	<div class="small-4 large-4 columns"> <span class="prefix">Antall: </span></div>
+	<div class="small-1 large-4 columns"><input type="text" id="antm001" /></div>
+	<div class="small-4 large-4 columns"><a href="#" class="small button">-</a>
+	  <a href="#" class="small button">+</a></div>
+	<div class="small-3 large-4 columns"><a href="#" class="small button expand">Kjøp</a></div>
+      </div>
+    </div>
+  </div>
+</form>
+<hr />
+<form>
+  <div class="row">
+    <div class="large-12 columns"><h2>Mari M001</h2></div>
+  </div>
+  <div class="row">
+    <div class="large-4 columns"><img src="http://placehold.it/400" /></div>
+    <div class="large-8 columns"><p>Farge: xxx</p>
+      <div class="row">
+	<div class="large-12 columns"><p>Lagerstatus: 10+ på lager</p></div>
+      </div>
+    </div>
+  </div> 
+  <div class="row">
+    <div class="large-12 columns"><div class="row collapse">
+	<div class="small-6 large-4 columns"> <span class="prefix">Antall: </span></div>
+	<div class="small-1 large-4 columns"><input type="text" id="antm001" /></div>
+	<div class="small-4 large-4 columns"><a href="#" class="small button">-</a>
+	  <a href="#" class="small button">+</a></div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="large-8 columns"></div>
+    <div class="small-12 large-4 columns"><a href="#" class="large button expand">Kjøp</a></div>
+  </div>
+</form>
+    </div> 
+  </section>
+  
+  <section>
+    <p class="title" data-section-title><a href="#panel2">Fargevelger</a></p>
+    <div class="content" data-section-content>
+      <p>Fargevelgeren hjelper deg med å plukke ut farger til et prosjekt.<br /> Velg en grunnfarge og systemet viser deg farger som passer til denne.</p>
+      <form>
+	<fieldset>
+	  <legend>Velg farger</legend>	  
+	  <div class="row">
+	    <div class="large-2 small-6 columns">
+              <label>Grunnfarge</label>
+	      <select name="grunnfarge">
+		<option value="roed" selected>Rød</option>
+		<option value="groenn">Grønn</option>
+		<option value="blaa">Blå</option>
+		<option value="hvit">Hvit</option>
+	      </select>
+	    </div>
+	    <div class="large-2 small-4 columns">
+	      <label>Antall farger</label>
+       	      <select name="antall">
+		<option value="2" selected>2</option>
+		<option value="3">3</option>
+		<option value="4">4</option>
+		<option value="5">5</option>
+	      </select> 
+	    </div>
+	  </div>
+	  
+	</fieldset>
+      </form>
 
+    </div>
+  </section>
+  </div>
 
-
-
-
-<!--#include virtual="snippets/footer.html" --> 
+<!--#include virtual="snippets/overlay.html" -->
 <!--#include virtual="snippets/sidebunn.html" --> 
