@@ -60,9 +60,11 @@
 	<br>
 	<div class="row">
 	 <div class="large-4 columns">
-      <label for="brevpost"><input type="radio" name="frakt" value="brevpost" style="display: none;"><span class="custom radio"></span> Brevpost (3-5 dager B-økonomi)</label>
+      <label for="brevpost"><input type="radio" id="brevpost" name="frakt" value="brevpost" style="display: none;"><span class="custom radio"></span> Brevpost kr 67,- (3-5 dager B-økonomi)</label>
       <br>
-      <label for="servicepakke"><input type="radio"  name="frakt" value="servicepakke" style="display: none;"><span class="custom radio"></span> Klimanøytral Servicepakke (1-3 dager)</label>
+      <label for="servicepakke"><input type="radio" checked id="servicepakke" name="frakt" value="servicepakke" style="display: none;"><span class="custom radio"></span> Klimanøytral Servicepakke kr 105,- (1-3 dager)</label>
+      <br>
+      <h4>Totalsum kr 705,-<h4>
 	</div>
 </fieldset>
 
@@ -73,9 +75,9 @@
 	<br>
 	<div class="row">
 	 <div class="large-4 columns">
-      <label for="paypal"><input type="radio" name="betaling" value="paypal" style="display: none;"><span class="custom radio"></span> Paypal</label>
+      <label for="paypal"><input type="radio" checked id="paypal" name="betaling" value="paypal" style="display: none;"><span class="custom radio"></span> Paypal</label>
       <br>
-      <label for="faktura"><input type="radio" name="betaling" value="faktura" style="display: none;"><span class="custom radio"></span> Faktura</label>
+      <label for="faktura"><input type="radio" id="faktura" name="betaling" value="faktura" style="display: none;"><span class="custom radio"></span> Faktura</label>
 	</div>
 </fieldset>
 <fieldset>
@@ -118,7 +120,7 @@
 
 
 		<a href="#" data-reveal-id="ikke-implementert" class="round button radius">Logg inn</a> 
-		<a href="#" data-reveal-id="ikke-implementert" class="button success radius">Registrer ny konto</a>
+		<a href="#" data-reveal-id="ikke-implementert" class="round button success radius">Registrer ny konto</a>
 
 	</form>     
     </div>
