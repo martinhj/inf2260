@@ -63,3 +63,33 @@ footer {
   padding: 25px 0px 20px 0px;
 }
 
+// for bilder på inspirasjon
+#image-container
+{
+    height:200px;
+    width:300px;
+    position:relative;
+    display: inline;
+}
+
+#image-inspirasjon
+{    
+    position:absolute;
+    left:0;
+    top:0;
+}
+#text-panel
+{
+    z-index:100;
+    font-size: 1.5em;
+    position:absolute;    
+    width: 300px;
+    left:0px;
+    top:0px;
+    height: 50px;
+    background-color: white;
+    opacity: 0.8;
+    text-align: center;
+
+}
+

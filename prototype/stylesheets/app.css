@@ -7312,3 +7312,32 @@ footer {
   font-size: 1.2em;
   padding: 25px 0px 20px 0px;
 }
+
+/* line 68, ../sass/app.scss */
+#image-container {
+  height: 200px;
+  width: 300px;
+  position: relative;
+  display: inline;
+}
+
+/* line 76, ../sass/app.scss */
+#image-inspirasjon {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+/* line 82, ../sass/app.scss */
+#text-panel {
+  z-index: 100;
+  font-size: 1.5em;
+  position: absolute;
+  width: 300px;
+  left: 0px;
+  top: 0px;
+  height: 50px;
+  background-color: white;
+  opacity: 0.8;
+  text-align: center;
+}
