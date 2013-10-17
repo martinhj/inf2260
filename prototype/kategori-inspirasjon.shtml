@@ -1,10 +1,39 @@
 <!--#include virtual="snippets/head.html" --> 
 <body>
 
+<div class="section-container tabs" data-section="tabs">
+  <section class="active">
+    <p class="title" data-section-title><a href="#panel1">Garntyper</a></p>
+    <div class="content" data-section-content>
 
+garntype
 
-<div><h2>Kat inspirasjon </h2></div>
-<p>innhold: Det finnes mange varianter av passeringer av Lorem Ipsum tilgjengelig, men de fleste har lidd endring i noen form, av injisert humor, eller randomiserte ord som ikke ser enda litt troverdig. Hvis du skal bruke en passasje av Lorem Ipsum, må du være sikker på at det ikke er noe flaut gjemt i midten av teksten. </p>
+<hr />
+garntype
+    </div> 
+  </section>
+  
+  <section>
+    <p class="title" data-section-title><a href="#panel2">Inspirasjon</a></p>
+    <div class="content" data-section-content>
+      <img src="http://placehold.it/300x200/ffffcc/ffffff" style="margin-bottom:20px;" />
+      <img src="http://placehold.it/300x200/ffcc99/ffffff" style="margin-bottom:20px;" />
+      <img src="http://placehold.it/300x200/ff6699/ffffff" style="margin-bottom:20px;" />
+      <img src="http://placehold.it/300x200/ff6699/ffffff" style="margin-bottom:20px;" />
+      <img src="http://placehold.it/300x200/99ccff/ffffff" style="margin-bottom:20px;" />
+      <img src="http://placehold.it/300x200/ffccff/ffffff" style="margin-bottom:20px;" />
+      
+    </div>
+  </section>
+
+<section>
+<p class="title" data-section-title><a href="#panel2">Teknikk</a></p>
+<div class="content" data-section-content>
+
+	Velg teknikk -> garn
+</div>
+</section>
+  </div>
 
 
 
