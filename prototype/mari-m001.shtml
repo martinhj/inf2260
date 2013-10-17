@@ -35,7 +35,6 @@
 			</div>
 		</div>
 		</div>
-	</div>
 
 	<div class="section-container tabs" data-section="tabs">
 		<section class="active">
@@ -95,7 +94,7 @@
 		</section>
 	</div>
 </div>
-<!-- nå er denne til overs!! </div> -->
+</div>
 
 
 <!--#include virtual="snippets/footer.html" --> 
