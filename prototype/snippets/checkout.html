@@ -7,10 +7,10 @@
 
 
 
-      	<form action="checkout.html" method="get" autocomplete="on" class="custom">
+      	<form action="checkout.html" method="get" autocomplete="on" class="custom large-8">
 	<fieldset>
 		<legend>1. Personlig informasjon</legend>
-	<div class="progress round success small-10 large-6"><span class="meter" style="width: 25%">&nbsp;steg 1/4</span></div>
+	<div class="progress round success small-12 large-6"><span class="meter" style="width: 20%">&nbsp;steg 1/5</span></div>
 	<div class="small large-6 success round"><span class="meter" style="width: 25%"></span></div>
 	<div class="row">
 		<div class="small-10 large-4 rows">
@@ -28,10 +28,10 @@
 		<div class="small-12 large-6 rows">
 			<input type="text" x-autocompletetype="address-line2" placeholder="Gate/vei 2 (ikke obligatorisk)">
 	 	</div>
-		<div class="small-4 large-5 rows">
+		<div class="small-4 large-3 rows">
 			<input type="number" x-autocompletetype="postal-code" placeholder="Postnr">
 		</div>
-		<div class="small-6 large-5 rows">
+		<div class="small-6 large-4 rows">
 			<input type="text" name="postal-code" x-autocompletetype="administrative-area" placeholder="P.Sted">
 		</div> 
 
@@ -51,7 +51,7 @@
 
 <fieldset>	
 	<legend>2. Frakt</legend>
-	<div class="progress round success small-10 large-6"><span class="meter" style="width: 50%">&nbsp;steg 2/4</span></div>
+	<div class="progress round success small-12 large-6"><span class="meter" style="width: 40%">&nbsp;steg 2/5</span></div>
 	<br>
 	<div class="row">
 	 <div class="large-4 columns">
@@ -66,7 +66,7 @@
 
 <fieldset>
 	<legend>3. Betaling</legend>
-	<div class="progress round success small-10 large-6"><span class="meter" style="width: 75%">&nbsp;steg 3/4</span></div>
+	<div class="progress round success small-12 large-6"><span class="meter" style="width: 60%">&nbsp;steg 3/5</span></div>
 	<br>
 	<div class="row">
 	 <div class="large-4 columns">
@@ -75,11 +75,23 @@
       <label for="faktura"><input type="radio" id="faktura" name="betaling" value="faktura" style="display: none;"><span class="custom radio"></span> Faktura</label>
 	</div>
 </fieldset>
+
+<fieldset>	
+	<legend>4. Kommentar til oss</legend>
+	<div class="progress round success small-12 large-6"><span class="meter" style="width: 80%">&nbsp;steg 4/5</span></div>
+	<br>
+	<div class="small-12 large-8 columns">
+        <label>Kommentarer til kjøpet (ikke obligatorisk)</label>
+        <textarea placeholder="Hvis du ønsker gi oss en beskjed eller ekstra kommentar til kjøpet kan du gjøre det her"></textarea>
+      </div>
+</fieldset>
+
+
 <fieldset>
-	<legend>4. Bekreftelse</legend>
-	<div class="progress round success small-10 large-6"><span class="meter" style="width: 100%">&nbsp;steg 4/4</span></div>
+	<legend>5. Bekreftelse</legend>
+	<div class="progress round success small-12 large-6"><span class="meter" style="width: 100%">&nbsp;steg 4/4</span></div>
 	<h4>Takk for ditt kjøp!</h4>
-	<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. </p>
+	<p class="small-12 large-8">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. </p>
 
 	<p>Tusen takk for handlen!</p>
 	<p><a href="#" data-reveal-id="ikke-implementert" class=" button radius">Tilbake til nettbutikken</a> </p>
