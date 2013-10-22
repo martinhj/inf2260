@@ -22,9 +22,15 @@
     <p class="title" data-section-title><a href="#panel1">Alle Mari Garn</a></p>
     <div class="content" data-section-content>
 
+
+<!-- Mari M001 & Mari M100 -->
+<div class="row">
+<!-- Mari M001 -->
+<div class="large-6 small-12 columns">
 <form action="#">
   <div class="row">
-    <div class="large-12 columns"><h2>Mari M001</h2></div>
+    <div class="large-12 columns">
+        <h2><a href="mari-m001.shtml">Mari M001</a></h2></div>
   </div>
   <div class="row">
     <div class="large-4 columns" ><img src="http://placehold.it/300x200/E0D1BC/ffffff" style="margin-bottom:20px;" /></div>
@@ -37,15 +43,22 @@
   <div class="row">
     <div class="large-12 columns"><div class="row collapse">
 	<div class="small-4 large-4 columns"> <span class="prefix">Antall: </span></div>
-	<div class="small-1 large-1 columns"><input type="text" id="antm001" value="1" /></div>
+	<div class="small-4 large-4 columns"><input type="text" id="antm001" value="1" /></div>
 	<div class="small-4 large-4 columns"><a href="#" class="small button">-</a>
 	  <a href="#" class="small button">+</a></div>
-	<div class="small-3 large-3 columns"><a href="#" class="small button expand">Kjøp</a></div>
+	<div class="small-12 large-12 columns">
+        <a href="#" class="small button expand">Kjøp</a>
+    </div>
       </div>
+    </div>
+    <div class="large-12 small-12 columns">
     </div>
   </div>
 </form>
+</div>
 
+<!-- Mari M100 -->
+<div class="large-6 small-12 columns">
 <form action="#">
   <div class="row">
     <div class="large-12 columns"><h2>Mari M100</h2></div>
@@ -62,15 +75,19 @@
     <div class="large-12 columns"><div class="row collapse">
 	<div class="small-4 large-4 columns"> <span class="prefix">Antall: </span></div>
 	<div class="small-1 large-1 columns"><input type="text" id="antm100" value="1" /></div>
-	<div class="small-4 large-4 columns"><a href="#" class="small button">-</a>
+	<div class="small-7 large-7 columns"><a href="#" class="small button">-</a>
 	  <a href="#" class="small button">+</a></div>
-	<div class="small-3 large-3 columns"><a href="#" class="small button expand">Kjøp</a></div>
+	<div class="small-12 large-12 columns"><a href="#" class="small button expand">Kjøp</a></div>
       </div>
     </div>
   </div>
 </form>
+</div>
+</div>
 <hr />
 
+<div class="row">
+<div class="large-6 small-12 columns">
 <form action="#">
   <div class="row">
     <div class="large-12 columns"><h2>Mari M200</h2></div>
@@ -94,8 +111,9 @@
     </div>
   </div>
 </form>
-<hr />
+</div>
 
+<div class="large-6 small-12 columns">
 <form action="#">
   <div class="row">
     <div class="large-12 columns"><h2>Mari M300</h2></div>
@@ -119,8 +137,12 @@
     </div>
   </div>
 </form>
+</div>
 <hr />
+</div>
 
+<div class="row">
+<div class="large-6 small-12 columns">
 <form action="#">
   <div class="row">
     <div class="large-12 columns"><h2>Mari M400</h2></div>
@@ -145,8 +167,9 @@
     </div>
   </div>
 </form>
+</div>
+</div>
 <hr />
-
     </div> 
   </section>
   
