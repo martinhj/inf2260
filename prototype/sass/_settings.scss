@@ -1255,12 +1255,12 @@ $orbit-timer-show-progress-bar: false;
 
 // Background color for the top bar
 
-// $topbar-bg-color: #111;
-// $topbar-bg: $topbar-bg-color;
+$topbar-bg-color: #111;
+$topbar-bg: $topbar-bg-color;
 
 // Height and margin
 
-// $topbar-height: 45px;
+$topbar-height: 45px;
 // $topbar-margin-bottom: 0;
 
 // Control Input height for top bar
@@ -1311,8 +1311,8 @@ $orbit-timer-show-progress-bar: false;
 // Transitions and breakpoint styles
 
 // $topbar-transition-speed: 300ms;
-// $topbar-breakpoint: 940 !default; // Change to 9999px for always mobile layout
-// $topbar-media-query: "only screen and (min-width: #{$topbar-breakpoint})";
+$topbar-breakpoint: 768px !default; // Change to 9999px for always mobile layout
+$topbar-media-query: "only screen and (min-width: #{$topbar-breakpoint})";
 
 // Divider Styles
 
@@ -1323,3 +1323,4 @@ $orbit-timer-show-progress-bar: false;
 
 // $topbar-sticky-class: ".sticky";
 // $topbar-arrows: true; //Set false to remove the triangle icon from the menu item
+
