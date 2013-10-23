@@ -168,8 +168,17 @@ footer {
     display: none;
 }
 }
+/////////////////////////
+//BILDER jeg vil lage..//
+/////////////////////////
+#center {
+  text-align: center; 
+}
 
+//////////////////////////////
+//lukk knapp/link i overlays//
+//////////////////////////////
 
-
-
-
+.reveal-modal .close-reveal-modal { 
+    position: static;
+}
