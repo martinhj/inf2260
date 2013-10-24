@@ -3,6 +3,7 @@
 <!--#include virtual="snippets/sidetopp.html" --> 
 <!--#include virtual="snippets/menu1.html" --> 
   
+  
   <div class="row">
 <div class="large-12 small-12 columns">
     <div class="row">
@@ -13,19 +14,23 @@
     <form action="#">
     
     <div class="row">
-    <div class="large-12 small-12 columns" >
+    <div class="large-12 small-12 columns show-for-small hide-for-medium-up" >
         <img src="http://placehold.it/200x50/E0D1BC/ffffff" 
+        style="margin-bottom:20px;" width="100%"  />
+    </div>
+    <div class="large-12 small-12 columns show-for-medium-up hide-for-small" >
+        <img src="http://placehold.it/300x200/E0D1BC/ffffff" 
         style="margin-bottom:20px;" width="100%"  />
     </div>
     <div class="large-12 columns"><p>Farge: <span id="wfarge"></span></p></div>
     <div class="large-12 columns"><p>Lagerstatus: 10+ på lager</p></div>
     </div>
     <div class="row">
-        <div class="large-12 columns"><div class="row collapse">
+	<div class="large-12 columns"><div class="row collapse">
           <div class="small-6 large-6 columns"> <span class="prefix">Antall:</span></div>
-          <div class="small-2 large-2 columns"><a href="#" class="small button expand">-</a></div>
-          <div class="small-2 large-2 columns"><input type="text" id="antm001" value="1" /></div>
-	  <div class="small-2 large-2 columns"><a href="#" class="small button expand">+</a></div>
+          <div class="small-2 large-2 columns"><a href="#" class="small button expand" onclick='javascript: document.getElementById("qty").value--;' value='-'>-</a></div>
+          <div class="small-2 large-2 columns"><input type="text" id="qty" value="1" /></div>
+	  <div class="small-2 large-2 columns"><a href="#" class="small button expand" onclick='javascript: document.getElementById("qty").value++;' value='+'>+</a></div>
         </div>
         </div>
       </div>
