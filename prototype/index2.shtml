@@ -4,7 +4,7 @@
 <!--#include virtual="snippets/menu2.html" --> 
 <!--#include virtual="snippets/facebook-like-box.html" -->
 
-
+<br class="show-for-small">
 <div class="row">	
 <div class="slideshow-wrapper large-7 small 12 columns">
   <div class="preloader"></div>
