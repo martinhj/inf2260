@@ -2,51 +2,48 @@
 <body>
 <!--#include virtual="snippets/sidetopp.html" --> 
 <!--#include virtual="snippets/menu2.html" --> 
+<!--#include virtual="snippets/facebook-like-box.html" -->
 
 
-	
-<div class="slideshow-wrapper">
+<div class="row">	
+<div class="slideshow-wrapper large-7 small 12 columns">
   <div class="preloader"></div>
 <ul data-orbit data-options="timer:true; bullets:false;slide_number: false;">
-  <li data-orbit-slide="headline-1">
-    <h2>Facebook</h2>
-    <h3>Her kommer facebook-like-box</h3>
-    <p>Alle digger face! oh hail suckerberg!</p>
+	<li>
+    <img src="images/karusell-forside-2/sjal.jpg" />
+    <div class="orbit-caption">Telespinn har bærekraftig produksjon og jobber aktivt med bevaring av kulturlandskapet. Les mer</div>
   </li>
   <li>
-    <img src="images/karusell/DSC_2388.jpg" />
-    <div class="orbit-caption">en annen caption tekst</div>
+    <img src="images/karusell-forside-2/geit.jpg" />
+    <div class="orbit-caption">Her kommer ulla fra</div>
   </li>
-  <li>
-    <img src="images/karusell/J1-00.jpg" />
-    <div class="orbit-caption">enda en annen caption tekst</div>
-  </li>
-  <li>
-    <img src="images/karusell/S1-03.jpg" />
-    <div class="orbit-caption">enda en annen caption tekst</div>
-  </li>
+
+  
 </ul>
 
 
 </div>
 
 
+<div class="fb-like-box hide-for-small large-4 columns" data-href="http://www.facebook.com/telespinn" data-colorscheme="light" data-height="360" data-show-faces="true" data-header="false" data-stream="false" data-show-border="false"></div>
+
+</div>
 
 <div class="row">
+
 <div class="large-12 small-12 columns">
-
+	<h3 class="show-for-small hide-for-medium-up">12 mest populære produkter</h3>
+	<h1 class="hide-for-small show-for-meduim-up">12 mest populære produkter</h1>
     <div class="row">
-    <div class="large-4 small-6 columns">
-    <h2>Mari - natur</h2>
-    <form action="#">
     
+    <div class="large-4 small-6 columns">
+    <h4>Mari - <span id="wfarge"></span></h4>
+    <form action="#">
     <div class="row">
     <div class="large-12 small-12 columns" >
         <img src="http://placehold.it/200x50/E0D1BC/ffffff" 
         style="margin-bottom:20px;" width="100%"  />
     </div>
-    <div class="large-12 columns"><p>Farge: <span id="wfarge"></span></p></div>
-    <div class="large-12 columns"><p>Lagerstatus: 10+ på lager</p></div>
     </div>
     <div class="row">
         <div class="large-12 columns"><div class="row collapse">
@@ -58,23 +55,20 @@
         </div>
       </div>
       <div class="row">
-        <div class="large-12 small-12 columns"><a href="#" class="small button expand">Kjøp</a>
+        <div class="large-12 small-12 columns"><a href="#" class="small button success expand">Kjøp</a>
         </div>
       </div>
     </form>
     </div>
 
     <div class="large-4 small-6 columns">
-    <h2>Mari - natur</h2>
+    <h4>Mari - <span id="wfarge"></span></h4>
     <form action="#">
-    
     <div class="row">
     <div class="large-12 small-12 columns" >
-        <img src="http://placehold.it/200x50/E0D1BC/ffffff" 
+        <img src="http://placehold.it/200x50/aaa/ffffff" 
         style="margin-bottom:20px;" width="100%"  />
     </div>
-    <div class="large-12 columns"><p>Farge: <span id="wfarge"></span></p></div>
-    <div class="large-12 columns"><p>Lagerstatus: 10+ på lager</p></div>
     </div>
     <div class="row">
         <div class="large-12 columns"><div class="row collapse">
@@ -86,25 +80,20 @@
         </div>
       </div>
       <div class="row">
-        <div class="large-12 small-12 columns"><a href="#" class="small button expand">Kjøp</a>
+        <div class="large-12 small-12 columns"><a href="#" class="small button expand success">Kjøp</a>
         </div>
       </div>
     </form>
-
-
     </div>
 
     <div class="large-4 small-6 columns">
-    <h2>Mari - natur</h2>
+    <h4>Mari - <span id="wfarge"></span></h4>
     <form action="#">
-    
     <div class="row">
     <div class="large-12 small-12 columns" >
-        <img src="http://placehold.it/200x50/E0D1BC/ffffff" 
+        <img src="http://placehold.it/200x50/ccc/ffffff" 
         style="margin-bottom:20px;" width="100%"  />
     </div>
-    <div class="large-12 columns"><p>Farge: <span id="wfarge"></span></p></div>
-    <div class="large-12 columns"><p>Lagerstatus: 10+ på lager</p></div>
     </div>
     <div class="row">
         <div class="large-12 columns"><div class="row collapse">
@@ -116,15 +105,238 @@
         </div>
       </div>
       <div class="row">
-        <div class="large-12 small-12 columns"><a href="#" class="small button expand">Kjøp</a>
+        <div class="large-12 small-12 columns"><a href="#" class="small button expand success">Kjøp</a>
         </div>
       </div>
     </form>
-
-
     </div>
 
-    
+    <div class="large-4 small-6 columns">
+    <h4>Mari - <span id="wfarge"></span></h4>
+    <form action="#">
+    <div class="row">
+    <div class="large-12 small-12 columns" >
+        <img src="http://placehold.it/200x50/E0D1BC/ffffff" 
+        style="margin-bottom:20px;" width="100%"  />
+    </div>
+    </div>
+    <div class="row">
+        <div class="large-12 columns"><div class="row collapse">
+          <div class="small-6 large-6 columns"> <span class="prefix">Antall:</span></div>
+          <div class="small-2 large-2 columns"><a href="#" class="small button expand">-</a></div>
+          <div class="small-2 large-2 columns"><input type="text" id="antm001" value="1" /></div>
+	  <div class="small-2 large-2 columns"><a href="#" class="small button expand">+</a></div>
+        </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="large-12 small-12 columns"><a href="#" class="small button success expand">Kjøp</a>
+        </div>
+      </div>
+    </form>
+    </div>
+
+    <div class="large-4 small-6 columns">
+    <h4>Mari - <span id="wfarge"></span></h4>
+    <form action="#">
+    <div class="row">
+    <div class="large-12 small-12 columns" >
+        <img src="http://placehold.it/200x50/E0D1BC/ffffff" 
+        style="margin-bottom:20px;" width="100%"  />
+    </div>
+    </div>
+    <div class="row">
+        <div class="large-12 columns"><div class="row collapse">
+          <div class="small-6 large-6 columns"> <span class="prefix">Antall:</span></div>
+          <div class="small-2 large-2 columns"><a href="#" class="small button expand">-</a></div>
+          <div class="small-2 large-2 columns"><input type="text" id="antm001" value="1" /></div>
+	  <div class="small-2 large-2 columns"><a href="#" class="small button expand">+</a></div>
+        </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="large-12 small-12 columns"><a href="#" class="small button success expand">Kjøp</a>
+        </div>
+      </div>
+    </form>
+    </div>
+
+    <div class="large-4 small-6 columns">
+    <h4>Mari - <span id="wfarge"></span></h4>
+    <form action="#">
+    <div class="row">
+    <div class="large-12 small-12 columns" >
+        <img src="http://placehold.it/200x50/E0D1BC/ffffff" 
+        style="margin-bottom:20px;" width="100%"  />
+    </div>
+    </div>
+    <div class="row">
+        <div class="large-12 columns"><div class="row collapse">
+          <div class="small-6 large-6 columns"> <span class="prefix">Antall:</span></div>
+          <div class="small-2 large-2 columns"><a href="#" class="small button expand">-</a></div>
+          <div class="small-2 large-2 columns"><input type="text" id="antm001" value="1" /></div>
+	  <div class="small-2 large-2 columns"><a href="#" class="small button expand">+</a></div>
+        </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="large-12 small-12 columns"><a href="#" class="small button success expand">Kjøp</a>
+        </div>
+      </div>
+    </form>
+    </div>
+
+    <div class="large-4 small-6 columns">
+    <h4>Mari - <span id="wfarge"></span></h4>
+    <form action="#">
+    <div class="row">
+    <div class="large-12 small-12 columns" >
+        <img src="http://placehold.it/200x50/E0D1BC/ffffff" 
+        style="margin-bottom:20px;" width="100%"  />
+    </div>
+    </div>
+    <div class="row">
+        <div class="large-12 columns"><div class="row collapse">
+          <div class="small-6 large-6 columns"> <span class="prefix">Antall:</span></div>
+          <div class="small-2 large-2 columns"><a href="#" class="small button expand">-</a></div>
+          <div class="small-2 large-2 columns"><input type="text" id="antm001" value="1" /></div>
+	  <div class="small-2 large-2 columns"><a href="#" class="small button expand">+</a></div>
+        </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="large-12 small-12 columns"><a href="#" class="small button success expand">Kjøp</a>
+        </div>
+      </div>
+    </form>
+    </div>
+
+    <div class="large-4 small-6 columns">
+    <h4>Mari - <span id="wfarge"></span></h4>
+    <form action="#">
+    <div class="row">
+    <div class="large-12 small-12 columns" >
+        <img src="http://placehold.it/200x50/E0D1BC/ffffff" 
+        style="margin-bottom:20px;" width="100%"  />
+    </div>
+    </div>
+    <div class="row">
+        <div class="large-12 columns"><div class="row collapse">
+          <div class="small-6 large-6 columns"> <span class="prefix">Antall:</span></div>
+          <div class="small-2 large-2 columns"><a href="#" class="small button expand">-</a></div>
+          <div class="small-2 large-2 columns"><input type="text" id="antm001" value="1" /></div>
+	  <div class="small-2 large-2 columns"><a href="#" class="small button expand">+</a></div>
+        </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="large-12 small-12 columns"><a href="#" class="small button success expand">Kjøp</a>
+        </div>
+      </div>
+    </form>
+    </div>
+
+    <div class="large-4 small-6 columns">
+    <h4>Mari - <span id="wfarge"></span></h4>
+    <form action="#">
+    <div class="row">
+    <div class="large-12 small-12 columns" >
+        <img src="http://placehold.it/200x50/E0D1BC/ffffff" 
+        style="margin-bottom:20px;" width="100%"  />
+    </div>
+    </div>
+    <div class="row">
+        <div class="large-12 columns"><div class="row collapse">
+          <div class="small-6 large-6 columns"> <span class="prefix">Antall:</span></div>
+          <div class="small-2 large-2 columns"><a href="#" class="small button expand">-</a></div>
+          <div class="small-2 large-2 columns"><input type="text" id="antm001" value="1" /></div>
+	  <div class="small-2 large-2 columns"><a href="#" class="small button expand">+</a></div>
+        </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="large-12 small-12 columns"><a href="#" class="small button success expand">Kjøp</a>
+        </div>
+      </div>
+    </form>
+    </div>
+
+    <div class="large-4 small-6 columns">
+    <h4>Mari - <span id="wfarge"></span></h4>
+    <form action="#">
+    <div class="row">
+    <div class="large-12 small-12 columns" >
+        <img src="http://placehold.it/200x50/E0D1BC/ffffff" 
+        style="margin-bottom:20px;" width="100%"  />
+    </div>
+    </div>
+    <div class="row">
+        <div class="large-12 columns"><div class="row collapse">
+          <div class="small-6 large-6 columns"> <span class="prefix">Antall:</span></div>
+          <div class="small-2 large-2 columns"><a href="#" class="small button expand">-</a></div>
+          <div class="small-2 large-2 columns"><input type="text" id="antm001" value="1" /></div>
+	  <div class="small-2 large-2 columns"><a href="#" class="small button expand">+</a></div>
+        </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="large-12 small-12 columns"><a href="#" class="small button success expand">Kjøp</a>
+        </div>
+      </div>
+    </form>
+    </div>
+
+    <div class="large-4 small-6 columns">
+    <h4>Mari - <span id="wfarge"></span></h4>
+    <form action="#">
+    <div class="row">
+    <div class="large-12 small-12 columns" >
+        <img src="http://placehold.it/200x50/E0D1BC/ffffff" 
+        style="margin-bottom:20px;" width="100%"  />
+    </div>
+    </div>
+    <div class="row">
+        <div class="large-12 columns"><div class="row collapse">
+          <div class="small-6 large-6 columns"> <span class="prefix">Antall:</span></div>
+          <div class="small-2 large-2 columns"><a href="#" class="small button expand">-</a></div>
+          <div class="small-2 large-2 columns"><input type="text" id="antm001" value="1" /></div>
+	  <div class="small-2 large-2 columns"><a href="#" class="small button expand">+</a></div>
+        </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="large-12 small-12 columns"><a href="#" class="small button success expand">Kjøp</a>
+        </div>
+      </div>
+    </form>
+    </div>
+
+    <div class="large-4 small-6 columns">
+    <h4>Mari - <span id="wfarge"></span></h4>
+    <form action="#">
+    <div class="row">
+    <div class="large-12 small-12 columns" >
+        <img src="http://placehold.it/200x50/E0D1BC/ffffff" 
+        style="margin-bottom:20px;" width="100%"  />
+    </div>
+    </div>
+    <div class="row">
+        <div class="large-12 columns"><div class="row collapse">
+          <div class="small-6 large-6 columns"> <span class="prefix">Antall:</span></div>
+          <div class="small-2 large-2 columns"><a href="#" class="small button expand">-</a></div>
+          <div class="small-2 large-2 columns"><input type="text" id="antm001" value="1" /></div>
+	  <div class="small-2 large-2 columns"><a href="#" class="small button expand">+</a></div>
+        </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="large-12 small-12 columns"><a href="#" class="small button success expand">Kjøp</a>
+        </div>
+      </div>
+    </form>
+    </div>
+
+
     </div>
 </div>
 </div>
