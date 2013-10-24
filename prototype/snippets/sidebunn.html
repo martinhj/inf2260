@@ -4,6 +4,10 @@
   '.js><\/script>')
   </script>
   
+ <script src="javascripts/vendor/enquire.js"></script>
+
+ <script src="javascripts/vendor/zepto-slide-transition.js"></script>
+
   <script src="javascripts/foundation/foundation.js"></script>
 	
 	<script src="javascripts/foundation/foundation.dropdown.js"></script>
@@ -40,5 +44,26 @@
   <script>
     $(document).foundation();
   </script>
+
+<script>
+
+$(document).ready(function(){
+
+ $('#drop1').hide();
+    
+    enquire.register("screen and (max-width: 768px)", {
+        match : function() {
+
+        },
+        unmatch : function() { 
+            $('#drop1').hide();     
+        }
+    });
+  $( "#clickme" ).click(function() {
+$("#drop1").toggle(100);
+  });
+});
+
+</script>
 </body>
 </html>
