@@ -2,7 +2,7 @@
 // Global Foundation Settings
 @import "settings"; 
 
-// Comment out this import if you don't want to use normalize
+// Comment out this import if you dont want to use normalize
 @import "normalize";
 
 // Comment out this import if you are customizing you imports below
@@ -113,45 +113,104 @@ footer {
 
 @media #{$small} {
 
-/** Changes background color, height and margin of the border **/
-.top-bar {
-    background: none;
-    height: 150px;
-    line-height: 58px;
-    margin-bottom: 0;
-}
+//
+// Top Bar Variables
+//
 
-.top-bar-section ul {
-    background: #fff;
-}
+// Background color for the top bar
+
+$topbar-bg-color: #fff;
+$topbar-bg: $topbar-bg-color;
+
+// Height and margin
+
+$topbar-height: 60px;
+$topbar-margin-bottom: 0;
+
+// Control Input height for top bar
+
+// $topbar-input-height: 0.85em;
+
+// Controlling the styles for the title in the top bar
+
+// $topbar-title-weight: bold;
+// $topbar-title-font-size: em-calc(17);
+
+// Style the top bar dropdown elements
+
+$topbar-dropdown-bg: #e2e2e2;
+$topbar-dropdown-link-color: #222;
+$topbar-dropdown-link-bg: darken($topbar-bg-color, 5%);
+$topbar-dropdown-toggle-size: 5px;
+$topbar-dropdown-toggle-color: #222;
+$topbar-dropdown-toggle-alpha: 0.5;
+
+// Set the link colors and styles for top-level nav
+
+$topbar-link-color: #222;
+$topbar-link-color-hover: #222;
+$topbar-link-color-active: #666;
+$topbar-link-weight: normal;
+$topbar-link-font-size: em-calc(14);
+$topbar-link-hover-lightness: -30%; // Darken by 30%
+$topbar-link-bg-hover: darken($topbar-bg-color, 10%);
+$topbar-link-bg-active: darken($topbar-bg-color, 20%);
+
+$topbar-dropdown-label-color: #222;
+$topbar-dropdown-label-text-transform: none;
+$topbar-dropdown-label-font-weight: bold;
+$topbar-dropdown-label-font-size: em-calc(14);
+$topbar-dropdown-label-bg: darken($topbar-bg-color, 5%);
+
+// Top menu icon styles
+
+// $topbar-menu-link-transform: uppercase;
+// $topbar-menu-link-font-size: em-calc(13);
+// $topbar-menu-link-weight: bold;
+//$topbar-menu-link-color: #e2e2e2;
+// $topbar-menu-icon-color: #fff;
+// $topbar-menu-link-color-toggled: #888;
+// $topbar-menu-icon-color-toggled: #888;
+
+// Transitions and breakpoint styles
+
+// $topbar-transition-speed: 300ms;
+// $topbar-breakpoint: 768px !default; // Change to 9999px for always mobile layout
+// $topbar-media-query: "only screen and (min-width: #{$topbar-breakpoint})";
+
+// Divider Styles
+
+$topbar-divider-border-bottom: solid 1px lighten($topbar-bg-color, 10%);
+$topbar-divider-border-top: solid 1px darken($topbar-bg-color, 10%);
+
+// Sticky Class
+
+// $topbar-sticky-class: ".sticky";
+// $topbar-arrows: true; //Set false to remove the triangle icon from the menu item
+
+@import "foundation/components/grid";
+@import "foundation/components/top-bar";  // *requires components/grid
+
+.top-bar {
+    //background: none;
+    height: 150px !important;
+} 
 
 .top-bar-section li a:not(.button) {
-    background: #fff;
-    color:#222222;
-    font-weight: normal;
-    line-height: 58px;
-    padding: 0 27px;
+
+    padding: 15x 30px !important ;
 }
 
-.top-bar-section > ul > .divider, .top-bar-section > ul > [role="separator"] {
-    border-color: -moz-use-text-color #222222 -moz-use-text-color #cccccc;
-    border-style: none none none solid;
-    border-width: 1px;
-    clear: none;
-    height: 58px;
-    width: 0;
-}
 
 .top-bar-section .has-form {
-    background: #fff;
-    padding: 8px 0 0 16px;
-    width: 210px;
+    //background: #e2e2e2 !important;
+    padding: 8px 0 0 15px !important;
+    width: 190px !important;
 }
 
 .top-bar .name img {
     display: none;
 }
-
 .top-bar .name h1 a:before {
     background-image: url('../images/logo_desktop.png');
     background-repeat: no-repeat;
@@ -167,7 +226,12 @@ footer {
 .top-bar .name h1 span{
     display: none;
 }
+.top-bar form {
+    margin: 0px;
 }
+
+}
+
 /////////////////////////
 //BILDER jeg vil lage..//
 /////////////////////////

@@ -1255,12 +1255,12 @@ $orbit-timer-show-progress-bar: false;
 
 // Background color for the top bar
 
-$topbar-bg-color: #111;
-$topbar-bg: $topbar-bg-color;
+// $topbar-bg-color: #111;
+// $topbar-bg: $topbar-bg-color;
 
 // Height and margin
 
-$topbar-height: 45px;
+// $topbar-height: 45px;
 // $topbar-margin-bottom: 0;
 
 // Control Input height for top bar
@@ -1295,7 +1295,7 @@ $topbar-height: 45px;
 // $topbar-dropdown-label-color: #555;
 // $topbar-dropdown-label-text-transform: uppercase;
 // $topbar-dropdown-label-font-weight: bold;
-// $topbar-dropdown-label-font-size: em-calc(10);
+$topbar-dropdown-label-font-size: em-calc(12);
 // $topbar-dropdown-label-bg: lighten($topbar-bg-color, 5%);
 
 // Top menu icon styles
