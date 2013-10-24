@@ -28,9 +28,9 @@
     <div class="row">
 	<div class="large-12 columns"><div class="row collapse">
           <div class="small-6 large-6 columns"> <span class="prefix">Antall:</span></div>
-          <div class="small-2 large-2 columns"><a href="#" class="small button expand" onclick='javascript: document.getElementById("qty").value--;' value='-'>-</a></div>
+          <div class="small-2 large-2 columns"><a href="" class="small button expand" onclick='javascript: document.getElementById("qty").value--;' value='-'>-</a></div>
           <div class="small-2 large-2 columns"><input type="text" id="qty" value="1" /></div>
-	  <div class="small-2 large-2 columns"><a href="#" class="small button expand" onclick='javascript: document.getElementById("qty").value++;' value='+'>+</a></div>
+	  <div class="small-2 large-2 columns"><a href="" class="small button expand" onclick='javascript: document.getElementById("qty").value++;' value='+'>+</a></div>
         </div>
         </div>
       </div>
@@ -96,5 +96,6 @@
   document.getElementById("beskrivelse").innerHTML=obj.garntyper[0].beskrivelse
 </script>
 
+<!--#include virtual="snippets/overlay.html"-->
 <!--#include virtual="snippets/footer.html" --> 
 <!--#include virtual="snippets/sidebunn.html" --> 
