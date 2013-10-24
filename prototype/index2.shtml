@@ -97,11 +97,11 @@
     </div>
 
     <div class="large-4 small-6 columns">
-    <h4>Fivrel - <span id="wfarge"></span></h4>
+    <h4>Fivrel - lilla<span id="wfarge"></span></h4>
     <form action="#">
     <div class="row">
     <div class="large-12 small-12 columns" >
-        <img src="http://placehold.it/200x50/ccc/ffffff" 
+        <img src="images/forside/f266.jpg" 
         style="margin-bottom:20px;" width="100%"  />
     </div>
     </div>
