@@ -2,90 +2,94 @@
 <body>
 <!--#include virtual="snippets/sidetopp.html" --> 
 <!--#include virtual="snippets/menu1.html" --> 
-<div class="row">
+  
+  <div class="row">
 <div class="large-12 small-12 columns">
     <div class="row">
-		<h2>Marigarn - m001 - naturfarget</h2>
+		<h2>Mari - naturfarget</h2>
     </div>
-	<div class="row">
-		<div class="large-6 small-12 columns">
-			<div class="row">
-				<div class="large-12 columns" >
-				<img src="http://placehold.it/300x200/E0D1BC/ffffff" 
-				style="margin-bottom:20px;" width="100%" />
-				</div>
-			</div>  
-			<div class="row">
-				<div class="large-12 columns">
-					<div class="row collapse">
-					<div class="small-7 large-7 columns"> 
-						<span class="prefix">Antall: </span>
-					</div>
-					<div class="small-1 large-1 columns">
-						<input type="tel" id="antm001" value="1" />
-					</div>
-					<div class="small-4 large-4 columns">
-						<a href="#" class="small button">-</a>
-						<a href="#" class="small button">+</a>
-					</div>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="large-12 columns">
-					<a href="#" class="small button expand">Kjøp</a>
-				</div>
-			</div>
-		</div>
+    <div class="row">
+    <div class="large-6 small-12 columns">
+    <form action="#">
+    
+    <div class="row">
+    <div class="large-12 small-12 columns" >
+        <img src="http://placehold.it/200x50/E0D1BC/ffffff" 
+        style="margin-bottom:20px;" width="100%"  />
+    </div>
+    <div class="large-12 columns"><p>Farge: <span id="wfarge"></span></p></div>
+    <div class="large-12 columns"><p>Lagerstatus: 10+ på lager</p></div>
+    </div>
+    <div class="row">
+        <div class="large-12 columns"><div class="row collapse">
+          <div class="small-6 large-6 columns"> <span class="prefix">Antall:</span></div>
+          <div class="small-2 large-2 columns"><a href="#" class="small button expand">-</a></div>
+          <div class="small-2 large-2 columns"><input type="text" id="antm001" value="1" /></div>
+	  <div class="small-2 large-2 columns"><a href="#" class="small button expand">+</a></div>
+        </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="large-12 small-12 columns"><a href="#" class="small button expand">Kjøp</a>
+        </div>
+      </div>
+    </form>
+    </div>
 
-		<div class="large-6 small-12 columns">
-		<div class="section-container tabs" data-section="tabs">
-			<section class="active">
-			<p class="title" data-section-title>
-				<a href="#">Beskrivelse</a></p>
-			<div class="content" data-section-content>
-			<p>
-			Mari M001 er et spesielt mykt 2-tråds garn.  Mari er et spesielt
-			mykt 2-tråds garn som er svært behagelig mot huden. Mari er
-			oppkalt etter blomsten Søstermarihånd, en orkidéart det finnes
-			spesielt mye av i Svartdal. Garnet er spunnet av mohair fra de to
-			første klippene av geitekillingen, såkalt kidmohair. Mari egner
-			seg meget bra til sjal, luer og baby/barnetøy. Mari gir ca. 170
-			meter per 50 gram, strikkepinner: 2 - 3,5. Vaskes på ullvask 30
-			grader. Strikkefasthet ca. 25m per 10cm på pinne nr.3. Mari
-			består av 80% kidmohair og 20% merinoull.
-			</p>
-			</div>
-			</section>
-			<section>
-			<p class="title" data-section-title>
-				<a href="#">Tilleggsinformasjon</a></p>
-			<div class="content" data-section-content>
-			<table>
-			<tr><td>Farge</td><td>M001 Natur</td></tr>
-			<tr><td>Tvinning</td><td>2-tråds</td></tr>
-			<tr><td>Materialer</td><td>80% kidmohair / 20% merinoull</td></tr>
-			<tr><td>Buntstørrelse</td><td>50 gram</td></tr>
-			<tr><td>Strikkepinner</td><td>2-3,5</td>
-			<tr><td>Vaskeprogram</td><td>Ullvask 30 grader</td></tr>
-			<tr><td>Tykkelse</td><td>170m pr 50 gram</td></tr>
-			<tr><td>Vekt(kg)</td><td>0.0500</td></tr>
-			</table>
-			</div>
-			</section>
-			<!-- <section> -->
-			<!-- <p class="title" data-section-title> -->
-			<!-- <a href="#">Tilsvarende produkter</a> -->
-			<!-- </p> -->
-			<!-- <div class="content" data-section-content> -->
-			<!-- <p><a href="#">Skogalv strikkepakke av rentdesign</a></p> -->
-			<!-- </div> -->
-			<!-- </section> -->
-		</div>
-		</div>
-	</div>
+    <div class="large-6 small-12 columns">
+    <div class="section-container tabs" data-section="tabs">
+    <section class="active">
+    <p class="title" data-section-title>
+    <a href="#">Beskrivelse</a></p>
+    <div class="content" data-section-content>
+    <p><span id="beskrivelse"></span></p>
+    
+    </div>
+    </section>
+    <section>
+    <p class="title" data-section-title>
+    <a href="#">Tilleggsinformasjon</a></p>
+    <div class="content" data-section-content>
+    <table>
+    <tr><td>Farge</td><td><span id="farge"></span></td></tr>
+    <tr><td>Tvinning</td><td><span id="tvinning"></span></td></tr>
+    <tr><td>Materialer</td><td><span id="materialer"></span></td></tr>
+    <tr><td>Buntstørrelse</td><td><span id="buntstørrelse"></span></td></tr>
+    <tr><td>Strikkepinner</td><td><span id="strikkepinner"></span></td>
+    <tr><td>Vaskeprogram</td><td><span id="vaskeprogram"></span></td></tr>
+    <tr><td>Tykkelse</td><td><span id="tykkelse"></span></td></tr>
+    <tr><td>Vekt(kg)</td><td><span id="vekt"></span></td></tr>
+    </table>
+    </div>
+    </section>
+    <!-- <section> -->
+    <!-- <p class="title" data-section-title> -->
+    <!-- <a href="#">Tilsvarende produkter</a> -->
+    <!-- </p> -->
+    <!-- <div class="content" data-section-content> -->
+    <!-- <p><a href="#">Skogalv strikkepakke av rentdesign</a></p> -->
+    <!-- </div> -->
+    <!-- </section> -->
+    </div>
+    </div>
+    </div>
 </div>
 </div>
+
+<script>
+<!--#include virtual="mari-produktliste.json" -->
+  var obj = eval ("(" + txt + ")");
+  document.getElementById("wfarge").innerHTML=obj.garntyper[0].farge 
+  document.getElementById("farge").innerHTML=obj.garntyper[0].farge
+  document.getElementById("tvinning").innerHTML=obj.garntyper[0].tvinning
+  document.getElementById("materialer").innerHTML=obj.garntyper[0].materialer
+  document.getElementById("buntstørrelse").innerHTML=obj.garntyper[0].buntstørrelse
+  document.getElementById("strikkepinner").innerHTML=obj.garntyper[0].strikkepinner
+  document.getElementById("vaskeprogram").innerHTML=obj.garntyper[0].vaskeprogram
+  document.getElementById("tykkelse").innerHTML=obj.garntyper[0].tykkelse
+  document.getElementById("vekt").innerHTML=obj.garntyper[0].vekt
+  document.getElementById("beskrivelse").innerHTML=obj.garntyper[0].beskrivelse
+</script>
 
 <!--#include virtual="snippets/footer.html" --> 
 <!--#include virtual="snippets/sidebunn.html" --> 
