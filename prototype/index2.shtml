@@ -1,14 +1,34 @@
 <!--#include virtual="snippets/head.html" --> 
 <body>
 <!--#include virtual="snippets/sidetopp.html" --> 
-<!--#include virtual="snippets/menu1.html" --> 
+<!--#include virtual="snippets/menu2.html" --> 
 
 
 	
+<div class="slideshow-wrapper">
+  <div class="preloader"></div>
+<ul data-orbit data-options="timer:true; bullets:false;slide_number: false;">
+  <li data-orbit-slide="headline-1">
+    <h2>Facebook</h2>
+    <h3>Her kommer facebook-like-box</h3>
+    <p>Alle digger face! oh hail suckerberg!</p>
+  </li>
+  <li>
+    <img src="images/karusell/DSC_2388.jpg" />
+    <div class="orbit-caption">en annen caption tekst</div>
+  </li>
+  <li>
+    <img src="images/karusell/J1-00.jpg" />
+    <div class="orbit-caption">enda en annen caption tekst</div>
+  </li>
+  <li>
+    <img src="images/karusell/S1-03.jpg" />
+    <div class="orbit-caption">enda en annen caption tekst</div>
+  </li>
+</ul>
 
-<div><h2>Forside 2 </h2></div>
-<p>innhold: Det finnes mange varianter av passeringer av Lorem Ipsum tilgjengelig, men de fleste har lidd endring i noen form, av injisert humor, eller randomiserte ord som ikke ser enda litt troverdig. Hvis du skal bruke en passasje av Lorem Ipsum, må du være sikker på at det ikke er noe flaut gjemt i midten av teksten. Alle Lorem Ipsum generatorer på internett har en tendens til å gjenta forhåndsdefinerte biter som nødvendig, noe som gjør dette den første virkelige generator på Internett. Den bruker en ordliste med over 200 latinske ord, kombinert med en håndfull modell setning strukturer, å generere Lorem Ipsum som ser fornuftig. Den genererte Lorem Ipsum er derfor alltid fri for repetisjon, injisert humor, eller ikke-karakteristiske ord osv.</p>
 
+</div>
 
 
 
