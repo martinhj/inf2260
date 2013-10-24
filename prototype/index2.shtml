@@ -8,7 +8,16 @@
 <div class="row">	
 <div class="slideshow-wrapper large-7 small 12 columns">
   <div class="preloader"></div>
+
 <ul data-orbit data-options="timer:true; bullets:false;slide_number: false;">
+
+	 <li>
+    <a href="#" data-reveal-id="ikke-implementert"><img src="images/karusell-forside-2/ull.jpg" /></a>
+    <div class="orbit-caption">Kortreist produksjon - 100% i Telemark. <a href="#" data-reveal-id="ikke-implementert"> Les mer</a></div>
+  </li>
+
+
+
 	<li>
     <a href="#" data-reveal-id="ikke-implementert"><img src="images/karusell-forside-2/sjal.jpg" /></a>
     <div class="orbit-caption">Telespinn har bærekraftig produksjon og jobber aktivt med bevaring av kulturlandskapet. <a href="#" data-reveal-id="ikke-implementert"> Les mer</a></div>
@@ -29,7 +38,7 @@
 
 </div>
 
-<div class="row">
+<div class="row" style="margin-top:30px;">
 
 <div class="large-12 small-12 columns">
 	<h3 class="show-for-small hide-for-medium-up">12 mest populære produkter</h3>
@@ -61,8 +70,9 @@
     </form>
     </div>
 
+
     <div class="large-4 small-6 columns">
-    <h4>Mari - <span id="wfarge"></span></h4>
+    <h4>Garnprøver<span id="wfarge"></span></h4>
     <form action="#">
     <div class="row">
     <div class="large-12 small-12 columns" >
@@ -87,7 +97,7 @@
     </div>
 
     <div class="large-4 small-6 columns">
-    <h4>Mari - <span id="wfarge"></span></h4>
+    <h4>Fivrel - <span id="wfarge"></span></h4>
     <form action="#">
     <div class="row">
     <div class="large-12 small-12 columns" >
@@ -112,7 +122,32 @@
     </div>
 
     <div class="large-4 small-6 columns">
-    <h4>Mari - <span id="wfarge"></span></h4>
+    <h4>Symre - <span id="wfarge"></span></h4>
+    <form action="#">
+    <div class="row">
+    <div class="large-12 small-12 columns" >
+        <img src="http://placehold.it/200x50/E0D1BC/ffffff" 
+        style="margin-bottom:20px;" width="100%"  />
+    </div>
+    </div>
+    <div class="row">
+        <div class="large-12 columns"><div class="row collapse">
+          <div class="small-6 large-6 columns"> <span class="prefix">Antall:</span></div>
+          <div class="small-2 large-2 columns"><a href="#" class="small button expand">-</a></div>
+          <div class="small-2 large-2 columns"><input type="text" id="antm001" value="1" /></div>
+	  <div class="small-2 large-2 columns"><a href="#" class="small button expand">+</a></div>
+        </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="large-12 small-12 columns"><a href="#" class="small button success expand">Kjøp</a>
+        </div>
+      </div>
+    </form>
+    </div>
+
+    <div class="large-4 small-6 columns">
+    <h4>Skappelgenseren<span id="wfarge"></span></h4>
     <form action="#">
     <div class="row">
     <div class="large-12 small-12 columns" >
@@ -212,7 +247,7 @@
     </div>
 
     <div class="large-4 small-6 columns">
-    <h4>Mari - <span id="wfarge"></span></h4>
+    <h4>Rye - <span id="wfarge"></span></h4>
     <form action="#">
     <div class="row">
     <div class="large-12 small-12 columns" >
@@ -262,7 +297,7 @@
     </div>
 
     <div class="large-4 small-6 columns">
-    <h4>Mari - <span id="wfarge"></span></h4>
+    <h4>Pan - <span id="wfarge"></span></h4>
     <form action="#">
     <div class="row">
     <div class="large-12 small-12 columns" >
@@ -287,32 +322,7 @@
     </div>
 
     <div class="large-4 small-6 columns">
-    <h4>Mari - <span id="wfarge"></span></h4>
-    <form action="#">
-    <div class="row">
-    <div class="large-12 small-12 columns" >
-        <img src="http://placehold.it/200x50/E0D1BC/ffffff" 
-        style="margin-bottom:20px;" width="100%"  />
-    </div>
-    </div>
-    <div class="row">
-        <div class="large-12 columns"><div class="row collapse">
-          <div class="small-6 large-6 columns"> <span class="prefix">Antall:</span></div>
-          <div class="small-2 large-2 columns"><a href="#" class="small button expand">-</a></div>
-          <div class="small-2 large-2 columns"><input type="text" id="antm001" value="1" /></div>
-	  <div class="small-2 large-2 columns"><a href="#" class="small button expand">+</a></div>
-        </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="large-12 small-12 columns"><a href="#" class="small button success expand">Kjøp</a>
-        </div>
-      </div>
-    </form>
-    </div>
-
-    <div class="large-4 small-6 columns">
-    <h4>Mari - <span id="wfarge"></span></h4>
+    <h4>Pan - <span id="wfarge"></span></h4>
     <form action="#">
     <div class="row">
     <div class="large-12 small-12 columns" >
