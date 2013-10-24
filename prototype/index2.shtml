@@ -50,7 +50,7 @@
     <form action="#">
     <div class="row">
     <div class="large-12 small-12 columns" >
-        <img src="http://placehold.it/200x50/E0D1BC/ffffff" 
+        <img src="images/mari/m001.jpg" 
         style="margin-bottom:20px;" width="100%"  />
     </div>
     </div>
@@ -76,7 +76,7 @@
     <form action="#">
     <div class="row">
     <div class="large-12 small-12 columns" >
-        <img src="http://placehold.it/200x50/aaa/ffffff" 
+        <img src="images/mari/garnprover.jpg" 
         style="margin-bottom:20px;" width="100%"  />
     </div>
     </div>
@@ -147,11 +147,11 @@
     </div>
 
     <div class="large-4 small-6 columns">
-    <h4>Skappelgenseren<span id="wfarge"></span></h4>
+    <h4>Skappelgenser<span id="wfarge"></span></h4>
     <form action="#">
     <div class="row">
     <div class="large-12 small-12 columns" >
-        <img src="http://placehold.it/200x50/E0D1BC/ffffff" 
+        <img src="images/skappel.jpg" 
         style="margin-bottom:20px;" width="100%"  />
     </div>
     </div>
@@ -172,11 +172,11 @@
     </div>
 
     <div class="large-4 small-6 columns">
-    <h4>Mari - <span id="wfarge"></span></h4>
+    <h4>Mari - gul<span id="wfarge"></span></h4>
     <form action="#">
     <div class="row">
     <div class="large-12 small-12 columns" >
-        <img src="http://placehold.it/200x50/E0D1BC/ffffff" 
+        <img src="images/mari/m100.jpg" 
         style="margin-bottom:20px;" width="100%"  />
     </div>
     </div>
