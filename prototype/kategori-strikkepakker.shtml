@@ -1,15 +1,85 @@
 <!--#include virtual="snippets/head.html" --> 
 <body>
+<!--#include virtual="snippets/sidetopp.html" --> 
+<!--#include virtual="snippets/menu1.html" --> 
+
+
+<!-- start breadcrumbs -->
+<ul class="breadcrumbs">
+  <li><a href="#">Hjem</a></li>
+  <li class="unavailable"><a href="#">Nettbutikk</a></li>
+  <li class="hide-for-medium-up"><a href="#" style ="margin:0px" class="tiny secondary button" data-dropdown="drop1">Strikkepakker</a></li>
+  <li class="current hide-for-small"><a href="#">Strikkepakker</a></li>
+</ul>
+<!-- slutt breadcrumbs -->
+
+<!-- start drop breadcrumbs -->
+<div id="drop1" class="f-dropdown content hide-for-medium-up" data-dropdown-content>
+  <p>Våre strikkepakker er en enkel måte å komme i gang med å strikke selv. De fleste pakkene inneholder også strikkepinner, slik at du har alt du trenger for å strikke selv: mønster, garn og strikkepinner. På mange av pakkene kan du selv velge farge på garnet som er med i strikkepakken.</p>
+</div>
+<div class=" row hide-for-small">
+  <div class= "columns large-12">
+    <p>Våre strikkepakker er en enkel måte å komme i gang med å strikke selv. De fleste pakkene inneholder også strikkepinner, slik at du har alt du trenger for å strikke selv: mønster, garn og strikkepinner. På mange av pakkene kan du selv velge farge på garnet som er med i strikkepakken.</p>
+  </div>
+</div>
+<!-- slutt drop breadcrumbs -->
+
+<div class="row">
+  <div class=" large-6 columns">
+    <form action="#">
+      <a href="#" data-reveal-id="ikke-implementert">
+	<h2>Gensere</h2>
+	<img src="http://placehold.it/800x571" style="margin-bottom:20px;" />	
+      </a>  
+    </form>
+  </div>
+  
+  <div class="large-6 columns">
+    <form action="#">
+      <a href="produktliste-sjal" >
+	<h2>Sjal og skjerf</h2>
+	<img src="images/sjal.jpg" style="margin-bottom:20px;" />
+      </a> 
+    </form>
+  </div>
+</div>
+
+<div class="row">
+  <div class=" large-6 columns">
+    <form action="#">
+      <a href="#" data-reveal-id="ikke-implementert">
+	<h2>Luer og votter</h2>
+	<img src="http://placehold.it/800x571" style="margin-bottom:20px;" />	
+      </a>  
+    </form>
+  </div>
+  
+  <div class="large-6 columns">
+    <form action="#">
+      <a href="#" data-reveal-id="ikke-implementert" >
+	<h2>Rye</h2>
+	<img src=http://placehold.it/800x571" style="margin-bottom:20px;" />
+      </a> 
+    </form>
+  </div>
+</div>
+
+<div class="row">
+  <div class=" large-6 columns">
+    <form action="#">
+      <a href="#" data-reveal-id="ikke-implementert">
+	<h2>Barneklær</h2>
+	<img src="http://placehold.it/800x571" style="margin-bottom:20px;" />	
+      </a>  
+    </form>
+  </div>
+  
+  <div class="large-6 columns">
+  </div>
+</div>
 
 
 
-<div><h2>Kat strikkepakker </h2></div>
-<p>innhold: Det finnes mange varianter av passeringer av Lorem Ipsum tilgjengelig, men de fleste har lidd endring i noen form, av injisert humor, eller randomiserte ord som ikke ser enda litt troverdig. Hvis du skal bruke en passasje av Lorem Ipsum, må du være sikker på at det ikke er noe flaut gjemt i midten av teksten. </p>
-
-
-
-
-
-
+<!--#include virtual="snippets/overlay.html" -->
 <!--#include virtual="snippets/footer.html" --> 
 <!--#include virtual="snippets/sidebunn.html" --> 
