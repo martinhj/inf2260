@@ -1,15 +1,100 @@
 <!--#include virtual="snippets/head.html" --> 
 <body>
+<!--#include virtual="snippets/sidetopp.html" --> 
+<!--#include virtual="snippets/menu1.html" --> 
+  
+  
+  <div class="row">
+<div class="large-12 small-12 columns">
+    <div class="row">
+		<h2>Mari - natur</h2>
+    </div>
+    <div class="row">
+    <div class="large-6 small-12 columns">
+    <form action="#">
+    
+    <div class="row">
+    <div class="large-12 small-12 columns show-for-small hide-for-medium-up" >
+        <img src="http://placehold.it/200x50/E0D1BC/ffffff" 
+        style="margin-bottom:20px;" width="100%"  />
+    </div>
+    <div class="large-12 small-12 columns show-for-medium-up hide-for-small" >
+        <img src="http://placehold.it/300x200/E0D1BC/ffffff" 
+        style="margin-bottom:20px;" width="100%"  />
+    </div>
+    <div class="large-6 small-6 columns"><p>Pris: 100,-</p></div>
+    <div class="large-6 small-6 columns"><p>10+ på lager</p></div>
+    </div>
+    <div class="row">
+	<div class="large-12 columns"><div class="row collapse">
+          <div class="small-6 large-6 columns"> <span class="prefix">Antall:</span></div>
+          <div class="small-2 large-2 columns"><a class="small button expand" onclick='javascript: document.getElementById("qty").value--;' value='-'>-</a></div>
+          <div class="small-2 large-2 columns"><input type="text" id="qty" value="1" /></div>
+	  <div class="small-2 large-2 columns"><a class="small button expand" onclick='javascript: document.getElementById("qty").value++;' value='+'>+</a></div>
+        </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="large-12 small-12 columns"><a href="#" data-reveal-id="ikke-implementert" class="small button expand success">Kjøp</a>
+        </div>
+      </div>
+    </form>
+    </div>
 
+    <div class="large-6 small-12 columns">
+    <div class="section-container tabs" data-section="tabs">
+    <section class="active">
+    <p class="title" data-section-title>
+    <a href="#">Beskrivelse</a></p>
+    <div class="content" data-section-content>
+    <p><span id="beskrivelse"></span></p>
+    
+    </div>
+    </section>
+    <section>
+    <p class="title" data-section-title>
+    <a href="#">Tilleggsinformasjon</a></p>
+    <div class="content" data-section-content>
+    <table>
+    <tr><td>Farge</td><td><span id="farge"></span></td></tr>
+    <tr><td>Tvinning</td><td><span id="tvinning"></span></td></tr>
+    <tr><td>Materialer</td><td><span id="materialer"></span></td></tr>
+    <tr><td>Buntstørrelse</td><td><span id="buntstørrelse"></span></td></tr>
+    <tr><td>Strikkepinner</td><td><span id="strikkepinner"></span></td>
+    <tr><td>Vaskeprogram</td><td><span id="vaskeprogram"></span></td></tr>
+    <tr><td>Tykkelse</td><td><span id="tykkelse"></span></td></tr>
+    <tr><td>Vekt(kg)</td><td><span id="vekt"></span></td></tr>
+    </table>
+    </div>
+    </section>
+    <!-- <section> -->
+    <!-- <p class="title" data-section-title> -->
+    <!-- <a href="#">Tilsvarende produkter</a> -->
+    <!-- </p> -->
+    <!-- <div class="content" data-section-content> -->
+    <!-- <p><a href="#">Skogalv strikkepakke av rentdesign</a></p> -->
+    <!-- </div> -->
+    <!-- </section> -->
+    </div>
+    </div>
+    </div>
+</div>
+</div>
 
+<script>
+<!--#include virtual="mari-produktliste.json" -->
+  var obj = eval ("(" + txt + ")");
+  document.getElementById("farge").innerHTML=obj.garntyper[0].farge
+  document.getElementById("tvinning").innerHTML=obj.garntyper[0].tvinning
+  document.getElementById("materialer").innerHTML=obj.garntyper[0].materialer
+  document.getElementById("buntstørrelse").innerHTML=obj.garntyper[0].buntstørrelse
+  document.getElementById("strikkepinner").innerHTML=obj.garntyper[0].strikkepinner
+  document.getElementById("vaskeprogram").innerHTML=obj.garntyper[0].vaskeprogram
+  document.getElementById("tykkelse").innerHTML=obj.garntyper[0].tykkelse
+  document.getElementById("vekt").innerHTML=obj.garntyper[0].vekt
+  document.getElementById("beskrivelse").innerHTML=obj.garntyper[0].beskrivelse
+</script>
 
-<div><h2>Mari M510 </h2></div>
-<p>innhold: Det finnes mange varianter av passeringer av Lorem Ipsum tilgjengelig, men de fleste har lidd endring i noen form, av injisert humor, eller randomiserte ord som ikke ser enda litt troverdig. Hvis du skal bruke en passasje av Lorem Ipsum, må du være sikker på at det ikke er noe flaut gjemt i midten av teksten. </p>
-
-
-
-
-
-
+<!--#include virtual="snippets/overlay.html"-->
 <!--#include virtual="snippets/footer.html" --> 
 <!--#include virtual="snippets/sidebunn.html" --> 

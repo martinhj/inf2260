@@ -15,11 +15,11 @@
     
     <div class="row">
     <div class="large-12 small-12 columns show-for-small hide-for-medium-up" >
-        <img src="http://placehold.it/200x50/E0D1BC/ffffff" 
+        <img src="images/mari/m001.jpg" 
         style="margin-bottom:20px;" width="100%"  />
     </div>
     <div class="large-12 small-12 columns show-for-medium-up hide-for-small" >
-        <img src="http://placehold.it/300x200/E0D1BC/ffffff" 
+        <img src="images/mari/m001-large.jpg" 
         style="margin-bottom:20px;" width="100%"  />
     </div>
     <div class="large-6 small-6 columns"><p>Pris: 100,-</p></div>
