@@ -6,12 +6,25 @@
 <div><h2>Telespinn gårdsspinneri</h2></div>
 <!--#include virtual="snippets/orbit-index1.html"-->
 
+<div class="row">
+<div class="large-4 small-12 columns">
+<img src="images/karusell-forside-2/ull.jpg" />
 <p>Telespinn er et gårdsspinneri på gården Midt-Svartdal i Seljord, i hjertet
 av Telemark. Vi spinner alle sorter animalske fiber, og har spesialisert oss
-på fiber fra mohairgeita. Mohairfiberen er spesielt tynn og blank sammenlignet
+på fiber fra mohairgeita.</p>
+</div>
+<div class="large-4 small-12 columns">
+<img src="images/karusell-forside-2/sjal.jpg"/>
+<p> Mohairfiberen er spesielt tynn og blank sammenlignet
 med saueull. Dette gjør at plagg i mohair føles luftige å ha på seg samtidig
-som de har en flott glans. Mohairfiberen er også glatt. Dette gjør at plagg
+som de har en flott glans.</p>
+</div>
+<div class="large-4 small-12 columns">
+<img src="images/karusell-forside-2/geit.jpg" />
+<p>Mohairfiberen er også glatt. Dette gjør at plagg
 strikket i mohairgarn ikke klør på samme måte som vanlige ullprodukter. </p>
+</div>
+</div>
 
 
 
