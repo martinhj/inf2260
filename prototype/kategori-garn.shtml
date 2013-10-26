@@ -114,9 +114,9 @@
     <p class="title" data-section-title><a href="#panel2">Hva vil <br>du lage?</a></p>
     <div class="content" data-section-content>
           <div id="center" class="row display">
-          <a href="produktliste-genser.shtml"><div class="small-6 large-4 columns"><h2>Genser</h2><br><img src="images/genser.gif"></div></a>
+          <a href="#" data-reveal-id="ikke-implementert" ><div class="small-6 large-4 columns"><h2>Genser</h2><br><img src="images/genser.gif"></div></a>
 
-          <a href="#" data-reveal-id="ikke-implementert"><div class="small-6 large-4 columns"><h2>Skjerf</h2><br><img src="images/skjerf.gif"></div></a>
+          <a href="#"  data-reveal-id="ikke-implementert"><div class="small-6 large-4 columns"><h2>Sjal og skjerf</h2><br><img src="images/skjerf.gif"></div></a>
           
           <a href="#" data-reveal-id="ikke-implementert"><div class="small-6 large-4 columns"><h2>Lue</h2><br><img src="images/lue.gif"></div></a>
         
