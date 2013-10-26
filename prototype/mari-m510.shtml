@@ -45,8 +45,9 @@
     <!-- Knapper slutt-->
   </div>
 
-  <div class="panel small-12 large-6 columns show-for-small hide-for-meduium-up">
-  <p>På lager</p>
+  <!-- lagerstatus small -->
+  <div class="small-12 large-6 columns show-for-small hide-for-medium-up">
+    <p><img src="images/check.png"/ height="1em"> 10 nøster på lager</p>
   </div>
 
   <div class="small-12 large-6 columns">
@@ -56,7 +57,7 @@
         <section class="active">
           <p class="title" data-section-title><a href="#">Beskrivelse</a></p>
           <div class="content" data-section-content><p><span id="beskrivelse"></span></p>
-            
+
           </div>
 
         </section>
@@ -87,6 +88,11 @@
       </div>
     </div>
     <!--Section finish -->
+
+    <!-- lagerstatus medium-up -->
+    <div class="small-12 large-6 columns hide-for-small show-for-medium-up">
+      <p><img src="images/check.png"/ height="1em"> 10 nøster på lager</p>
+    </div>
 
   </div>
 </div>

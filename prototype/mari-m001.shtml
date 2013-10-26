@@ -45,6 +45,11 @@
     <!-- Knapper slutt-->
   </div>
 
+  <!-- lagerstatus small -->
+  <div class="small-12 large-6 columns show-for-small hide-for-medium-up">
+    <p><img src="images/check.png"/ height="1em"> 67 nøster på lager</p>
+  </div>
+
 
   <div class="small-12 large-6 columns">
     <!-- Section start -->
@@ -81,6 +86,12 @@
       </div>
     </div>
     <!--Section finish -->
+
+    <!-- lagerstatus medium-up -->
+    <div class="small-12 large-6 columns hide-for-small show-for-medium-up">
+      <p><img src="images/check.png"/ height="1em"> 67 nøster på lager</p>
+    </div>
+
   </div>
 </div>
 
