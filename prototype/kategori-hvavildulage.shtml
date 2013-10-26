@@ -3,58 +3,194 @@
 <!--#include virtual="snippets/sidetopp.html" --> 
 <!--#include virtual="snippets/menu1.html" --> 
 
-
+<!-- start breadcrumbs -->
 <ul class="breadcrumbs">
   <li><a href="#">Hjem</a></li>
   <li class="unavailable"><a href="#">Nettbutikk</a></li>
   <li class="hide-for-medium-up"><a href="#" style ="margin:0px" class="tiny secondary button" data-dropdown="drop1">Hva vil du lage?</a></li>
- <li class="current hide-for-small"><a href="#">Hva vil du lage?</a></li>
+  <li class="current hide-for-small"><a href="#">Hva vil du lage?</a></li>
 </ul>
+<!-- slutt breadcrumbs -->
 
+<!-- start drop breadcrumbs -->
 <div id="drop1" class="f-dropdown content hide-for-medium-up" data-dropdown-content>
-  <p>Se vårt utvalg av garn og strikkepakker sortert etter ulike klesplagg.</p>
+  <p>Se vårt utvalg av garn og strikkepakker sortert etter ulike klesplagg og andre typer produkter.</p>
 </div>
 <div class=" row hide-for-small">
-<div class= "columns large-12">
-  <p>Se vårt utvalg av garn og strikkepakker sortert etter ulike klesplagg.</p>
+  <div class= "columns large-12">
+    <p>Se vårt utvalg av garn og strikkepakker sortert etter ulike klesplagg og andre typer produkter.</p>
+  </div>
 </div>
-</div>
+<!-- slutt drop breadcrumbs -->
 
+<!-- start subheader genser -->
 <div class="row">
-<div class="large-12 columns"><h1>Genser</h1></div>
+  <div class="small-10 large-10 columns"><h1>Genser</h1></div>
+  <div class="small-2 large-2 columns"><img src="images/genser.gif"></div>
 </div>
+<!-- slutt subheader genser -->
 
+<!-- start tabs genser -->
 <div class="section-container tabs" data-section="tabs">
   <section class="active">
     <p class="title" data-section-title><a href="#panel1">Passende Garntyper</a></p>
     <div class="content" data-section-content>
+      <div class="row">
+	<div class="small-6 large-4 columns" ><a href="#"  data-reveal-id="ikke-implementert"><h2>Symre strikkegarn</h2><img src="images/symre.jpg" style="margin-bottom:20px;" /></a></div>
+	<div class="small-6 large-4 columns" ><a href="#"  data-reveal-id="ikke-implementert"><h2>Pan sportsgarn</h2><img src="images/pan.jpg" style="margin-bottom:20px;" /></a></div>
+	<div class="small-6 large-4 columns" ><a href="#"  data-reveal-id="ikke-implementert"><h2>Bouclégarn</h2><img src="images/boucle.jpg" style="margin-bottom:20px;" /></a></div>
+      </div>
     </div> 
   </section>
   
   <section>
     <p class="title" data-section-title><a href="#panel2">Strikkepakker</a></p>
     <div class="content" data-section-content>
+      <div class="row">
+	<div class="large-4 columns" ><a href="#"  data-reveal-id="ikke-implementert"><h2>Pakke 1</h2><img src="http://placehold.it/800x600" style="margin-bottom:20px;" /></a></div>
+	<div class="large-4 columns"><a href="#"  data-reveal-id="ikke-implementert"> <h2>Pakke 2</h2><img src="http://placehold.it/800x600" style="margin-bottom:20px;" /></a></div>
+	<div class="large-4 columns" ><a href="#"  data-reveal-id="ikke-implementert"><h2>Pakke 3</h2><img src="http://placehold.it/800x600" style="margin-bottom:20px;" /></a></div>
+      </div>
     </div>
   </section>
 </div>
+<!-- slutt tabs genser -->
 
+<!-- start subheader skjerf -->
 <div class="row">
-<div class="large-12 columns"><h1>Skjerf</h1></div>
+  <div class="small-10 large-10 columns"><h1>Sjal og skjerf</h1></div>
+  <div class="small-2 large-2 columns"><img src="images/skjerf.gif"></div>
 </div>
+<!-- slutt subheader skjerf -->
 
+<!-- start tabs skjerf -->
 <div class="section-container tabs" data-section="tabs">
   <section class="active">
     <p class="title" data-section-title><a href="#panel1">Passende Garntyper</a></p>
     <div class="content" data-section-content>
+      <div class="row">
+	<div class="large-4 columns" ><a href="#"  data-reveal-id="ikke-implementert"><h2>Symre strikkegarn</h2><img src="images/symre.jpg" style="margin-bottom:20px;" /></a></div>
+	<div class="large-4 columns" ><a href="#"  data-reveal-id="ikke-implementert"><h2>Pan sportsgarn</h2><img src="images/pan.jpg" style="margin-bottom:20px;" /></a></div>
+	<div class="large-4 columns" ><a href="#"  data-reveal-id="ikke-implementert"><h2>Bouclégarn</h2><img src="images/boucle.jpg" style="margin-bottom:20px;" /></a></div>
+      </div>
     </div> 
   </section>
   
   <section>
     <p class="title" data-section-title><a href="#panel2">Strikkepakker</a></p>
     <div class="content" data-section-content>
+      <div class="row">
+	<div class="large-4 columns" ><a href="#"  data-reveal-id="ikke-implementert"><h2>Pakke 1</h2><img src="http://placehold.it/800x600" style="margin-bottom:20px;" /></a></div>
+	<div class="large-4 columns"><a href="#"  data-reveal-id="ikke-implementert"> <h2>Pakke 2</h2><img src="http://placehold.it/800x600" style="margin-bottom:20px;" /></a></div>
+	<div class="large-4 columns" ><a href="#"  data-reveal-id="ikke-implementert"><h2>Pakke 3</h2><img src="http://placehold.it/800x600" style="margin-bottom:20px;" /></a></div>
+      </div>
     </div>
   </section>
 </div>
+<!-- slutt tabs skjerf -->
+
+<!-- start subheader lue/votter -->
+<div class="row">
+  <div class="small-8 large-8 columns"><h1>Luer og votter</h1></div>
+  <div class="small-2 large-2 columns"><img src="images/lue.gif"></div>
+  <div class="small-2 large-2 columns"><img src="images/votter.jpg"></div>
+
+</div>
+<!-- slutt subheader lue/votter -->
+
+<!-- start tabs lue/votter -->
+<div class="section-container tabs" data-section="tabs">
+  <section class="active">
+    <p class="title" data-section-title><a href="#panel1">Passende Garntyper</a></p>
+    <div class="content" data-section-content>
+      <div class="row">
+	<div class="large-4 columns" ><a href="#"  data-reveal-id="ikke-implementert"><h2>Symre strikkegarn</h2><img src="images/symre.jpg" style="margin-bottom:20px;" /></a></div>
+	<div class="large-4 columns" ><a href="#"  data-reveal-id="ikke-implementert"><h2>Pan sportsgarn</h2><img src="images/pan.jpg" style="margin-bottom:20px;" /></a></div>
+	<div class="large-4 columns" ><a href="#"  data-reveal-id="ikke-implementert"><h2>Bouclégarn</h2><img src="images/boucle.jpg" style="margin-bottom:20px;" /></a></div>
+      </div>
+    </div> 
+  </section>
+  
+  <section>
+    <p class="title" data-section-title><a href="#panel2">Strikkepakker</a></p>
+    <div class="content" data-section-content>
+      <div class="row">
+	<div class="large-4 columns" ><a href="#"  data-reveal-id="ikke-implementert"><h2>Pakke 1</h2><img src="http://placehold.it/800x600" style="margin-bottom:20px;" /></a></div>
+	<div class="large-4 columns"><a href="#"  data-reveal-id="ikke-implementert"> <h2>Pakke 2</h2><img src="http://placehold.it/800x600" style="margin-bottom:20px;" /></a></div>
+	<div class="large-4 columns" ><a href="#"  data-reveal-id="ikke-implementert"><h2>Pakke 3</h2><img src="http://placehold.it/800x600" style="margin-bottom:20px;" /></a></div>
+      </div>
+    </div>
+  </section>
+</div>
+<!-- slutt tabs lue/votter -->
+
+<!-- start subheader rye-->
+<div class="row">
+  <div class="small-10 large-10 columns"><h1>Rye</h1></div>
+  <div class="small-2 large-2 columns"><img src="images/fillerye.jpg"></div>
+
+</div>
+<!-- slutt subheader rye-->
+
+<!-- start tabs rye -->
+<div class="section-container tabs" data-section="tabs">
+  <section class="active">
+    <p class="title" data-section-title><a href="#panel1">Passende Garntyper</a></p>
+    <div class="content" data-section-content>
+      <div class="row">
+	<div class="large-4 columns" ><a href="#"  data-reveal-id="ikke-implementert"><h2>Symre strikkegarn</h2><img src="images/symre.jpg" style="margin-bottom:20px;" /></a></div>
+	<div class="large-4 columns" ><a href="#"  data-reveal-id="ikke-implementert"><h2>Pan sportsgarn</h2><img src="images/pan.jpg" style="margin-bottom:20px;" /></a></div>
+	<div class="large-4 columns" ><a href="#"  data-reveal-id="ikke-implementert"><h2>Bouclégarn</h2><img src="images/boucle.jpg" style="margin-bottom:20px;" /></a></div>
+      </div>
+    </div> 
+  </section>
+  
+  <section>
+    <p class="title" data-section-title><a href="#panel2">Strikkepakker</a></p>
+    <div class="content" data-section-content>
+      <div class="row">
+	<div class="large-4 columns" ><a href="#"  data-reveal-id="ikke-implementert"><h2>Pakke 1</h2><img src="http://placehold.it/800x600" style="margin-bottom:20px;" /></a></div>
+	<div class="large-4 columns"><a href="#"  data-reveal-id="ikke-implementert"> <h2>Pakke 2</h2><img src="http://placehold.it/800x600" style="margin-bottom:20px;" /></a></div>
+	<div class="large-4 columns" ><a href="#"  data-reveal-id="ikke-implementert"><h2>Pakke 3</h2><img src="http://placehold.it/800x600" style="margin-bottom:20px;" /></a></div>
+      </div>
+    </div>
+  </section>
+</div>
+<!-- slutt tabs rye -->
+
+<!-- start subheader Barneklær -->
+<div class="row">
+  <div class="small-10 large-10 columns"><h1>Barneklær</h1></div>
+  <div class="small-2 large-2 columns"><img src="images/sparkebukse.jpg"></div>
+
+</div>
+<!-- slutt subheader Barneklær-->
+
+<!-- start tabs Barneklær -->
+<div class="section-container tabs" data-section="tabs">
+  <section class="active">
+    <p class="title" data-section-title><a href="#panel1">Passende Garntyper</a></p>
+    <div class="content" data-section-content>
+      <div class="row">
+	<div class="large-4 columns" ><a href="#"  data-reveal-id="ikke-implementert"><h2>Symre strikkegarn</h2><img src="images/symre.jpg" style="margin-bottom:20px;" /></a></div>
+	<div class="large-4 columns" ><a href="#"  data-reveal-id="ikke-implementert"><h2>Pan sportsgarn</h2><img src="images/pan.jpg" style="margin-bottom:20px;" /></a></div>
+	<div class="large-4 columns" ><a href="#"  data-reveal-id="ikke-implementert"><h2>Bouclégarn</h2><img src="images/boucle.jpg" style="margin-bottom:20px;" /></a></div>
+      </div>
+    </div> 
+  </section>
+  
+  <section>
+    <p class="title" data-section-title><a href="#panel2">Strikkepakker</a></p>
+    <div class="content" data-section-content>
+      <div class="row">
+	<div class="large-4 columns" ><a href="#"  data-reveal-id="ikke-implementert"><h2>Pakke 1</h2><img src="http://placehold.it/800x600" style="margin-bottom:20px;" /></a></div>
+	<div class="large-4 columns"><a href="#"  data-reveal-id="ikke-implementert"> <h2>Pakke 2</h2><img src="http://placehold.it/800x600" style="margin-bottom:20px;" /></a></div>
+	<div class="large-4 columns" ><a href="#"  data-reveal-id="ikke-implementert"><h2>Pakke 3</h2><img src="http://placehold.it/800x600" style="margin-bottom:20px;" /></a></div>
+      </div>
+    </div>
+  </section>
+</div>
+<!-- slutt tabs Barneklær -->
 
 <!--#include virtual="snippets/overlay.html" -->
 <!--#include virtual="snippets/footer.html" --> 
