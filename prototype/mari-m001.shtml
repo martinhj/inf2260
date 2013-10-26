@@ -7,7 +7,7 @@
   <div class="row">
 <div class="large-12 small-12 columns">
     <div class="row">
-		<h2>Mari - naturfarget</h2>
+		<h2>Mari - natur</h2>
     </div>
     <div class="row">
     <div class="large-6 small-12 columns">
@@ -22,8 +22,8 @@
         <img src="http://placehold.it/300x200/E0D1BC/ffffff" 
         style="margin-bottom:20px;" width="100%"  />
     </div>
-    <div class="large-12 columns"><p>Farge: <span id="wfarge"></span></p></div>
-    <div class="large-12 columns"><p>Lagerstatus: 10+ på lager</p></div>
+    <div class="large-6 small-6 columns"><p>Pris: 100,-</p></div>
+    <div class="large-6 small-6 columns"><p>10+ på lager</p></div>
     </div>
     <div class="row">
 	<div class="large-12 columns"><div class="row collapse">
@@ -84,7 +84,6 @@
 <script>
 <!--#include virtual="mari-produktliste.json" -->
   var obj = eval ("(" + txt + ")");
-  document.getElementById("wfarge").innerHTML=obj.garntyper[0].farge 
   document.getElementById("farge").innerHTML=obj.garntyper[0].farge
   document.getElementById("tvinning").innerHTML=obj.garntyper[0].tvinning
   document.getElementById("materialer").innerHTML=obj.garntyper[0].materialer
