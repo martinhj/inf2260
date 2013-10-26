@@ -6,8 +6,12 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
 	<link href="favicon.ico" rel="icon" type="image/x-icon" />
-	
-  <title>Telespinn</title>
+
+	<script>	
+	  var url = window.location.pathname;
+	  var filename = url.substring(url.lastIndexOf('/')+1);
+	  document.title= "Telespinn - "+filename ;
+	</script>
 
   
   <link rel="stylesheet" href="stylesheets/app.css">
