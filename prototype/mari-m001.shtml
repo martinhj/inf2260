@@ -6,17 +6,10 @@
   
 <div class="row">
 
-
   <!-- Overskrift -->
-  <div class="row">
-    <div class="column">
-    <div class="small-12 large-12 columns"><h2>Mari natur</h2></div></div>
-  </div><!-- Overskrift end-->
-
+  <div class="small-12 large-12 columns"><h2>Mari natur</h2></div>
 
   <div class="small-12 large-6 columns">
-
-
     <!-- Bilder start-->
     <div class="row">
       <div class="small-12 columns show-for-small hide-for-medium-up" >
@@ -26,8 +19,6 @@
     </div>
     <!-- Bilder end-->
    
-
-
     <!-- Knapper start-->
     <div class="row">
   	 <div class="small-12 large-12 columns"><div class="row collapse">
@@ -57,7 +48,7 @@
   <div class="small-12 large-6 columns">
   <!-- lagerstatus small -->
     <div class="show-for-small hide-for-medium-up">
-      <p><span style="color:#43B02A;">✓</span><span style="color:#43B02A;">✓</span> 67 nøster på lager</p>
+      <p><span style="color:#43B02A;">✓</span> 67 nøster på lager</p>
     </div>
 
 
@@ -94,7 +85,7 @@
           <!-- </section> -->
       </div>
     
-    <!--Section finish -->
+    <!--Section end -->
 
       <!-- lagerstatus medium-up -->
       <div class="columns hide-for-small show-for-medium-up">
