@@ -47,7 +47,7 @@
 
   <!-- lagerstatus small -->
   <div class="small-12 large-6 columns show-for-small hide-for-medium-up">
-    <p><img src="images/check.png"/ height="1em"> 118 nøster på lager</p>
+    <p><span style="color:#43B02A;">✓</span> 118 nøster på lager</p>
   </div>
 
 
@@ -89,7 +89,7 @@
 
     <!-- lagerstatus medium-up -->
     <div class="small-12 large-6 columns hide-for-small show-for-medium-up">
-      <p><img src="images/check.png"/ height="1em"> 118 nøster på lager</p>
+      <p><span style="color:#43B02A;">✓</span> 118 nøster på lager</p>
     </div>
 
 

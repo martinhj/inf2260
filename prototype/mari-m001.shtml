@@ -6,21 +6,25 @@
   
 <div class="row">
 
+
+  <!-- Overskrift -->
   <div class="row">
-    <!-- Overskrift -->
     <div class="column">
     <div class="small-12 large-12 columns"><h2>Mari natur</h2></div></div>
-    </div>
+  </div><!-- Overskrift end-->
+
 
   <div class="small-12 large-6 columns">
+
+
     <!-- Bilder start-->
     <div class="row">
       <div class="small-12 columns show-for-small hide-for-medium-up" >
-        <img src="images/mari/m001.jpg" style="margin-bottom:20px;" /></div>
+        <img src="images/mari/m001.jpg" style="margin-bottom:20px;"></div>
       <div class="large-12 columns show-for-medium-up hide-for-small" >
-        <img src="images/mari/m001-large.jpg" style="margin-bottom:20px;"/></div>
+        <img src="images/mari/m001-large.jpg" style="margin-bottom:20px;"></div>
     </div>
-    <!-- Bilder slutt-->
+    <!-- Bilder end-->
    
 
 
@@ -42,16 +46,21 @@
         </div>
       </div>
     </div>
-    <!-- Knapper slutt-->
+    <!-- Knapper end-->
   </div>
 
-  <!-- lagerstatus small -->
-  <div class="small-12 large-6 columns show-for-small hide-for-medium-up">
-    <p><img src="images/check.png"/ height="1em"> 67 nøster på lager</p>
-  </div>
+  
+
+  
 
 
   <div class="small-12 large-6 columns">
+  <!-- lagerstatus small -->
+    <div class="show-for-small hide-for-medium-up">
+      <p><span style="color:#43B02A;">✓</span><span style="color:#43B02A;">✓</span> 67 nøster på lager</p>
+    </div>
+
+
     <!-- Section start -->
       <div class="section-container tabs" data-section="tabs">
         
@@ -84,17 +93,20 @@
           <!-- </div> -->
           <!-- </section> -->
       </div>
-    </div>
+    
     <!--Section finish -->
 
-    <!-- lagerstatus medium-up -->
-    <div class="small-12 large-6 columns hide-for-small show-for-medium-up">
-      <p><img src="images/check.png"/ height="1em"> 67 nøster på lager</p>
+      <!-- lagerstatus medium-up -->
+      <div class="columns hide-for-small show-for-medium-up">
+        <p><span style="color:#43B02A;">✓</span> 67 nøster på lager</p>
+      </div>
+
+
     </div>
 
   </div>
-</div>
 
+</div>
 
 
 <script>
