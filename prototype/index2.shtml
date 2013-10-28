@@ -5,20 +5,20 @@
 <!--#include virtual="snippets/facebook-like-box.html" -->
 
 <br class="show-for-small">
-<div class="row">	
-<div class="slideshow-wrapper large-7 small-12 columns">
+<div class="row"> 
+<div class="slideshow-wrapper small-12 large-7 columns">
   <div class="preloader"></div>
 
 <ul data-orbit data-options="timer:true; bullets:false;slide_number: false;">
 
-	 <li>
+   <li>
     <a href="#" data-reveal-id="ikke-implementert"><img src="images/karusell-forside-2/ull.jpg" /></a>
     <div class="orbit-caption">Kortreist produksjon - 100% i Telemark. <a href="#" data-reveal-id="ikke-implementert"> Les mer</a></div>
   </li>
 
 
 
-	<li>
+  <li>
     <a href="#" data-reveal-id="ikke-implementert"><img src="images/karusell-forside-2/sjal.jpg" /></a>
     <div class="orbit-caption">Telespinn har bærekraftig produksjon og jobber aktivt med bevaring av kulturlandskapet. <a href="#" data-reveal-id="ikke-implementert"> Les mer</a></div>
   </li>
@@ -41,8 +41,8 @@
 <div class="row" style="margin-top:30px;">
 
 <div class="large-12 small-12 columns">
-	<h3 class="show-for-small hide-for-medium-up">12 mest populære produkter</h3>
-	<h1 class="hide-for-small show-for-meduim-up">12 mest populære produkter</h1>
+  <h3 class="show-for-small hide-for-medium-up">12 mest populære produkter</h3>
+  <h1 class="hide-for-small show-for-meduim-up">12 mest populære produkter</h1>
   <div class="row">
     
     <div class="small-12 large-4 columns">
