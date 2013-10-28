@@ -2,11 +2,16 @@
 <body>
 <!--#include virtual="snippets/sidetopp.html" --> 
 <!--#include virtual="snippets/menu1.html" --> 
+<!--#include virtual="snippets/facebook-like-box.html" -->
 
-<div><h2>Telespinn gårdsspinneri</h2></div>
+<div class="row" style="margin-top:30px;">
+<div class="large-7 small-12 columns">
 <!--#include virtual="snippets/orbit-index1.html"-->
+</div>
+<div class="fb-like-box hide-for-small large-4 columns" data-href="http://www.facebook.com/telespinn" data-colorscheme="light" data-height="360" data-show-faces="true" data-header="false" data-stream="false" data-show-border="false"></div>
+</div>
 
-<div class="row">
+<div class="row" style="margin-top:30px;">
 <div class="large-4 small-12 columns">
 <img src="images/karusell-forside-2/ull.jpg" />
 <p>Telespinn er et gårdsspinneri på gården Midt-Svartdal i Seljord, i hjertet
