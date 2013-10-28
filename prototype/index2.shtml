@@ -6,7 +6,7 @@
 
 <br class="show-for-small">
 <div class="row">	
-<div class="slideshow-wrapper large-7 small 12 columns">
+<div class="slideshow-wrapper large-7 small-12 columns">
   <div class="preloader"></div>
 
 <ul data-orbit data-options="timer:true; bullets:false;slide_number: false;">
