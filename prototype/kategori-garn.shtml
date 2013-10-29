@@ -111,7 +111,7 @@
 
 <!-- start tab hva vil du lage -->
   <section>
-    <p class="title" data-section-title><a href="#panel2">Hva vil <br>du lage?</a></p>
+    <p class="title" data-section-title><a href="#panel2">Jeg vil <br>lage..</a></p>
     <div class="content" data-section-content>
           <div id="center" class="row display">
           <a href="#" data-reveal-id="ikke-implementert" ><div class="small-6 large-4 columns"><h2>Genser</h2><br><img src="images/genser.gif"></div></a>
@@ -136,8 +136,116 @@
 <section>
 	<p class="title" data-section-title><a href="#panel2">Inspirasjon</a></p>
 	<div class="content" data-section-content>
-	<p>Hva inspireres du av? -> garn</p>	
+  <h1 hide-for.small># inspirasjon</h1>
+	<p>La deg inspirere av andres kreasjoner! Trykk på bildene for å komme til garnet som er brukt. </p>	
+
+  <div class="row">
+    
+    
+    <div class="small-6 large-4 columns space-under">
+      <a href="#" data-reveal-id="ikke-implementert"><div><img src="images/instagram/skappel.jpg">
+        <div class="instagram-caption ">#skappelgenser #mohair #pan </div>
+      </div></a>
+    </div>
+
+    <div class="small-6 large-4 columns space-under">
+      <div><img src="images/instagram/sokker-handmalt.jpg">
+        <div class="instagram-caption hide-for-small">#håndmalt #mari #telespinn</div>    
+      </div>
+
+    </div>
+    <div class="small-6 large-4 columns space-under">
+      <div><img src="images/instagram/in-progress.jpg">
+        <div class="instagram-caption hide-for-small">#telespinn #ull</div>  
+      </div>
+    </div>
+
+    <div class="small-6 large-4 columns space-under">
+      <div><img src="images/instagram/sjal.jpg">
+        <div class="instagram-caption hide-for-small">#mohairgarn #telespinn #mari</div>
+      </div>
+    </div>
+
+    <div class="small-6 large-4 columns space-under">
+      <div><img src="images/instagram/knapper.jpg">
+        <div class="instagram-caption hide-for-small">#telespinn #symre #gjenbruksknapper</div>    
+      </div>
+    </div>
+
+    <div class="small-6 large-4 columns space-under">
+      <div><img src="images/instagram/luer.jpg">
+        <div class="instagram-caption hide-for-small">#telespinn #ull</div>     
+      </div>
+    </div>
+
+
 	</div>
+
+  <div class="row hide-for-small">
+    
+    
+    <div class="small-6 large-4 columns space-under">
+      <div><img src="images/instagram/rosa-orange-luer.jpg">
+        <div class="instagram-caption hide-for-small">#økologisk #mohair #pan </div>
+      </div>
+    </div>
+
+    <div class="small-6 large-4 columns space-under">
+      <div><img src="images/instagram/lilla-symre.jpg">
+        <div class="instagram-caption hide-for-small">#telespinn #symre #strikking</div>       
+      </div>
+    </div>
+
+    <div class="small-6 large-4 columns space-under">
+      <div><img src="images/instagram/votter.jpg">
+        <div class="instagram-caption hide-for-small">#mohair #Mari #Telespinn</div>   
+      </div>
+    </div>
+
+    <div class="small-6 large-4 columns space-under">
+      <div><img src="images/instagram/garn.jpg">
+        <div class="instagram-caption hide-for-small">#garn #telespinn</div>    
+      </div>
+    </div>
+
+    <div class="small-6 large-4 columns space-under">
+      <div><img src="images/instagram/geit.jpg">
+        <div class="instagram-caption hide-for-small">#geit #mohair #telespinn</div>
+      </div>
+    </div>
+
+    <div class="small-6 large-4 columns space-under">
+      <div><img src="images/instagram/orange-cardigan.jpg">
+        <div class="instagram-caption hide-for-small">#mohairgarnet #Symre #Telespinn</div>
+      </div>
+    </div>
+
+
+  </div>
+
+
+  <!-- last-inn-mer-knapp (kun small) -->
+  <div class="small-12 show-for-small hide-for-medium-up button radius" ><a href='#' data-reveal-id="ikke-implementert"><h2 style="color:white;"> mer inspirasjon </h2></a></div>
+  <!-- end last-inn-mer-knapp -->
+
+
+  <!-- paginering (show-for-medium-up)-->
+  <div class="pagination-centered hide-for-small show-for-medium-up">
+  <ul class="pagination">
+    <li class="arrow unavailable"><a href="">&laquo;</a></li>
+    <li class="current"><a href="">1</a></li>
+    <li><a href="#" data-reveal-id="ikke-implementert">2</a></li>
+    <li><a href="#" data-reveal-id="ikke-implementert">3</a></li>
+    <li><a href="#" data-reveal-id="ikke-implementert">4</a></li>
+    <li class="unavailable"><a href="">&hellip;</a></li>
+    <li><a href="#" data-reveal-id="ikke-implementert">12</a></li>
+    <li><a href="#" data-reveal-id="ikke-implementert">13</a></li>
+    <li class="arrow"><a href="#" data-reveal-id="ikke-implementert">&raquo;</a></li>
+  </ul>
+</div>
+<!-- end paginering -->
+
+
 </section>
 <!-- slutt tab inspirasjon -->
 
@@ -146,13 +254,15 @@
 	<p class="title" data-section-title><a href="#panel2"><span class="show-for-small">Tek-<br>nikk</span><span class="show-for-medium-up">Teknikk</span></a></p>
 	<div class="content" data-section-content>
 <p>Finn passende garn ved å velge ønsket teknikk/ garnkvalitet:</p>
-<form id="teknikk">
+<form id="teknikk" class="custom">
   <div class="row">
     <div class="large-4 columns">
-<p>Velg teknikk:</p>
-      <label for="radio1"><input name="radio1" type="radio" id="radio1"><span class="custom radio checked"></span>Strikke</label>
-      <label for="radio2"><input name="radio1" type="radio" id="radio2"><span class="custom radio"></span>Hekle</label>
-      <label for="radio3"><input name="radio1" type="radio" id="radio3"><span class="custom radio"></span>Vev</label>
+      <label for="radio1"><input name="radio1" type="radio" id="radio1"><span class="custom radio checked"></span> Strikke</label>
+      <br class="hide-for-medium-up">
+      <label for="radio2"><input name="radio1" type="radio" id="radio2"><span class="custom radio"></span> Hekle</label>
+      <br class="hide-for-medium-up">
+      <label for="radio3"><input name="radio1" type="radio" id="radio3"><span class="custom radio"></span> Vev</label>
+      <br class="hide-for-medium-up">
     </div>
     <div class="large-8 columns">
       <p>Garngruppe/strikkefasthet/heklenål:</p>
