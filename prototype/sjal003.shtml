@@ -2,10 +2,17 @@
 <body>
 <!--#include virtual="snippets/sidetopp.html" --> 
 <!--#include virtual="snippets/menu1.html" --> 
-  
+
+<!-- start breadcrumbs -->
+<ul class="breadcrumbs">
+  <li><a href="">Hjem</a></li>
+  <li class="unavailable"><a href="#">Nettbutikk</a></li>
+  <li><a href="kategori-strikkepakker.shtml">Strikkepakker</a></li>
+  <li><a href="produktliste-sjal.shtml">Sjal og skjerf</a></li>
+</ul>
+<!-- slutt breadcrumbs -->
   
 <div class="row">
-
   <!-- Overskrift -->
   <div class="small-12 large-12 columns"><h2 id = "navn"></h2></div>
 
