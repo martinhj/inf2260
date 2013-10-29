@@ -32,7 +32,9 @@
           </div>
         </div>
         <div class="row">
-          <div class="large-12 small-12 columns"><a href="#" data-reveal-id="ikke-implementert" class="small button expand success">Kjøp</a>
+          <div class="large-12 small-12 columns">
+          <a href="#" data-reveal-id="handlevogn"
+            class="small button expand success">Kjøp</a>
           </div>
         </div>
       </div>
@@ -114,6 +116,7 @@
   document.getElementById("beskrivelse").innerHTML=obj.garntyper[0].beskrivelse
 </script>
 
+<!--#include virtual="snippets/overlay_handlevogn.html"-->
 <!--#include virtual="snippets/overlay.html"-->
 <!--#include virtual="snippets/footer.html" --> 
 <!--#include virtual="snippets/sidebunn.html" --> 
