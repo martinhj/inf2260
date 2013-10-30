@@ -3,10 +3,12 @@
 <!--#include virtual="snippets/sidetopp.html" --> 
 <!--#include virtual="snippets/menu1.html" --> 
 
-<div class="section-container tabs" data-section="tabs">
-  <section class="active">
-    <p class="title" data-section-title><a href="#panel1">Garntyper </a></p>
-    <div class="content" data-section-content>
+
+
+<div class="section-container tabs" data-section="tabs" data-options="deep_linking: true">
+  <section>
+    <p class="title" data-section-title><a href="#garntyper">Garntyper </a></p>
+    <div class="content" data-slug="garntyper" data-section-content>
 
 <form action="#">
   <a href="produktliste-mari.shtml">
@@ -111,8 +113,8 @@
 
 <!-- start tab hva vil du lage -->
   <section>
-    <p class="title" data-section-title><a href="#panel2">Jeg vil <br>lage..</a></p>
-    <div class="content" data-section-content>
+    <p class="title" data-section-title><a href="#jeg-vil-lage">Jeg vil <br>lage..</a></p>
+    <div class="content" data-slug="jeg-vil-lage" data-section-content>
           <div id="center" class="row display">
           <a href="#" data-reveal-id="ikke-implementert" ><div class="small-6 large-4 columns"><h2>Genser</h2><br><img src="images/genser.gif"></div></a>
 
@@ -134,8 +136,8 @@
 
 <!-- start tab inspirasjon -->
 <section>
-	<p class="title" data-section-title><a href="#panel2">Inspirasjon</a></p>
-	<div class="content" data-section-content>
+	<p class="title" data-section-title><a href="#inspirasjon">Inspirasjon</a></p>
+	<div class="content" data-slug="inspirasjon" data-section-content>
   <h1 hide-for.small># inspirasjon</h1>
 	<p>La deg inspirere av andres kreasjoner! Trykk på bildene for å komme til garnet som er brukt. </p>	
 
@@ -251,10 +253,10 @@
 
 <!-- start tab teknikk -->
 <section class="title" "show-for-large">
-	<p class="title" data-section-title><a href="#panel2"><span class="show-for-small">Tek-<br>nikk</span><span class="show-for-medium-up">Teknikk</span></a></p>
-	<div class="content" data-section-content>
+	<p class="title" data-section-title><a href="#teknikk"><span class="show-for-small">Tek-<br>nikk</span><span class="show-for-medium-up">Teknikk</span></a></p>
+	<div class="content" data-slug="teknikk" data-section-content>
 <p>Finn passende garn ved å velge ønsket teknikk/ garnkvalitet:</p>
-<form id="teknikk" class="custom">
+<form id="egenskaper-teknikk" class="custom">
   <div class="row">
     <div class="large-4 columns">
       <label for="radio1"><input name="radio1" type="radio" id="radio1"><span class="custom radio checked"></span> Strikke</label>

@@ -323,3 +323,11 @@ $topbar-divider-border-top: solid 1px darken($topbar-bg-color, 10%);
 .space-under {
     margin-bottom: em-calc(20);
 }
+
+////////////////
+//meny innrykk//
+////////////////
+
+.menu-indent {
+  text-indent: em-calc(10);
+}
