@@ -17,7 +17,9 @@
             sum: 100
         </td>
         <td>
-            <a class="small button expand postfix" >Slett</a></div>
+            <a class="small button expand postfix" 
+            onclick='javascript: document.getElementById("qtym001").value = 0;'>
+			Slett</a></div>
         </td>
     </tr>
     <tr>
@@ -32,7 +34,9 @@
             sum: 100
         </td>
         <td>
-            <a class="small button expand postfix" >Slett</a></div>
+            <a class="small button expand "
+            onclick='javascript: document.getElementById("qtym100").value = 0;'>
+			Slett</a></div>
         </td>
     </tr>
 </table>
@@ -68,13 +72,13 @@
         <div class="row ">
         <div class="small-2 large-4 columns">
             <a class="small button expand" 
-            onclick='javascript: document.getElementById("qtym001").value--;'>
+            onclick='javascript: document.getElementById("qtym001l").value--;'>
             -</a></div>
         <div class="small-2 large-4 columns">
-            <input  type="tel" id="qtym001" value="1" /></div>
+            <input  type="tel" id="qtym001l" value="1" /></div>
         <div class="small-2 large-4 columns">
             <a class="small button expand" 
-            onclick='javascript: document.getElementById("qtym001").value++;'>
+            onclick='javascript: document.getElementById("qtym001l").value++;'>
             +</a></div>
         </div>
         </td>
@@ -82,7 +86,9 @@
             100
         </td>
         <td>
-            <a class="small button expand postfix" >Slett</a></div>
+            <a class="small button expand"
+            onclick='javascript: document.getElementById("qtym001l").value = 0;'>
+			Slett</a></div>
         </td>
     </tr>
     <tr>
@@ -104,13 +110,13 @@
         <div class="row ">
         <div class="small-2 large-4 columns">
             <a class="small button expand" 
-            onclick='javascript: document.getElementById("qtym100").value--;'>
+            onclick='javascript: document.getElementById("qtym100l").value--;'>
             -</a></div>
         <div class="small-2 large-4 columns">
-            <input  type="tel" id="qtym100" value="1" /></div>
+            <input  type="tel" id="qtym100l" value="1" /></div>
         <div class="small-2 large-4 columns">
             <a class="small button expand" 
-            onclick='javascript: document.getElementById("qtym100").value++;'>
+            onclick='javascript: document.getElementById("qtym100l").value++;'>
             +</a></div>
         </div>
         </td>
@@ -118,17 +124,19 @@
             100
         </td>
         <td>
-            <a class="small button expand postfix" >Slett</a></div>
+            <a class="small button expand"
+            onclick='javascript: document.getElementById("qtym100l").value = 0;'>
+			Slett</a></div>
         </td>
     </tr>
 </table>
 <div class="row">
 <div class="columns large-8"><p></p></div>
 <div class="columns small-12 large-2" >
-<a class="button small expand secondary" style="float:right;">fortsett å handle</a>
+<a href="kategori-mari.shtml" class="button small expand secondary" style="float:right;">fortsett å handle</a>
 </div>
 <div class="columns small-12 large-2" >
-<a class="button small expand success" style="float:right;">betale</a>
+<a href="checkout.shtml" class="button small expand success" style="float:right;">betale</a>
 </div>
 </div>
 
