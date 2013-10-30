@@ -157,11 +157,15 @@ footer {
 
 .top-bar .cart {
     color: #fff;
-font-size: 1em;
+font-weight: bold;
     margin: 0;
     position: absolute;
     right: 90px;
     top: 7px;
+}
+.top-bar .cart a {
+    color: #fff;
+
 }
 }
 
@@ -221,7 +225,7 @@ $topbar-dropdown-label-bg: darken($topbar-bg-color, 5%);
 // $topbar-menu-link-transform: uppercase;
 // $topbar-menu-link-font-size: em-calc(13);
 // $topbar-menu-link-weight: bold;
-//$topbar-menu-link-color: #e2e2e2;
+// $topbar-menu-link-color: #e2e2e2;
 // $topbar-menu-icon-color: #fff;
 // $topbar-menu-link-color-toggled: #888;
 // $topbar-menu-icon-color-toggled: #888;
@@ -246,7 +250,7 @@ $topbar-divider-border-top: solid 1px darken($topbar-bg-color, 10%);
 @import "foundation/components/top-bar";  // *requires components/grid
 
 .top-bar {
-    //background: none;
+    // background: none;
     height:150px !important;
 } 
 
@@ -260,6 +264,10 @@ $topbar-divider-border-top: solid 1px darken($topbar-bg-color, 10%);
     //background: #e2e2e2 !important;
     padding: 8px 0 0 15px !important;
     width: 190px !important;
+}
+
+.top-bar-section ul {
+    background: #fff !important;
 }
 
 .top-bar .name img {

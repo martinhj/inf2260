@@ -7594,11 +7594,16 @@ footer {
   /* line 158, ../sass/app.scss */
   .top-bar .cart {
     color: #fff;
-    font-size: 1em;
+    font-weight: bold;
     margin: 0;
     position: absolute;
     right: 90px;
     top: 7px;
+  }
+
+  /* line 166, ../sass/app.scss */
+  .top-bar .cart a {
+    color: #fff;
   }
 }
 @media only screen and (min-width: 768px) {
@@ -8008,28 +8013,33 @@ footer {
     display: block;
   }
 
-  /* line 248, ../sass/app.scss */
+  /* line 252, ../sass/app.scss */
   .top-bar {
     height: 150px !important;
   }
 
-  /* line 253, ../sass/app.scss */
+  /* line 257, ../sass/app.scss */
   .top-bar-section li a:not(.button) {
     padding: 15x 30px !important;
   }
 
-  /* line 259, ../sass/app.scss */
+  /* line 263, ../sass/app.scss */
   .top-bar-section .has-form {
     padding: 8px 0 0 15px !important;
     width: 190px !important;
   }
 
-  /* line 265, ../sass/app.scss */
+  /* line 269, ../sass/app.scss */
+  .top-bar-section ul {
+    background: #fff !important;
+  }
+
+  /* line 273, ../sass/app.scss */
   .top-bar .name img {
     display: none;
   }
 
-  /* line 268, ../sass/app.scss */
+  /* line 276, ../sass/app.scss */
   .top-bar .name h1 a:before {
     background-image: url("../images/logo_desktop.png");
     background-repeat: no-repeat;
@@ -8042,12 +8052,12 @@ footer {
     width: 152px;
   }
 
-  /* line 282, ../sass/app.scss */
+  /* line 290, ../sass/app.scss */
   .top-bar .name h1 span {
     display: none;
   }
 
-  /* line 285, ../sass/app.scss */
+  /* line 293, ../sass/app.scss */
   .top-bar form {
     margin: 0px;
   }
@@ -8729,17 +8739,17 @@ footer {
     display: block;
   }
 }
-/* line 294, ../sass/app.scss */
+/* line 302, ../sass/app.scss */
 #center {
   text-align: center;
 }
 
-/* line 302, ../sass/app.scss */
+/* line 310, ../sass/app.scss */
 .reveal-modal .close-reveal-modal {
   position: static;
 }
 
-/* line 310, ../sass/app.scss */
+/* line 318, ../sass/app.scss */
 .instagram-caption {
   position: absolute;
   bottom: 0;
@@ -8750,12 +8760,12 @@ footer {
   font-size: 0.875em;
 }
 
-/* line 323, ../sass/app.scss */
+/* line 331, ../sass/app.scss */
 .space-under {
   margin-bottom: 1.25em;
 }
 
-/* line 246, ../sass/app.scss */
+/* line 339, ../sass/app.scss */
 .menu-indent {
   text-indent: 0.625em;
 }
