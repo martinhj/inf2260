@@ -8472,3 +8472,8 @@ footer {
 .space-under {
   margin-bottom: 1.25em;
 }
+
+/* line 246, ../sass/app.scss */
+.menu-indent {
+  text-indent: 0.625em;
+}
