@@ -1,0 +1,112 @@
+<!--#include virtual="snippets/head.html" --> 
+<body>
+<!--#include virtual="snippets/sidetopp.html" --> 
+<!--#include virtual="snippets/menu1.html" --> 
+
+<!-- start breadcrumbs -->
+<ul class="breadcrumbs">
+  <li><a href="#">Hjem</a></li>
+  <li class="unavailable"><a href="#">Nettbutikk</a></li>
+  <li><a href="kategori-strikkepakker.shtml">Strikkepakker</a></li>
+  <li><a href="produktliste-sjal.shtml">Sjal og skjerf</a></li>
+</ul>
+<!-- slutt breadcrumbs -->
+  
+<div class="row">
+  <!-- Overskrift -->
+  <div class="small-12 large-12 columns"><h2 id = "navn"></h2></div>
+
+  <div class="small-12 large-6 columns">
+    <!-- Bilder start-->
+    <div class="row">
+      <div class="small-12 columns show-for-small hide-for-medium-up" >
+        <img src="images/sjal/sjal002.jpg" style="margin-bottom:20px;"></div>
+      <div class="large-12 columns show-for-medium-up hide-for-small" >
+        <img src="images/sjal/sjal002-large.jpg" style="margin-bottom:20px;"></div>
+    </div>
+    <!-- Bilder end-->
+   
+    <!-- Knapper start-->
+    <div class="row">
+  	 <div class="small-12 large-12 columns"><div class="row collapse">
+        <div class="small-12 large-12 columns"><div class="row collapse">
+        <div class="small-3 large-3 columns"> <span class="prefix">á 100kr</span></div>
+        <div class="small-3 large-3 columns"> <span class="prefix">antall:</span></div>
+        <div class="small-2 large-2 columns"><a class="small button expand" onclick='javascript: document.getElementById("qty").value--;' value='-'>-</a></div>
+        <div class="small-2 large-2 columns"><input type="text" id="qty" value="1" /></div>
+  	       <div class="small-2 large-2 columns"><a class="small button expand" onclick='javascript: document.getElementById("qty").value++;' value='+'>+</a></div>
+          </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="large-12 small-12 columns"><a href="#" data-reveal-id="ikke-implementert" class="small button expand success">Kjøp</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Knapper end-->
+  </div>
+
+  <div class="small-12 large-6 columns">
+  <!-- lagerstatus small -->
+    <div class="show-for-small hide-for-medium-up">
+      <p><span style="color:#43B02A;">✓</span> 5 pakker på lager</p>
+    </div>
+
+
+    <!-- Section start -->
+      <div class="section-container tabs" data-section="tabs">
+        
+        <section class="active">
+          <p class="title" data-section-title><a href="#">Beskrivelse</a></p>
+          <div class="content" data-section-content><p><span id="beskrivelse"></span></p></div>
+        </section>
+
+        <section>
+          <p class="title" data-section-title><a href="#">Detaljer</a></p>
+            <div class="content" data-section-content>
+              <table>
+              <tr><td>Tvinning</td><td><span id="tvinning"></span></td></tr>
+              <tr><td>Materialer</td><td><span id="materialer"></span></td></tr>
+              <tr><td>Vaskeprogram</td><td><span id="vaskeprogram"></span></td></tr>
+              </table>
+            </div>
+        </section>
+          <!-- <section> -->
+          <!-- <p class="title" data-section-title> -->
+          <!-- <a href="#">Tilsvarende produkter</a> -->
+          <!-- </p> -->
+          <!-- <div class="content" data-section-content> -->
+          <!-- <p><a href="#">Skogalv strikkepakke av rentdesign</a></p> -->
+          <!-- </div> -->
+          <!-- </section> -->
+      </div>
+    
+    <!--Section end -->
+
+      <!-- lagerstatus medium-up -->
+      <div class="columns hide-for-small show-for-medium-up">
+        <p><span style="color:#43B02A;">✓</span> 5 pakker på lager </p>
+      </div>
+
+
+    </div>
+
+  </div>
+
+</div>
+
+
+<script>
+<!--#include virtual="sjal-produktliste.json" -->
+  document.getElementById("navn").innerHTML=sjal[1].navn;
+  document.getElementById("beskrivelse").innerHTML=sjal[1].beskrivelse;
+  document.getElementById("tvinning").innerHTML=sjal[1].tvinning;
+  document.getElementById("materialer").innerHTML=sjal[1].materialer;
+  document.getElementById("vaskeprogram").innerHTML=sjal[1].vaskeprogram;
+
+</script>
+
+<!--#include virtual="snippets/overlay.html"-->
+<!--#include virtual="snippets/footer.html" --> 
+<!--#include virtual="snippets/sidebunn.html" --> 
