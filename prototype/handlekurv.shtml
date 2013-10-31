@@ -68,16 +68,16 @@
         <td>
             100
         </td>
-        <td>
+        <td width="20%">
         <div class="row ">
         <div class="small-2 large-4 columns">
-            <a class="small button expand" 
+            <a class="small button" 
             onclick='javascript: document.getElementById("qtym001l").value--;'>
             -</a></div>
         <div class="small-2 large-4 columns">
             <input  type="tel" id="qtym001l" value="1" /></div>
         <div class="small-2 large-4 columns">
-            <a class="small button expand" 
+            <a class="small button" 
             onclick='javascript: document.getElementById("qtym001l").value++;'>
             +</a></div>
         </div>
@@ -109,13 +109,13 @@
         <td>
         <div class="row ">
         <div class="small-2 large-4 columns">
-            <a class="small button expand" 
+            <a class="small button" 
             onclick='javascript: document.getElementById("qtym100l").value--;'>
             -</a></div>
         <div class="small-2 large-4 columns">
             <input  type="tel" id="qtym100l" value="1" /></div>
         <div class="small-2 large-4 columns">
-            <a class="small button expand" 
+            <a class="small button" 
             onclick='javascript: document.getElementById("qtym100l").value++;'>
             +</a></div>
         </div>
