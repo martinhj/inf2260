@@ -174,7 +174,8 @@
   <section>
     <p class="title" data-section-title><a href="#panel2">Fargevelger</a></p>
     <div class="content" data-section-content>
-      <p>Fargevelgeren hjelper deg med å plukke ut farger som passer godt sammen. <br /></p>
+      <p>Fargevelgeren hjelper deg med å plukke ut farger som passer godt
+      sammen. <br /> </p>
       <form id="fargevelger" action="#">
 	<fieldset>
 	  <legend>Velg farger</legend>	  
@@ -199,10 +200,19 @@
 	</fieldset>
       </form>
       <ul class="small-block-grid-2">
-	<li><h3>Mari xxxx</h3><img id="fargevelger_alt1" src="http://placehold.it/300x200/8E1608/ffffff"></li>
-	<li><h3>Mari xxxx</h3><img id="fargevelger_alt2" src="http://placehold.it/300x200/164B7D/ffffff"></li>
-	<li><h3>Mari xxxx</h3><img id="fargevelger_alt3" src="http://placehold.it/300x200/E0D1BC/ffffff"></li>
-	<li><h3>Mari xxxx</h3><img id="fargevelger_alt4" src="http://placehold.it/300x200/F4CC0B/ffffff"></li>
+    <!-- rød    -->
+    <li><h3>Mari m200</h3><img id="fargevelger_alt1"
+    src="images/mari/m200-large.jpg"></li>
+    <!-- blå    -->
+    <li><h3>Mari m300</h3><img id="fargevelger_alt2"
+    src="images/mari/m300-large.jpg"></li>
+    <!-- natur  -->
+    <li><h3>Mari m001</h3><img id="fargevelger_alt3"
+    src="images/mari/m001-large.jpg"></li>
+    <!-- gul    -->
+    <li><h3>Mari m100</h3><img id="fargevelger_alt4"
+    src="images/mari/m100-large.jpg"></li>
+
       </ul>
       <div class="row">
       <div class="small-12 large-12 columns"><a href="#" class="small button expand">Legg i handlekurven</a></div>
@@ -235,31 +245,31 @@
 var check_grunnfarge = function() {
     switch($('#grunnfarge').val()) {
     case 'roed':
-    $('#fargevelger_alt1').attr('src', 'http://placehold.it/300x200/8E1608/ffffff');
+    $('#fargevelger_alt1').attr('src', 'images/mari/m200-large.jpg');
 
-    $('#fargevelger_alt2').attr('src', 'http://placehold.it/300x200/164B7D/ffffff');
-    $('#fargevelger_alt3').attr('src', 'http://placehold.it/300x200/E0D1BC/ffffff');
-    $('#fargevelger_alt4').attr('src', 'http://placehold.it/300x200/F4CC0B/ffffff');
+    $('#fargevelger_alt2').attr('src', 'images/mari/m300-large.jpg');
+    $('#fargevelger_alt3').attr('src', 'images/mari/m001-large.jpg');
+    $('#fargevelger_alt4').attr('src', 'images/mari/m100-large.jpg');
     break;
     case 'groenn':
     $('#fargevelger_alt1').attr('src', 'http://placehold.it/300x200/286D00/ffffff');
 
-    $('#fargevelger_alt2').attr('src', 'http://placehold.it/300x200/E0D1BC/ffffff');
-    $('#fargevelger_alt3').attr('src', 'http://placehold.it/300x200/8E1608/ffffff');
-    $('#fargevelger_alt4').attr('src', 'http://placehold.it/300x200/F4CC0B/ffffff');
+    $('#fargevelger_alt2').attr('src', 'images/mari/m001-large.jpg');
+    $('#fargevelger_alt3').attr('src', 'images/mari/m200-large.jpg');
+    $('#fargevelger_alt4').attr('src', 'images/mari/m100-large.jpg');
     break;
     case 'blaa':
-    $('#fargevelger_alt1').attr('src', 'http://placehold.it/300x200/164B7D/ffffff');
+    $('#fargevelger_alt1').attr('src', 'images/mari/m300-large.jpg');
 
-    $('#fargevelger_alt2').attr('src', 'http://placehold.it/300x200/F4CC0B/ffffff');
-    $('#fargevelger_alt3').attr('src', 'http://placehold.it/300x200/8E1608/ffffff');
-    $('#fargevelger_alt4').attr('src', 'http://placehold.it/300x200/E0D1BC/ffffff');
+    $('#fargevelger_alt2').attr('src', 'images/mari/m100-large.jpg');
+    $('#fargevelger_alt3').attr('src', 'images/mari/m200-large.jpg');
+    $('#fargevelger_alt4').attr('src', 'images/mari/m001-large.jpg');
     break;
     case 'gul':
-    $('#fargevelger_alt1').attr('src', 'http://placehold.it/300x200/F4CC0B/ffffff');
+    $('#fargevelger_alt1').attr('src', 'images/mari/m100-large.jpg');
 
-    $('#fargevelger_alt2').attr('src', 'http://placehold.it/300x200/164B7D/ffffff');
-    $('#fargevelger_alt3').attr('src', 'http://placehold.it/300x200/E0D1BC/ffffff');
+    $('#fargevelger_alt2').attr('src', 'images/mari/m300-large.jpg');
+    $('#fargevelger_alt3').attr('src', 'images/mari/m001-large.jpg');
     $('#fargevelger_alt4').attr('src', 'http://placehold.it/300x200/286D00/ffffff');
     break;
     }
