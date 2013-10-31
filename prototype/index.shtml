@@ -5,10 +5,16 @@
 
 
 
-<!--#include virtual="snippets/forsider.html" -->
 
-<div id="container">
 
+<div id="container" style="padding-top: 2%;padding-bottom: 2%;">
+<div class="row">
+
+<div class="large-1 small-1 columns"></div>
+
+<div class="large-11 small-11 columns">
+<a href="index1.shtml"  class=" button success radius small-10 large-5"> til forside 1</a>
+<a href="index2.shtml"  class=" button radius small-10 large-5">til forside 2</a>
 <h3>To do</h3>
 <ul>
 <li>tobias: meny logo og tekst -> (logo m tekst - uten tekst på meny)</li>
@@ -57,5 +63,6 @@
 </ul>
 
 </div>
-
+</div>
+</div>
 <!--#include virtual="snippets/sidebunn.html" --> 
