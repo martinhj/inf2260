@@ -1,12 +1,62 @@
 <!--#include virtual="snippets/head.html" --> 
 <body>
+<div id="container">
+
 <div>
 
 <!--#include virtual="snippets/forsider.html" -->
 
 </div>
 
+<h3>To do</h3>
+<ul>
+<li>meny logo og tekst -> (logo m tekst - uten tekst på meny)</li>
+<li>handlekurv -> implementere begge menyer</li>
+<li>styling meny (mobil meny 2 xplded+fjern handlekurv i dropdown (muligens svart senere) | fullsite meny2)</li>
+<li>link meny -> strikekurs</li>
+
+<li>breadcrumbs på alle sider m lenke til 'introtekst'</li>
+<li>handlekurv -> handlevogn</li>
+<li>hva vil du lage -> jeg vil lage</li>
+<li>kategori-hvavildulage.shtml -> kategori-jeg-vil-lage-genser.shtml</li>
+<li>link 'garntyper.shtml#jeg-vil-lage' (genser & sjal) -> kategori-jeg-vil-lage-genser.shtml</li>
+<li>fikse inspirasjonside info om hvordan tagge / relevante tags / tangs under bilde på mobil / link til relevante produkter + overlay (både garnkategori)(petter)</li>
+<li>bilder på produktliste-mari.shtml(fargevelger & vareprøver)</li>
+<li>sjal detaljer gjøres custom</li>
+<li>gjennomgående punktoppsett på produktbeskrivelser</li>
+<li>Produktbeskrivelser > "tillegsinformasjon" -> "detaljer"</li>
+<li>Produktbeskrivelser > ny tab "om mari" video eller bilder med produksjonsprosess</li>
+<li>handlekurv </li>
+<li>checkout form - fikse så android enter funker som tab (input type?)</li>
+<li>checkout form redesign</li>
+<li>luft over tabs (fikses med breadcrumbs? sjekk dette)</li>
+<li>footerfeil indelx2 (petter)</li>
+<li>index2 -> garn, strikkepakke, strikkekurs</li>
+<li>index1 -> fikse orbit (martin)</li>
+
+<li>gjennomgang av element styling <li>consistensy! TIL SLUTT</li>
+
+</ul>
+
+<h3>To maybe do</h3>
+<ul>
+<li>nye tegninger jeg vil lage</li>
+</ul>
 
 
+<h3>Tester - metode(mobile first)</h3>
+<ul>
+<li>Eksprertest (utvikler og interaksjonsdesigner, CGI)</li>
+<li>Kvantitativ kjøpeoppgave-test m flere brukere (studenter)</li>
+<li>Kvalitativ/kvantitativ test m domeneekspertter (Tobias sin eks-sjef, mødre?, hvem andre)</li>
+</ul>
+
+<h3>Tester - hva vil du teste</h3>
+<ul>
+<li>ikke annenhver bakgrunnsfarge produktlister</li>
+<li>incosistensy pulldown meny (device og breakpoint spesifik hvis tid og testing tilsier det)</li>
+</ul>
+
+</div>
 
 <!--#include virtual="snippets/sidebunn.html" --> 
