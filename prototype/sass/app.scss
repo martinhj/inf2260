@@ -339,3 +339,7 @@ $topbar-divider-border-top: solid 1px darken($topbar-bg-color, 10%);
 .menu-indent {
   text-indent: em-calc(10);
 }
+
+.line-through{
+  text-decoration:line-through
+}

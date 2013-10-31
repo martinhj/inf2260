@@ -1,12 +1,13 @@
 <!--#include virtual="snippets/head.html" --> 
-<body>
-<div id="container">
+<!--#include virtual="snippets/sidetopp.html" --> 
 
-<div>
+<body>
+
+
 
 <!--#include virtual="snippets/forsider.html" -->
 
-</div>
+<div id="container">
 
 <h3>To do</h3>
 <ul>
@@ -17,7 +18,7 @@
 <li>tobias (venter litt): breadcrumbs på alle sider m lenke til 'introtekst'</li>
 <li>den det måtte gjelde: handlekurv -> handlevogn</li>
 <li>den det måtte gjelde: hva vil du lage -> jeg vil lage</li>
-<li>petter: kategori-hvavildulage.shtml -> kategori-jeg-vil-lage-genser.shtml</li>
+<li class="line-through">petter: kategori-hvavildulage.shtml -> kategori-jeg-vil-lage-genser.shtml</li>
 <li>petter: link 'garntyper.shtml#jeg-vil-lage' (genser & sjal) -> kategori-jeg-vil-lage-genser.shtml</li>
 <li>petter: fikse inspirasjonside info om hvordan tagge / relevante tags / tangs under bilde på mobil / link til relevante produkter + overlay (både garnkategori)(petter)</li>
 <li>martin: bilder på produktliste-mari.shtml(fargevelger & vareprøver)</li>
