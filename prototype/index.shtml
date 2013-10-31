@@ -19,7 +19,7 @@
 <li>den det måtte gjelde: handlekurv -> handlevogn</li>
 <li>den det måtte gjelde: hva vil du lage -> jeg vil lage</li>
 <li class="line-through">petter: kategori-hvavildulage.shtml -> kategori-jeg-vil-lage-genser.shtml</li>
-<li>petter: link 'garntyper.shtml#jeg-vil-lage' (genser & sjal) -> kategori-jeg-vil-lage-genser.shtml</li>
+<li class="line-through">petter: link 'garntyper.shtml#jeg-vil-lage' (genser & sjal) -> kategori-jeg-vil-lage-genser.shtml</li>
 <li>petter: fikse inspirasjonside info om hvordan tagge / relevante tags / tangs under bilde på mobil / link til relevante produkter + overlay (både garnkategori)(petter)</li>
 <li>martin: bilder på produktliste-mari.shtml(fargevelger & vareprøver)</li>
 <li>martin: gjennomgående punktoppsett på mari-produktbeskrivelser</li>
@@ -29,7 +29,7 @@
 <li>petter: checkout form - fikse så android enter funker som tab (input type?)</li>
 <li>petter: checkout form redesign</li>
 <li>tobias: luft over tabs (fikses med breadcrumbs? sjekk dette)</li>
-<li>petter: footerfeil indelx2</li>
+<li><span class="line-through">petter: footerfeil index2</span> KUNNE IKKE FINNE IGJEN DENNE FEILEN!!</li>
 <li>petter: index2 -> garn, strikkepakke, strikkekurs</li>
 <li>martin: index1 -> fikse på orbit</li>
 
