@@ -5,7 +5,7 @@
 <body>
 <!--#include virtual="snippets/sidetopp.html" --> 
 <!--#include virtual="snippets/menu1.html" --> 
-<div class="section-container accordion" data-section="tabs" data-options="multi_expand: true,one_up: false;">
+<div class="section-container accordion" data-section="tabs" data-options="one_up: false;">
   <section>
     <p class="title" data-section-title><a href="#">Mari kidmohairgarn</a></p>
     <div class="content" data-section-content>
