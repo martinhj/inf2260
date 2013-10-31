@@ -12,9 +12,9 @@
         Mari - natur </a>
         </td>
         <td width="30%">
-            pris: 100
+            <b>pris:</b> 100
             <input  type="tel" id="qtym001" value="1" /></div>
-            sum: 100
+            <b>sum:</b> 100
         </td>
         <td>
             <a class="small button expand postfix" 
@@ -29,9 +29,9 @@
         Mari - gul</a>
         </td>
         <td>
-            pris: 100
+            <b>pris:</b> 100
             <input  type="tel" id="qtym100" value="1" />
-            sum: 100
+            <b>sum:</b> 100
         </td>
         <td>
             <a class="small button expand "
