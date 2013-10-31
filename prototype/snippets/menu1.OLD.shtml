@@ -1,0 +1,72 @@
+<nav class="top-bar" data-options="back_text:Tilbake">
+
+<ul class="title-area">
+    <!-- Title Area -->
+    <li class="name">
+      <h1><a href="index2.shtml"><img src="images/logo_mobile.png" width="35" height="45" alt="logo" /><span>Telespinn</span></a></h1>
+    </li>
+
+    <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+    <li class="toggle-topbar menu-icon"><a href="#"><span>Meny</span></a></li>
+   <li class="cart hide-for-medium-up"> <a href="handlekurv.shtml"><i class="foundicon-cart"></i>(1)</a></li>
+  </ul>
+    
+  <section class="top-bar-section">
+
+    <!-- Left Nav Section -->
+    <ul class="left">     
+    </ul>
+
+    <!-- Right Nav Section -->
+    <ul class="right">
+      <li class="divider "></li>
+      <li class="hide-for-small"><a href="handlekurv.shtml"><i class="foundicon-cart"></i> Handlekurv</a></li>
+      <li class="divider hide-for-medium-up "></li>
+      <li class="has-dropdown"><a href="#">Nettbutikk</a>
+        <ul class="dropdown">
+	  <li class="divider hide-for-medium-up"></li>
+	  <li class="hide-for-medium-up"><label>Nettbutikk</label></li>
+	  <li class="divider hide-for-medium-up"></li>
+	  <li class="hide-for-medium-up"><label>Garn</label></li>
+	  <li class="divider hide-for-medium-up"></li>
+          <li><a href="kategori-garn.shtml">Garntyper</a></li>
+	  <li class="divider hide-for-medium-up"></li>
+          <li><a href="kategori-strikkepakker.shtml">Strikkepakker</a></li>
+	  <li class="divider hide-for-medium-up"></li>
+          <li><a href="kategori-hvavildulage.shtml">Jeg vil lage..</a></li>
+	  <li class="divider hide-for-medium-up"></li>
+	  <li><a  data-reveal-id="ikke-implementert" href="">Strikkekurs</a></li>
+	  <li class="divider hide-for-medium-up"></li>
+	  <li class="hide-for-medium-up"><label>Andre produkter</label></li>
+	  <li class="divider hide-for-medium-up"></li>
+          <li><a  data-reveal-id="ikke-implementert" href="">Ferdigprodukter</a></li>
+	  <li class="divider hide-for-medium-up"></li>
+          <li><a  data-reveal-id="ikke-implementert" href="">Tilbehør</a></li>
+        </ul>
+      </li>
+      <li class="divider hide-for-medium-up"></li>
+      <li class="has-dropdown"><a href="">Om oss</a>	
+        <ul class="dropdown">
+          <li class="hide-for-medium-up"><label>Om oss</label></li>
+          <li><a data-reveal-id="ikke-implementert" href="">Spinneri</a></li>
+          <li><a data-reveal-id="ikke-implementert" href="">Besøk oss</a></li>
+          <li><a data-reveal-id="ikke-implementert" href="">Kontakt</a></li>
+        </ul>
+      </li>
+      <li class="divider hide-for-medium-up"></li>
+      <li class="has-form">
+        <form>
+          <div class="row collapse">
+            <div class="small-8 columns">
+              <input type="text">
+            </div>
+            <div class="small-4 columns">
+              <a data-reveal-id="ikke-implementert" href="" class="button">Søk</a>
+            </div>
+          </div>
+        </form>
+      </li>
+      <li class="divider"></li>
+    </ul>
+  </section>
+</nav>
