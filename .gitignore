@@ -1,5 +1,6 @@
 *.txt
 *.sass-cache/*
+*prototype/.sass-cache/*
 *.DS_Store
 */.DS_Store
 *.swp
