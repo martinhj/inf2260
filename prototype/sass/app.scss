@@ -1,5 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Lato:300); 
-// Global Foundation Settings
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400);// Global Foundation Settings
 @import "settings"; 
 
 // Comment out this import if you dont want to use normalize
@@ -311,11 +310,33 @@ $topbar-divider-border-top: solid 1px darken($topbar-bg-color, 10%);
     position: static;
 }
 
+////////////////////////
+//panel til #tags-info//
+////////////////////////
+.panel-custom {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ff8da1;
+  margin-bottom: 1.25em;
+  padding: 5px;
+  background: pink;
+}
+
 ///////////////////////////
 //boks til instagram #tag//
 ///////////////////////////
 
-.instagram-caption {
+.instagram-caption-small {
+  position: static;
+  bottom: 0;
+  background-color: rgba(204, 204, 204, 0.2);
+  color: black;
+  width: 100%;
+  padding: 10px 14px;
+  font-size: 0.775em;
+}
+
+.instagram-caption-large {
   position: absolute;
   bottom: 0;
   background-color: rgba(255, 255, 255, 0.85);
@@ -323,6 +344,9 @@ $topbar-divider-border-top: solid 1px darken($topbar-bg-color, 10%);
   width: 100%;
   padding: 10px 14px;
   font-size: 0.875em;
+}
+strong {
+  font-weight: 400;
 }
 
 ////////////////////////////////////////////

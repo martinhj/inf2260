@@ -194,7 +194,7 @@ $header-font-weight: 300;
 
 // $subheader-line-height: 1.4;
 // $subheader-font-color: lighten($header-font-color, 30%);
-// $subheader-font-weight: 300;
+$subheader-font-weight: 300;
 // $subheader-top-margin: .2em;
 // $subheader-bottom-margin: .5em;
 
@@ -206,7 +206,7 @@ $header-font-weight: 300;
 // Style paragraphs
 
 // $paragraph-font-family: inherit;
-// $paragraph-font-weight: normal;
+$paragraph-font-weight: 300;
 // $paragraph-font-size: 1em;
 // $paragraph-line-height: 1.6;
 // $paragraph-margin-bottom: em-calc(20);
@@ -1115,13 +1115,13 @@ $orbit-timer-show-progress-bar: false;
 
 // $sub-nav-font-size: em-calc(14);
 // $sub-nav-font-color: #999;
-// $sub-nav-font-weight: normal;
+$sub-nav-font-weight: 300;
 // $sub-nav-text-decoration: none;
 // $sub-nav-border-radius: 1000px;
 
 // We use these to control the active item styles
 
-// $sub-nav-active-font-weight: bold;
+$sub-nav-active-font-weight: 300;
 // $sub-nav-active-bg: $primary-color;
 // $sub-nav-active-color: #fff;
 // $sub-nav-active-padding: em-calc(3 9);
@@ -1193,7 +1193,7 @@ $orbit-timer-show-progress-bar: false;
 // $table-head-bg: #f5f5f5;
 // $table-head-font-size: em-calc(14);
 // $table-head-font-color: #222;
-// $table-head-font-weight: bold;
+$table-head-font-weight: 300;
 // $table-head-padding: em-calc(8 10 10);
 
 // These control the row padding and font styles
@@ -1294,7 +1294,7 @@ $orbit-timer-show-progress-bar: false;
 
 // $topbar-dropdown-label-color: #555;
 // $topbar-dropdown-label-text-transform: uppercase;
-// $topbar-dropdown-label-font-weight: bold;
+$topbar-dropdown-label-font-weight: 300;
 $topbar-dropdown-label-font-size: em-calc(12);
 // $topbar-dropdown-label-bg: lighten($topbar-bg-color, 5%);
 
