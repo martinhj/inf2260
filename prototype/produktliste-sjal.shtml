@@ -5,17 +5,18 @@
 <!--#include virtual="snippets/menu1.html" -->
 
 <!-- start breadcrumbs -->
-<ul class="breadcrumbs">
-  <li><a href="#">Hjem</a></li>
-  <li class="unavailable"><a href="#">Nettbutikk</a></li>
-  <li><a href="kategori-strikkepakker.shtml">Strikkepakker</a></li>
-  <li class="hide-for-medium-up"><a href="#" style ="margin:0px" class="tiny secondary button" data-dropdown="drop1">Sjal</a></li>
-  <li class="current hide-for-small"><a href="#">Sjal</a></li>
-</ul>
+<div class="panel">
+      <ul class="telespinncrumbs">
+	<li><a href="index.shtml">Hjem</a></li>
+	<li><a href="kategori-strikkepakker.shtml">Strikkepakker</a></li>
+	<li class="current hide-for-small"><a href="#">Sjal</a></li>
+	<li class="hide-for-medium-up"><a href="#" class="smuleknapp" data-dropdown="drop2">Våre sjal</a></li>
+      </ul>
+</div>
 <!-- slutt breadcrumbs -->
 
 <!-- start drop breadcrumbs -->
-<div id="drop1" class="f-dropdown content hide-for-medium-up" data-dropdown-content>
+<div id="drop2" class="f-dropdown content hide-for-medium-up" data-dropdown-content>
   <p>Våre strikkepakker er en enkel måte å komme i gang med å strikke selv. De fleste pakkene inneholder også strikkepinner, slik at du har alt du trenger for å strikke selv: mønster, garn og strikkepinner. På mange av pakkene kan du selv velge farge på garnet som er med i strikkepakken.</p>
 <p>Vi har sjal og skjerf i svært mange forskjellige varianter. Vi har varme sjal for å holde varmen i den kalde årstiden, og lette og luftige sjal som du kan bruke hele året.</p> 
 </div>
@@ -39,11 +40,11 @@
       <div class="row">
     <div class="large-12 small-12 columns show-for-small hide-for-medium-up" >
         <img src="images/sjal/sjal001.jpg" 
-        style="margin-bottom:20px;" width="100%"  />
+        style="margin-bottom:20px;" />
     </div>
     <div class="large-12 small-12 columns show-for-medium-up hide-for-small" >
         <img src="images/sjal/sjal001-large.jpg" 
-        style="margin-bottom:20px;" width="100%"  />
+        style="margin-bottom:20px;" />
     </div>
     
     </div>  
@@ -74,11 +75,11 @@
       <div class="row">
     <div class="large-12 small-12 columns show-for-small hide-for-medium-up" >
         <img src="images/sjal/sjal002.jpg" 
-        style="margin-bottom:20px;" width="100%"  />
+        style="margin-bottom:20px;" />
     </div>
     <div class="large-12 small-12 columns show-for-medium-up hide-for-small" >
         <img src="images/sjal/sjal002-large.jpg" 
-        style="margin-bottom:20px;" width="100%"  />
+        style="margin-bottom:20px;" />
     </div>
     </div>  
       <div class="row">
@@ -112,11 +113,11 @@
       <div class="row">
     <div class="large-12 small-12 columns show-for-small hide-for-medium-up" >
         <img src="images/sjal/sjal003.jpg" 
-        style="margin-bottom:20px;" width="100%"  />
+        style="margin-bottom:20px;" />
     </div>
     <div class="large-12 small-12 columns show-for-medium-up hide-for-small" >
         <img src="images/sjal/sjal003-large.jpg" 
-        style="margin-bottom:20px;" width="100%"  />
+        style="margin-bottom:20px;"  />
     </div>
     
     </div>  
@@ -147,11 +148,11 @@
       <div class="row">
     <div class="large-12 small-12 columns show-for-small hide-for-medium-up" >
         <img src="images/sjal/sjal004.jpg" 
-        style="margin-bottom:20px;" width="100%"  />
+        style="margin-bottom:20px;" />
     </div>
     <div class="large-12 small-12 columns show-for-medium-up hide-for-small" >
         <img src="images/sjal/sjal004-large.jpg" 
-        style="margin-bottom:20px;" width="100%"  />
+        style="margin-bottom:20px;"  />
     </div>
     </div>  
       <div class="row">

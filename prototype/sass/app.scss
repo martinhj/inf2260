@@ -295,6 +295,10 @@ $topbar-divider-border-top: solid 1px darken($topbar-bg-color, 10%);
 
 }
 
+.menu-leftpad {
+    padding-left: em-calc(10);
+}
+
 /////////////////////////
 //BILDER jeg vil lage..//
 /////////////////////////
@@ -367,3 +371,41 @@ strong {
 .line-through{
   text-decoration:line-through
 }
+
+////////////////
+// breadcrumbs //
+////////////////
+
+.telespinncrumbs {
+  @include crumb-container;
+
+  border: none;
+  background: none;
+  margin: 7px 0 0 0;
+  padding: 0;
+
+  li { @include crumbs; }
+}
+
+.smuleknapp {
+
+  @include button;
+  @include dropdown-button;
+
+  background-color: #f2f2f2;
+  margin: 0;
+  padding:0 3em 0 0;
+  border-color: #f2f2f2;
+  color: #333 !important;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+.smuleknapp:hover, .smuleknapp:focus {
+    background-color: #f2f2f2;
+    color: #333;    
+}
+.smuleknapp:before {
+    border-color: #666 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+}
+
