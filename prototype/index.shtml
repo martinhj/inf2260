@@ -27,10 +27,10 @@
 <li class="line-through">petter: kategori-hvavildulage.shtml -> kategori-jeg-vil-lage-genser.shtml</li>
 <li class="line-through">petter: link 'garntyper.shtml#jeg-vil-lage' (genser & sjal) -> kategori-jeg-vil-lage-genser.shtml</li>
 <li>petter: fikse inspirasjonside info om hvordan tagge / relevante tags / tangs under bilde på mobil / link til relevante produkter + overlay (både garnkategori)(petter)</li>
-<li>martin: bilder på produktliste-mari.shtml(fargevelger & vareprøver)</li>
+<li class="line-through">martin: bilder på produktliste-mari.shtml(fargevelger & vareprøver)</li>
 <li>martin: gjennomgående punktoppsett på mari-produktbeskrivelser</li>
-<li>martin: Produktbeskrivelser > "tillegsinformasjon" -> "detaljer"</li>
-<li>martin: Produktbeskrivelser > ny tab "om mari" video eller bilder med produksjonsprosess</li>
+<li class="line-through">martin: Produktbeskrivelser > "tillegsinformasjon" -> "detaljer"</li>
+<li class="line-through">martin: Produktbeskrivelser > ny tab "om mari" video eller bilder med produksjonsprosess</li>
 <li>martin: handlekurv fiksing og testing</li>
 <li>petter: checkout form - fikse så android enter funker som tab (input type?)</li>
 <li>petter: checkout form redesign</li>
