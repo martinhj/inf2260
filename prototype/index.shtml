@@ -22,7 +22,7 @@
 <li>den det måtte gjelde: hva vil du lage -> jeg vil lage</li>
 <li class="line-through">petter: kategori-hvavildulage.shtml -> kategori-jeg-vil-lage-genser.shtml</li>
 <li class="line-through">petter: link 'garntyper.shtml#jeg-vil-lage' (genser & sjal) -> kategori-jeg-vil-lage-genser.shtml</li>
-<liclass="line-through">petter: fikse inspirasjonside info om hvordan tagge / relevante tags / tangs under bilde på mobil / link til relevante produkter + overlay (både garnkategori)(petter)</li>
+<li class="line-through">petter: fikse inspirasjonside info om hvordan tagge / relevante tags / tangs under bilde på mobil / link til relevante produkter + overlay (både garnkategori)(petter)</li>
 <li class="line-through">martin: bilder på produktliste-mari.shtml(fargevelger & vareprøver)</li>
 <li>martin: gjennomgående punktoppsett på mari-produktbeskrivelser</li>
 <li class="line-through">martin: Produktbeskrivelser > "tillegsinformasjon" -> "detaljer"</li>
@@ -33,7 +33,7 @@
 <li>petter: checkout form redesign</li>
 <li>petter: fikse de teite&feite fontende du har lagd</li>
 <li class="line-through">tobias: luft over tabs (fikses med breadcrumbs? sjekk dette)</li>
-<li><span class="line-through">petter: footerfeil index2</span> KUNNE IKKE FINNE IGJEN DENNE FEILEN!!</li>
+<li class="line-through">petter: footerfeil index2</li>
 <li>petter: index2 -> garn, strikkepakke, strikkekurs</li>
 <li>martin: index1 -> fikse på orbit</li>
 
