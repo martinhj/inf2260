@@ -8881,10 +8881,9 @@ footer {
   padding-right: 3.1875em;
   background-color: #f2f2f2;
   margin: 0;
-  padding: 0 20px 0 0;
+  padding: 0 3em 0 0;
   border-color: #f2f2f2;
-  color: #333;
-  font-size: 0.6875em;
+  color: #333 !important;
   text-transform: uppercase;
   font-weight: normal;
 }
@@ -8918,13 +8917,13 @@ footer {
   border-color: white transparent transparent transparent;
 }
 
-/* line 381, ../sass/app.scss */
+/* line 380, ../sass/app.scss */
 .smuleknapp:hover, .smuleknapp:focus {
-  background-color: #333;
-  color: #f2f2f2;
+  background-color: #f2f2f2;
+  color: #333;
 }
 
-/* line 385, ../sass/app.scss */
+/* line 384, ../sass/app.scss */
 .smuleknapp:before {
   border-color: #666666 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
 }

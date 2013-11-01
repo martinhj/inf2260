@@ -6,17 +6,12 @@
 
 <!-- start breadcrumbs -->
 <div class="panel">
-  <div class="row">
-    <div class="columns small-9 large-8">
       <ul class="telespinncrumbs">
-	<li><a href="#">Hjem</a></li>
+	<li><a href="index.shtml">Hjem</a></li>
 	<li><a href="kategori-strikkepakker.shtml">Strikkepakker</a></li>
-	<li class="current hide-for-medium-up"><a href="#" >Sjal</a></li>
 	<li class="current hide-for-small"><a href="#">Sjal</a></li>
+	<li class="hide-for-medium-up"><a href="#" class="smuleknapp" data-dropdown="drop2">Våre sjal</a></li>
       </ul>
-    </div>
-    <div class="columns small-3 large-4 hide-for-medium-up"><a href="#" class="smuleknapp expand" data-dropdown="drop2">Våre sjal</a></div>
-  </div>
 </div>
 <!-- slutt breadcrumbs -->
 
