@@ -63,7 +63,7 @@
         </section>
 
         <section>
-          <p class="title" data-section-title><a href="#">Tilleggsinformasjon</a></p>
+          <p class="title" data-section-title><a href="#">Detaljer</a></p>
             <div class="content" data-section-content>
               <table>
               <tr><td>Farge</td><td><span id="farge"></span></td></tr>
@@ -85,6 +85,11 @@
           <!-- <p><a href="#">Skogalv strikkepakke av rentdesign</a></p> -->
           <!-- </div> -->
           <!-- </section> -->
+        <section>
+        <p class="title" data-section-title><a href="#">Om mari</a></p>
+            <div class="content" data-section-content>
+            </div>
+        </section>
       </div>
     
     <!--Section end -->
