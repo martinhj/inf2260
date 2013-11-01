@@ -17,10 +17,10 @@
 <a href="index2.shtml"  class=" button radius small-10 large-5">til forside 2</a>
 <h3>To do</h3>
 <ul>
-<li>tobias: meny logo og tekst -> (logo m tekst - uten tekst på meny)</li>
-<li>tobias: handlekurv -> implementere begge menyer</li>
-<li>tobias: styling meny (mobil meny 2 xplded+fjern handlekurv i dropdown (muligens svart senere) | fullsite meny2)</li>
-<li>tobias: link meny -> strikekurs</li>
+<li class="line-through">tobias: meny logo og tekst -> (logo m tekst - uten tekst på meny)</li>
+<li class="line-through">tobias: handlekurv -> implementere begge menyer</li>
+<li class="line-through">tobias: styling meny (mobil meny 2 xplded+fjern handlekurv i dropdown (muligens svart senere) | fullsite meny2)</li>
+<li class="line-through">tobias: link meny -> strikekurs</li>
 <li>tobias (venter litt): breadcrumbs på alle sider m lenke til 'introtekst'</li>
 <li>den det måtte gjelde: handlekurv -> handlevogn</li>
 <li>den det måtte gjelde: hva vil du lage -> jeg vil lage</li>
