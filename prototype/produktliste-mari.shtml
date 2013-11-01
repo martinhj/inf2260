@@ -245,32 +245,32 @@
 var check_grunnfarge = function() {
     switch($('#grunnfarge').val()) {
     case 'roed':
-    $('#fargevelger_alt1').attr('src', 'images/mari/m200-large.jpg');
+    $('#fargevelger_alt1').attr('src', 'images/mari/m200.jpg');
 
-    $('#fargevelger_alt2').attr('src', 'images/mari/m300-large.jpg');
-    $('#fargevelger_alt3').attr('src', 'images/mari/m001-large.jpg');
-    $('#fargevelger_alt4').attr('src', 'images/mari/m100-large.jpg');
+    $('#fargevelger_alt2').attr('src', 'images/mari/m300.jpg');
+    $('#fargevelger_alt3').attr('src', 'images/mari/m001.jpg');
+    $('#fargevelger_alt4').attr('src', 'images/mari/m100.jpg');
     break;
     case 'groenn':
-    $('#fargevelger_alt1').attr('src', 'http://placehold.it/300x200/286D00/ffffff');
+    $('#fargevelger_alt1').attr('src', 'http://placehold.it/800x200/286D00/ffffff');
 
-    $('#fargevelger_alt2').attr('src', 'images/mari/m001-large.jpg');
-    $('#fargevelger_alt3').attr('src', 'images/mari/m200-large.jpg');
-    $('#fargevelger_alt4').attr('src', 'images/mari/m100-large.jpg');
+    $('#fargevelger_alt2').attr('src', 'images/mari/m001.jpg');
+    $('#fargevelger_alt3').attr('src', 'images/mari/m200.jpg');
+    $('#fargevelger_alt4').attr('src', 'images/mari/m100.jpg');
     break;
     case 'blaa':
-    $('#fargevelger_alt1').attr('src', 'images/mari/m300-large.jpg');
+    $('#fargevelger_alt1').attr('src', 'images/mari/m300.jpg');
 
-    $('#fargevelger_alt2').attr('src', 'images/mari/m100-large.jpg');
-    $('#fargevelger_alt3').attr('src', 'images/mari/m200-large.jpg');
-    $('#fargevelger_alt4').attr('src', 'images/mari/m001-large.jpg');
+    $('#fargevelger_alt2').attr('src', 'images/mari/m100.jpg');
+    $('#fargevelger_alt3').attr('src', 'images/mari/m200.jpg');
+    $('#fargevelger_alt4').attr('src', 'images/mari/m001.jpg');
     break;
     case 'gul':
-    $('#fargevelger_alt1').attr('src', 'images/mari/m100-large.jpg');
+    $('#fargevelger_alt1').attr('src', 'images/mari/m100.jpg');
 
-    $('#fargevelger_alt2').attr('src', 'images/mari/m300-large.jpg');
-    $('#fargevelger_alt3').attr('src', 'images/mari/m001-large.jpg');
-    $('#fargevelger_alt4').attr('src', 'http://placehold.it/300x200/286D00/ffffff');
+    $('#fargevelger_alt2').attr('src', 'images/mari/m300.jpg');
+    $('#fargevelger_alt3').attr('src', 'images/mari/m001.jpg');
+    $('#fargevelger_alt4').attr('src', 'http://placehold.it/800x200/286D00/ffffff');
     break;
     }
     }
