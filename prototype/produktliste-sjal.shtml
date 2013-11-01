@@ -10,7 +10,6 @@
     <div class="columns small-9 large-8">
       <ul class="telespinncrumbs">
 	<li><a href="#">Hjem</a></li>
-	<li class="unavailable"><a href="#">Nettbutikk</a></li>
 	<li><a href="kategori-strikkepakker.shtml">Strikkepakker</a></li>
 	<li class="current hide-for-medium-up"><a href="#" >Sjal</a></li>
 	<li class="current hide-for-small"><a href="#">Sjal</a></li>
@@ -46,11 +45,11 @@
       <div class="row">
     <div class="large-12 small-12 columns show-for-small hide-for-medium-up" >
         <img src="images/sjal/sjal001.jpg" 
-        style="margin-bottom:20px;" width="100%"  />
+        style="margin-bottom:20px;" />
     </div>
     <div class="large-12 small-12 columns show-for-medium-up hide-for-small" >
         <img src="images/sjal/sjal001-large.jpg" 
-        style="margin-bottom:20px;" width="100%"  />
+        style="margin-bottom:20px;" />
     </div>
     
     </div>  
@@ -81,11 +80,11 @@
       <div class="row">
     <div class="large-12 small-12 columns show-for-small hide-for-medium-up" >
         <img src="images/sjal/sjal002.jpg" 
-        style="margin-bottom:20px;" width="100%"  />
+        style="margin-bottom:20px;" />
     </div>
     <div class="large-12 small-12 columns show-for-medium-up hide-for-small" >
         <img src="images/sjal/sjal002-large.jpg" 
-        style="margin-bottom:20px;" width="100%"  />
+        style="margin-bottom:20px;" />
     </div>
     </div>  
       <div class="row">
@@ -119,11 +118,11 @@
       <div class="row">
     <div class="large-12 small-12 columns show-for-small hide-for-medium-up" >
         <img src="images/sjal/sjal003.jpg" 
-        style="margin-bottom:20px;" width="100%"  />
+        style="margin-bottom:20px;" />
     </div>
     <div class="large-12 small-12 columns show-for-medium-up hide-for-small" >
         <img src="images/sjal/sjal003-large.jpg" 
-        style="margin-bottom:20px;" width="100%"  />
+        style="margin-bottom:20px;"  />
     </div>
     
     </div>  
@@ -154,11 +153,11 @@
       <div class="row">
     <div class="large-12 small-12 columns show-for-small hide-for-medium-up" >
         <img src="images/sjal/sjal004.jpg" 
-        style="margin-bottom:20px;" width="100%"  />
+        style="margin-bottom:20px;" />
     </div>
     <div class="large-12 small-12 columns show-for-medium-up hide-for-small" >
         <img src="images/sjal/sjal004-large.jpg" 
-        style="margin-bottom:20px;" width="100%"  />
+        style="margin-bottom:20px;"  />
     </div>
     </div>  
       <div class="row">

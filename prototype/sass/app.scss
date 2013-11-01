@@ -296,6 +296,10 @@ $topbar-divider-border-top: solid 1px darken($topbar-bg-color, 10%);
 
 }
 
+.menu-leftpad {
+    padding-left: em-calc(10);
+}
+
 /////////////////////////
 //BILDER jeg vil lage..//
 /////////////////////////
@@ -366,6 +370,7 @@ $topbar-divider-border-top: solid 1px darken($topbar-bg-color, 10%);
 
   background-color: #f2f2f2;
   margin: 0;
+  padding: 0 20px 0 0;
   border-color: #f2f2f2;
   color: #333;
   font-size: emCalc(11);
