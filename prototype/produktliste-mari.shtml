@@ -201,21 +201,21 @@
       </form>
       <ul class="small-block-grid-2">
     <!-- rød    -->
-    <li><h3>Mari m200</h3><img id="fargevelger_alt1"
-    src="images/mari/m200-large.jpg"></li>
+    <li><img id="fargevelger_alt1"
+    src="images/mari/m200.jpg"></li>
     <!-- blå    -->
-    <li><h3>Mari m300</h3><img id="fargevelger_alt2"
-    src="images/mari/m300-large.jpg"></li>
+    <li><img id="fargevelger_alt2"
+    src="images/mari/m300.jpg"></li>
     <!-- natur  -->
-    <li><h3>Mari m001</h3><img id="fargevelger_alt3"
-    src="images/mari/m001-large.jpg"></li>
+    <li><img id="fargevelger_alt3"
+    src="images/mari/m001.jpg"></li>
     <!-- gul    -->
-    <li><h3>Mari m100</h3><img id="fargevelger_alt4"
-    src="images/mari/m100-large.jpg"></li>
+    <li><img id="fargevelger_alt4"
+    src="images/mari/m100.jpg"></li>
 
       </ul>
       <div class="row">
-      <div class="small-12 large-12 columns"><a href="#" class="small button expand">Legg i handlekurven</a></div>
+      <div class="small-12 large-12 columns"><a href="#" class="small button expand">Legg i handlevognen</a></div>
       </div>
     </div>
   </section>
@@ -225,7 +225,7 @@
 <div class="content" data-section-content>
   <div class="row">
     <div class="large-12 columns"><a href="#" data-reveal-id="ikke-implementert" class="large button expand">Bestill fargekart/ vareprøve!</a></div>
-    <div class="large-4 columns"><img src="http://placehold.it/300x200"  style="margin-bottom:20px;" /></div>
+    <div class="large-4 columns"><img src="images/mari/fk.jpg"  style="margin-bottom:20px;" /></div>
     <div class="large-8 columns"><p>Dette fargekartet har garnprøver av alle fargene vi har i Mari-kvalitet i dag.</p>
       <p>Gratis når du handler hos oss!* Vi tar en symbolsk sum på kr. 25,- for utsendelse av fargekartet. Du får samtidig en rabattkode på tilsvarenede beløp som du kan bruke til å handle med senere.</p></div>
   </div>
