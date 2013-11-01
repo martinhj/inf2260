@@ -6,128 +6,118 @@
 
 
 <div class="section-container tabs" data-section="tabs" data-options="deep_linking: true">
+  
   <section>
-    <p class="title" data-section-title><a href="#garntyper">Garntyper </a></p>
+    <p class="title" data-section-title><a href="#garntyper">Garntyper</a></p>
+    
     <div class="content" data-slug="garntyper" data-section-content>
 
-<form action="#">
-  <a href="produktliste-mari.shtml">
-    <div class="row">
-    <div class="large-12 columns"><h2>Mari kidmohairgarn</h2></div>
-  </div>
-  <div class="row">
-    <div class="large-4 columns" ><img src="images/mari.jpg" style="margin-bottom:20px;" /></div>
-    <div class=" large-8 columns hide-for-small"><p>Mari er et spesielt mykt 2-tråds garn som er svært behagelig mot huden. Mari er oppkalt etter blomsten Søstermarihånd, en orkidéart det finnes spesielt mye av i Svartdal. Garnet er spunnet av mohair fra de to første klippene av geitekillingen, såkalt kidmohair. Mari egner seg meget bra til sjal, luer og baby/barnetøy. Mari gir ca. 170 meter per 50 gram, strikkepinner: 2 - 3,5. Vaskes på ullvask 30 grader. Strikkefasthet ca. 25m per 10cm på pinne nr.3. Mari består av 80% kidmohair og 20% merinoull.</p>
-     
-    </div>
-  </div>
-  </a>  
-</form>
 
-<form action="#">
-  <a href="#" data-reveal-id="ikke-implementert">
-  <div class="row">
-    <div class="large-12 columns"><h2>Fivrel ett-trådsgarn</h2></div>
-  </div>
-  <div class="row">
-    <div class="large-4 columns" ><img src="images/frivel.jpg" style="margin-bottom:20px;" /></div>
-    <div class="large-8 columns hide-for-small"><p>Fivrel er et fint ett-tråds garn i kidkvalitet. Fivrel har navnet sitt etter sommerfugl på nynorsk - Fivrel. Det er spesielt mange sjeldne sommerfuglarter i kulturlandskapet i Svartdal. Fivrel har samme ullblanding som Mari, og er derfor svært mykt. Dette garnet egner seg blant annet til sjal og skjerf. Fivrel består av 80% kidmohair og 20% merinoull.</p>
-     
-    </div>
+      <a href="produktliste-mari.shtml">
+        <div class="row">
+          <div class="large-12 columns"><h2>Mari kidmohairgarn</h2></div>
+        </div>
+        <div class="row">
+          <div class="large-4 columns" ><img alt="-" src="images/mari.jpg" style="margin-bottom:20px;"></div>
+          <div class=" large-8 columns hide-for-small">
+            <p>Mari er et spesielt mykt 2-tråds garn som er svært behagelig mot huden. Mari er oppkalt etter blomsten Søstermarihånd, en orkidéart det finnes spesielt mye av i Svartdal. Garnet er spunnet av mohair fra de to første klippene av geitekillingen, såkalt kidmohair. Mari egner seg meget bra til sjal, luer og baby/barnetøy. Mari gir ca. 170 meter per 50 gram, strikkepinner: 2 - 3,5. Vaskes på ullvask 30 grader. Strikkefasthet ca. 25m per 10cm på pinne nr.3. Mari består av 80% kidmohair og 20% merinoull.</p>
+          </div>
+        </div>
+      </a>  
+
+
+      <a href="#" data-reveal-id="ikke-implementert">
+        <div class="row">
+          <div class="large-12 columns"><h2>Fivrel ett-trådsgarn</h2></div>
+        </div>
+        <div class="row">
+          <div class="large-4 columns" ><img alt="-" src="images/frivel.jpg" style="margin-bottom:20px;" /></div>
+          <div class="large-8 columns hide-for-small">
+            <p>Fivrel er et fint ett-tråds garn i kidkvalitet. Fivrel har navnet sitt etter sommerfugl på nynorsk - Fivrel. Det er spesielt mange sjeldne sommerfuglarter i kulturlandskapet i Svartdal. Fivrel har samme ullblanding som Mari, og er derfor svært mykt. Dette garnet egner seg blant annet til sjal og skjerf. Fivrel består av 80% kidmohair og 20% merinoull.</p>
+          </div>
+        </div> 
+      </a> 
+
+      <a href="#" data-reveal-id="ikke-implementert">
+        <div class="row">
+          <div class="large-12 columns"><h2>Symre strikkegarn</h2></div>
+        </div>
+        <div class="row">
+          <div class="large-4 columns" ><img alt="-" src="images/symre.jpg" style="margin-bottom:20px;" /></div>
+          <div class=" large-8 columns hide-for-small">
+            <p>Symre strikkegarn er et tynt totråds garn som er svært blankt og mykt. Symre har navnet sitt etter blomsterfamilien med navnet Symre som det finnes flere sorter av i kulturlandskapet i Svartdal. Symre passer godt til de fleste strikkeprodukter, som gensere, jakker, luer og også barnetøy. Symre gir ca. 300 meter per 100 gram, strikkepinner 2,5 - 4. Vaskes på ullvask 30 grader. Strikkefasthet ca. 22m per 10cm på pinne nr.3,5. Symre består av 80% mohair fra norske unggeiter og 20% norsk lammeull.</p> 
+          </div>
+        </div>  
+      </a>
+
+      <a href="#" data-reveal-id="ikke-implementert">
+        <div class="row">
+          <div class="large-12 columns"><h2>Pan sportsgarn</h2></div>
+        </div>
+        <div class="row">
+          <div class="large-4 columns" ><img alt="-" src="images/pan.jpg" style="margin-bottom:20px;" /></div>
+          <div class=" large-8 columns hide-for-small">
+            <p>Pan sportsgarn er et kraftig tretråds garn som er meget slitesterkt, blankt og forholdsvis mykt. Pan er oppkalt etter skogsguden Pan, som var halvt geitebukk og halvt menneske. Garnet er spunnet av mohair fra voksne geiter og geitebukker. Det egner seg godt til gensere, sokker, votter og luer. Pan gir ca. 170 meter per 100 gram. Strikkepinner 3,5-5. Vaskes på ullvask 30 grader. Strikkefasthet ca. 21m per 10cm på pinne nr.3,5. Pan består av 70% norsk bukkemohair og 30% norsk saueull.</p>  
+          </div>
+        </div>  
+      </a>
+
+      <a href="#" data-reveal-id="ikke-implementert">
+        <div class="row">
+          <div class="large-12 columns"><h2>Ryegarn</h2></div>
+        </div>
+        <div class="row">
+          <div class="large-4 columns" ><img alt="-" src="images/rye.jpg" style="margin-bottom:20px;" /></div>
+          <div class=" large-8 columns hide-for-small">
+            <p>Ryegarnet vi lager er helt unikt. Av dette spesielt tykke garnet kan du veve tepper som er svært behagelige å gå på. Du kan også strikke eller fingerhekle med dette garnet. Ryegarnet er like naturlig og miljøvennlig som våre andre garn, og selvsagt 100% lokalt produsert. Ryegarnet blir laget av en blanding av mohair og spælsau. Her bruker vi spesielt kraftig fiber, noe som gjør ryegarnet spesielt slitesterkt, samtidig som dette forsatt er mykt og behagelig garn. Ryegarnet selges i hele bunter, og koster 495,- per kilo. Det er ingen bunter som er helt like hverken i farge eller størrelse. Vi spinner også ryegarn på bestilling.</p>   
+          </div>
+        </div> 
+      </a> 
+
+      <a href="#" data-reveal-id="ikke-implementert">
+        <div class="row">
+          <div class="large-12 columns"><h2>Bouclégarn</h2></div>
+        </div>
+        <div class="row">
+          <div class="large-4 columns" ><img alt="-" src="images/boucle.jpg" style="margin-bottom:20px;" /></div>
+          <div class=" large-8 columns hide-for-small">
+            <p>Bouclégarnet er det eneste garnet vi ikke spinner selv da vi ikke har utstyr til å spinne garn med løkker slik bouclégarnet har. Dette garnet er spunnet i Sør-Afrika, hvor det er spesielt mye mohairgeiter. Bouclégarnet er fint til sjal, gensere, luer og andre tekstiler som skal være ekstra lodne. Vaskes på ullvask 30 grader. Bouclégarnet består av 78% mohair, 13% merino og 9% nylon.</p>
+          </div>
+        </div> 
+      </a> 
+
+      <a href="#" data-reveal-id="ikke-implementert">
+        <div class="row">
+          <div class="large-12 columns"><h2>Økologisk bomullsgarn</h2></div>
+        </div>
+        <div class="row">
+          <div class="large-4 columns" ><img alt="-" src="http://placehold.it/700x500/cccccc/ffffff" style="margin-bottom:20px;" /></div>
+          <div class=" large-8 columns hide-for-small">
+          <p>Vi har valgt å ta inn dette økologiske bomullsgarnet. Mens tradisjonell bomullsproduksjon kan være tildels svært skadelig for miljøet, er det motsatte tilfelle her. Bomullen blir økologisk produsert av lokale indianerfamilier i Peru, og arealet som brukes til bomullsproduksjonen ble tidligere brukt til å dyrke coca. Dette garnet er heller ikke farget, og leveres i fire forskjellige farger som er bomullens naturlige farge. Dette Pakuchogarnet er dermed blant det mest bærekraftige bomullsgarnet du får tak i, og det er derfor både Fairtrade- og økologisk sertifisert.</p>
+          </div>
+        </div>
+      </a>  
+
   </div> 
-  </a> 
-</form>
-
-<form action="#">
-  <a href="#" data-reveal-id="ikke-implementert">
-  <div class="row">
-    <div class="large-12 columns"><h2>Symre strikkegarn</h2></div>
-  </div>
-  <div class="row">
-    <div class="large-4 columns" ><img src="images/symre.jpg" style="margin-bottom:20px;" /></div>
-    <div class=" large-8 columns hide-for-small"><p>Symre strikkegarn er et tynt totråds garn som er svært blankt og mykt. Symre har navnet sitt etter blomsterfamilien med navnet Symre som det finnes flere sorter av i kulturlandskapet i Svartdal. Symre passer godt til de fleste strikkeprodukter, som gensere, jakker, luer og også barnetøy. Symre gir ca. 300 meter per 100 gram, strikkepinner 2,5 - 4. Vaskes på ullvask 30 grader. Strikkefasthet ca. 22m per 10cm på pinne nr.3,5. Symre består av 80% mohair fra norske unggeiter og 20% norsk lammeull.</p>
-     
-    </div>
-  </div>  
-</a>
-</form>
-
-<form action="#">
-  <a href="#" data-reveal-id="ikke-implementert">
-  <div class="row">
-    <div class="large-12 columns"><h2>Pan sportsgarn</h2></div>
-  </div>
-  <div class="row">
-    <div class="large-4 columns" ><img src="images/pan.jpg" style="margin-bottom:20px;" /></div>
-    <div class=" large-8 columns hide-for-small"><p>Pan sportsgarn er et kraftig tretråds garn som er meget slitesterkt, blankt og forholdsvis mykt. Pan er oppkalt etter skogsguden Pan, som var halvt geitebukk og halvt menneske. Garnet er spunnet av mohair fra voksne geiter og geitebukker. Det egner seg godt til gensere, sokker, votter og luer. Pan gir ca. 170 meter per 100 gram. Strikkepinner 3,5-5. Vaskes på ullvask 30 grader. Strikkefasthet ca. 21m per 10cm på pinne nr.3,5. Pan består av 70% norsk bukkemohair og 30% norsk saueull.</p>
-     
-    </div>
-  </div>  
-</a>
-</form>
-
-<form action="#">
-  <a href="#" data-reveal-id="ikke-implementert">
-  <div class="row">
-    <div class="large-12 columns"><h2>Ryegarn</h2></div>
-  </div>
-  <div class="row">
-    <div class="large-4 columns" ><img src="images/rye.jpg" style="margin-bottom:20px;" /></div>
-    <div class=" large-8 columns hide-for-small"><p>Ryegarnet vi lager er helt unikt. Av dette spesielt tykke garnet kan du veve tepper som er svært behagelige å gå på. Du kan også strikke eller fingerhekle med dette garnet. Ryegarnet er like naturlig og miljøvennlig som våre andre garn, og selvsagt 100% lokalt produsert. Ryegarnet blir laget av en blanding av mohair og spælsau. Her bruker vi spesielt kraftig fiber, noe som gjør ryegarnet spesielt slitesterkt, samtidig som dette forsatt er mykt og behagelig garn. Ryegarnet selges i hele bunter, og koster 495,- per kilo. Det er ingen bunter som er helt like hverken i farge eller størrelse. Vi spinner også ryegarn på bestilling.</p>
-     
-    </div>
-  </div> 
-  </a> 
-</form>
-
-<form action="#">
-  <a href="#" data-reveal-id="ikke-implementert">
-  <div class="row">
-    <div class="large-12 columns"><h2>Bouclégarn</h2></div>
-  </div>
-  <div class="row">
-    <div class="large-4 columns" ><img src="images/boucle.jpg" style="margin-bottom:20px;" /></div>
-    <div class=" large-8 columns hide-for-small"><p>Bouclégarnet er det eneste garnet vi ikke spinner selv da vi ikke har utstyr til å spinne garn med løkker slik bouclégarnet har. Dette garnet er spunnet i Sør-Afrika, hvor det er spesielt mye mohairgeiter. Bouclégarnet er fint til sjal, gensere, luer og andre tekstiler som skal være ekstra lodne. Vaskes på ullvask 30 grader. Bouclégarnet består av 78% mohair, 13% merino og 9% nylon.</p>
-     
-    </div>
-  </div> 
- </a> 
-</form>
-
-<form action="#">
-  <a href="#" data-reveal-id="ikke-implementert">
-  <div class="row">
-    <div class="large-12 columns"><h2>Økologisk bomullsgarn</h2></div>
-  </div>
-  <div class="row">
-    <div class="large-4 columns" ><img src="http://placehold.it/700x500/cccccc/ffffff" style="margin-bottom:20px;" /></div>
-    <div class=" large-8 columns hide-for-small"><p>Vi har valgt å ta inn dette økologiske bomullsgarnet. Mens tradisjonell bomullsproduksjon kan være tildels svært skadelig for miljøet, er det motsatte tilfelle her. Bomullen blir økologisk produsert av lokale indianerfamilier i Peru, og arealet som brukes til bomullsproduksjonen ble tidligere brukt til å dyrke coca. Dette garnet er heller ikke farget, og leveres i fire forskjellige farger som er bomullens naturlige farge. Dette Pakuchogarnet er dermed blant det mest bærekraftige bomullsgarnet du får tak i, og det er derfor både Fairtrade- og økologisk sertifisert.</p>
-     
-    </div>
-  </div>
-  </a>  
-</form>
-
-</div> 
-  </section>
+</section>
 
 <!-- start tab hva vil du lage -->
   <section>
     <p class="title" data-section-title><a href="#jeg-vil-lage">Jeg vil <br>lage..</a></p>
     <div class="content" data-slug="jeg-vil-lage" data-section-content>
           <div id="center" class="row display">
-          <a href="kategori-jeg-vil-lage-genser.shtml" ><div class="small-6 large-4 columns"><h2>Genser</h2><br><img src="images/genser.gif"></div></a>
+          <a href="kategori-jeg-vil-lage-genser.shtml" ><div class="small-6 large-4 columns"><h2>Genser</h2><br><img alt="-" src="images/genser.gif"></div></a>
 
-          <a href="#"  data-reveal-id="ikke-implementert"><div class="small-6 large-4 columns"><h2>Sjal og skjerf</h2><br><img src="images/skjerf.gif"></div></a>
+          <a href="#"  data-reveal-id="ikke-implementert"><div class="small-6 large-4 columns"><h2>Sjal og skjerf</h2><br><img alt="-" src="images/skjerf.gif"></div></a>
           
-          <a href="#" data-reveal-id="ikke-implementert"><div class="small-6 large-4 columns"><h2>Lue</h2><br><img src="images/lue.gif"></div></a>
+          <a href="#" data-reveal-id="ikke-implementert"><div class="small-6 large-4 columns"><h2>Lue</h2><br><img alt="-" src="images/lue.gif"></div></a>
         
 
-          <a href="#" data-reveal-id="ikke-implementert"><div class="small-6 large-4 columns"><h2>Votter</h2><br><img src="images/votter.jpg"></div></a>
+          <a href="#" data-reveal-id="ikke-implementert"><div class="small-6 large-4 columns"><h2>Votter</h2><br><img alt="-" src="images/votter.jpg"></div></a>
           
-          <a href="#" data-reveal-id="ikke-implementert"><div class="small-6 large-4 columns"><h2>Rye</h2><br><img src="images/fillerye.jpg"></div></a>
+          <a href="#" data-reveal-id="ikke-implementert"><div class="small-6 large-4 columns"><h2>Rye</h2><br><img alt="-" src="images/fillerye.jpg"></div></a>
           
-          <a href="#" data-reveal-id="ikke-implementert"><div class="small-6 large-4 columns"><h2>Barneklær</h2><br><img src="images/sparkebukse.jpg"></div></a>
+          <a href="#" data-reveal-id="ikke-implementert"><div class="small-6 large-4 columns"><h2>Barneklær</h2><br><img alt="-" src="images/sparkebukse.jpg"></div></a>
         </div>
 
     </div>
@@ -138,7 +128,7 @@
 <section>
 	<p class="title" data-section-title><a href="#inspirasjon">Inspirasjon</a></p>
 	<div class="content" data-slug="inspirasjon" data-section-content>
-  <h1 hide-for.small># inspirasjon</h1>
+  <h1># inspirasjon</h1>
 	<div class="space-under"> La deg inspirere av andres kreasjoner! Trykker du på bildene så kommer du til garnet som er brukt.	</div>
   <div class="small-12 large-12 panel-custom">Bildene kommer fra <a href="http://instagram.com/" target="blank"> instagram</a>. Tag dine bilder med: <br class="show-for-medium-up"><strong>#telespinn</strong> óg <strong>#mari #fivrel #symre #pan #rye #boulce</strong> <em>eller</em> <strong>#økobomull</strong>, så får du vist frem det du har strikket. Bli inspirert og inspireer! <i class="gen-enclosed foundicon-heart "> </i><i class="gen-enclosed foundicon-smiley" ></i></div>
 
@@ -146,7 +136,7 @@
     
     
     <div class="small-6 large-4 columns space-under">
-      <a href="#" data-reveal-id="ikke-implementert"><div><img src="images/instagram/skappel.jpg">
+      <a href="#" data-reveal-id="ikke-implementert"><div><img alt="-" src="images/instagram/skappel.jpg">
         <div class="instagram-caption-small show-for-small">#skappelgenser #pan</div>
         <div class="instagram-caption-large hide-for-small">#skappelgenser #pan</div>
       </div>
@@ -154,7 +144,7 @@
     </div>
 
     <div class="small-6 large-4 columns space-under">
-      <a href="produktliste-mari.shtml"><div><img src="images/instagram/sokker-handmalt.jpg">
+      <a href="produktliste-mari.shtml"><div><img alt="-" src="images/instagram/sokker-handmalt.jpg">
         <div class="instagram-caption-small show-for-small">#håndmalt #mari</div>
         <div class="instagram-caption-large hide-for-small">#håndmalt #mari</div>
              
@@ -163,82 +153,82 @@
     </div>
 
     <div class="small-6 large-4 columns space-under">
-       <a href="produktliste-mari.shtml"><div><img src="images/instagram/in-progress.jpg">
+       <a href="produktliste-mari.shtml"><div><img alt="-" src="images/instagram/in-progress.jpg">
         <div class="instagram-caption-small show-for-small">#mari #ull</div>
         <div class="instagram-caption-large hide-for-small">#mari #ull</div>  
       </div></a>
     </div>
 
     <div class="small-6 large-4 columns space-under">
-       <a href="produktliste-mari.shtml"><div><img src="images/instagram/sjal.jpg">
+       <a href="produktliste-mari.shtml"><div><img alt="-" src="images/instagram/sjal.jpg">
         <div class="instagram-caption-small show-for-small">#mohair #mari</div>
         <div class="instagram-caption-large hide-for-small">#mohair #mari</div>
       </div></a>
     </div>
 
     <div class="small-6 large-4 columns space-under">
-      <a href="#" data-reveal-id="ikke-implementert"><div><img src="images/instagram/knapper.jpg">
+      <a href="#" data-reveal-id="ikke-implementert"><div><img alt="-" src="images/instagram/knapper.jpg">
         <div class="instagram-caption-small show-for-small">#symre #gjenbruksknapper</div>
         <div class="instagram-caption-large hide-for-small">#symre #gjenbruksknapper</div>    
       </div></a>
     </div>
 
     <div class="small-6 large-4 columns space-under">
-       <a href="produktliste-mari.shtml"><div><img src="images/instagram/luer.jpg">
+       <a href="produktliste-mari.shtml"><div><img alt="-" src="images/instagram/luer.jpg">
         <div class="instagram-caption-small show-for-small">#mari #ull</div>
         <div class="instagram-caption-large hide-for-small">#mari #ull</div>     
       </div></a>
     </div>
 
-
+    <a href="kategori-garn.shtml#garntyper">herheher</a>
 	</div>
 
   <div class="row hide-for-small">
     
     
     <div class="small-6 large-4 columns space-under">
-      <a href="#" data-reveal-id="ikke-implementert"><div><img src="images/instagram/rosa-orange-luer.jpg">
+      <a href="#" data-reveal-id="ikke-implementert"><div><img alt="-" src="images/instagram/rosa-orange-luer.jpg">
         <div class="instagram-caption-large hide-for-small">#økologisk #mohair #pan </div>
       </div>
       </a>
     </div>
 
     <div class="small-6 large-4 columns space-under">
-      <a href="#" data-reveal-id="ikke-implementert"><div><img src="images/instagram/lilla-symre.jpg">
+      <a href="#" data-reveal-id="ikke-implementert"><div><img alt="-" src="images/instagram/lilla-symre.jpg">
         <div class="instagram-caption-large hide-for-small"> #symre #strikking</div>       
       </div>
       </a>
     </div>
 
     <div class="small-6 large-4 columns space-under">
-      <a href="produktliste-mari.shtml"><div><img src="images/instagram/votter.jpg">
+      <a href="produktliste-mari.shtml"><div><img alt="-" src="images/instagram/votter.jpg">
         <div class="instagram-caption-large hide-for-small">#mohair #Mari </div>   
       </div>
       </a>
     </div>
 
     <div class="small-6 large-4 columns space-under">
-      <a href="produktliste-mari.shtml"><div><img src="images/instagram/garn.jpg">
+      <a href="kategori-garn.shtml"><div><img alt="-" src="images/instagram/garn.jpg">
         <div class="instagram-caption-large hide-for-small">#garn </div>    
       </div>
       </a>
     </div>
 
     <div class="small-6 large-4 columns space-under">
-      <a href="#" data-reveal-id="ikke-implementert"><div><img src="images/instagram/geit.jpg">
+      <a href="#" data-reveal-id="ikke-implementert"><div><img alt="-" src="images/instagram/geit.jpg">
         <div class="instagram-caption-large hide-for-small">#geit #mohair </div>
       </div>
       </a>
     </div>
 
     <div class="small-6 large-4 columns space-under">
-      <a href="#" data-reveal-id="ikke-implementert"><div><img src="images/instagram/orange-cardigan.jpg">
+      <a href="#" data-reveal-id="ikke-implementert"><div><img alt="-" src="images/instagram/orange-cardigan.jpg">
         <div class="instagram-caption-large hide-for-small">#mohairgarnet #Symre </div>
       </div>
       </a>
     </div>
 
-
+    </div>
   </div>
 
 
@@ -268,7 +258,7 @@
 <!-- slutt tab inspirasjon -->
 
 <!-- start tab teknikk -->
-<section class="title" "show-for-large">
+<section>
 	<p class="title" data-section-title><a href="#teknikk"><span class="show-for-small">Tek-<br>nikk</span><span class="show-for-medium-up">Teknikk</span></a></p>
 	<div class="content" data-slug="teknikk" data-section-content>
 <p>Finn passende garn ved å velge ønsket teknikk/ garnkvalitet:</p>
@@ -308,7 +298,7 @@
     <div class="large-2 columns"> <a href="#" class="button expand">Finn garn!</a></div>
 </div>
 </form>
-	</div>
+</div>
 </section>
 <!-- slutt tab teknikk -->
 

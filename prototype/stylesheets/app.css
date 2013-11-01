@@ -8954,3 +8954,8 @@ strong {
 .smuleknapp:before {
   border-color: #666666 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
 }
+
+/* line 412, ../sass/app.scss */
+ul {
+  list-style-type: none;
+}
