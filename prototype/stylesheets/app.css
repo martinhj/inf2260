@@ -7597,8 +7597,8 @@ footer {
     font-weight: bold;
     margin: 0;
     position: absolute;
-    right: 90px;
-    top: 7px;
+    right: 44px;
+    top: 8px;
   }
 
   /* line 166, ../sass/app.scss */
@@ -8768,4 +8768,9 @@ footer {
 /* line 339, ../sass/app.scss */
 .menu-indent {
   text-indent: 0.625em;
+}
+
+/* line 343, ../sass/app.scss */
+.line-through {
+  text-decoration: line-through;
 }

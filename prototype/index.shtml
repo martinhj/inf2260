@@ -1,13 +1,20 @@
 <!--#include virtual="snippets/head.html" --> 
+<!--#include virtual="snippets/sidetopp.html" --> 
+
 <body>
-<div id="container">
 
-<div>
 
-<!--#include virtual="snippets/forsider.html" -->
 
-</div>
 
+
+<div id="container" style="padding-top: 2%;padding-bottom: 2%;">
+<div class="row">
+
+<div class="large-1 small-1 columns"></div>
+
+<div class="large-11 small-11 columns">
+<a href="index1.shtml"  class=" button success radius small-10 large-5"> til forside 1</a>
+<a href="index2.shtml"  class=" button radius small-10 large-5">til forside 2</a>
 <h3>To do</h3>
 <ul>
 <li>tobias: meny logo og tekst -> (logo m tekst - uten tekst på meny)</li>
@@ -17,8 +24,8 @@
 <li>tobias (venter litt): breadcrumbs på alle sider m lenke til 'introtekst'</li>
 <li>den det måtte gjelde: handlekurv -> handlevogn</li>
 <li>den det måtte gjelde: hva vil du lage -> jeg vil lage</li>
-<li>petter: kategori-hvavildulage.shtml -> kategori-jeg-vil-lage-genser.shtml</li>
-<li>petter: link 'garntyper.shtml#jeg-vil-lage' (genser & sjal) -> kategori-jeg-vil-lage-genser.shtml</li>
+<li class="line-through">petter: kategori-hvavildulage.shtml -> kategori-jeg-vil-lage-genser.shtml</li>
+<li class="line-through">petter: link 'garntyper.shtml#jeg-vil-lage' (genser & sjal) -> kategori-jeg-vil-lage-genser.shtml</li>
 <li>petter: fikse inspirasjonside info om hvordan tagge / relevante tags / tangs under bilde på mobil / link til relevante produkter + overlay (både garnkategori)(petter)</li>
 <li>martin: bilder på produktliste-mari.shtml(fargevelger & vareprøver)</li>
 <li>martin: gjennomgående punktoppsett på mari-produktbeskrivelser</li>
@@ -28,9 +35,9 @@
 <li>petter: checkout form - fikse så android enter funker som tab (input type?)</li>
 <li>petter: checkout form redesign</li>
 <li>tobias: luft over tabs (fikses med breadcrumbs? sjekk dette)</li>
-<li>petter: footerfeil indelx2</li>
+<li><span class="line-through">petter: footerfeil index2</span> KUNNE IKKE FINNE IGJEN DENNE FEILEN!!</li>
 <li>petter: index2 -> garn, strikkepakke, strikkekurs</li>
-<li>martin: index1 -> fikse orbit</li>
+<li>martin: index1 -> fikse på orbit</li>
 
 <li>gjennomgang av element styling - consistensy! TIL SLUTT</li>
 
@@ -42,7 +49,7 @@
 </ul>
 
 
-<h3>Tester - metode(mobile first)</h3>
+<h3>Tester - metode(mobile-first)</h3>
 <ul>
 <li>Eksprertest (utvikler og interaksjonsdesigner, CGI)</li>
 <li>Kvantitativ kjøpeoppgave-test m flere brukere (studenter)</li>
@@ -56,5 +63,6 @@
 </ul>
 
 </div>
-
+</div>
+</div>
 <!--#include virtual="snippets/sidebunn.html" --> 
