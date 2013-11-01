@@ -3,23 +3,25 @@
 <!--#include virtual="snippets/sidetopp.html" --> 
 <!--#include virtual="snippets/menu1.html" --> 
 
-
 <!-- start breadcrumbs -->
-<ul class="breadcrumbs">
-  <li><a href="#">Hjem</a></li>
-  <li class="unavailable"><a href="#">Nettbutikk</a></li>
-  <li class="hide-for-medium-up"><a href="#" style ="margin:0px" class="tiny secondary button" data-dropdown="drop1">Strikkepakker</a></li>
-  <li class="current hide-for-small"><a href="#">Strikkepakker</a></li>
-</ul>
+<div class="panel">
+      <ul class="telespinncrumbs">
+	<li><a href="index.shtml">Hjem</a></li>
+	<li class="current hide-for-small"><a href="#">Strikkepakker</a></li>
+	<li class="hide-for-medium-up"><a href="#" class="smuleknapp" data-dropdown="drop2">Strikkepakker</a></li>
+      </ul>
+</div>
 <!-- slutt breadcrumbs -->
 
 <!-- start drop breadcrumbs -->
-<div id="drop1" class="f-dropdown content hide-for-medium-up" data-dropdown-content>
+<div id="drop2" class="f-dropdown content hide-for-medium-up" data-dropdown-content>
+  <h4 class ="subheader">Strikkepakker</h4> 
   <p>Våre strikkepakker er en enkel måte å komme i gang med å strikke selv. De fleste pakkene inneholder også strikkepinner, slik at du har alt du trenger for å strikke selv: mønster, garn og strikkepinner. På mange av pakkene kan du selv velge farge på garnet som er med i strikkepakken.</p>
 </div>
 <div class=" row hide-for-small">
   <div class= "columns large-12">
-    <p>Våre strikkepakker er en enkel måte å komme i gang med å strikke selv. De fleste pakkene inneholder også strikkepinner, slik at du har alt du trenger for å strikke selv: mønster, garn og strikkepinner. På mange av pakkene kan du selv velge farge på garnet som er med i strikkepakken.</p>
+  <h4 class ="subheader">Strikkepakker</h4>
+  <p>Våre strikkepakker er en enkel måte å komme i gang med å strikke selv. De fleste pakkene inneholder også strikkepinner, slik at du har alt du trenger for å strikke selv: mønster, garn og strikkepinner. På mange av pakkene kan du selv velge farge på garnet som er med i strikkepakken.</p>
   </div>
 </div>
 <!-- slutt drop breadcrumbs -->

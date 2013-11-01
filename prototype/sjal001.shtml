@@ -4,14 +4,16 @@
 <!--#include virtual="snippets/menu1.html" --> 
 
 <!-- start breadcrumbs -->
-<ul class="breadcrumbs">
-  <li><a href="#">Hjem</a></li>
-  <li class="unavailable"><a href="#">Nettbutikk</a></li>
-  <li><a href="kategori-strikkepakker.shtml">Strikkepakker</a></li>
-  <li><a href="produktliste-sjal.shtml">Sjal og skjerf</a></li>
-</ul>
+<div class="panel">
+      <ul class="telespinncrumbs">
+	<li><a href="index.shtml">Hjem</a></li>
+	<li><a href="kategori-strikkepakker.shtml">Strikkepakker</a></li>
+	<li><a href="produktliste-sjal.shtml">Sjal og skjerf</a></li>
+	<li class="current"><a href="#">Sjal nr.1</a></li>
+      </ul>
+</div>
 <!-- slutt breadcrumbs -->
-  
+
 <div class="row">
   <!-- Overskrift -->
   <div class="small-12 large-12 columns"><h2 id = "navn"></h2></div>

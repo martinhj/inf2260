@@ -3,10 +3,6 @@
 
 <body>
 
-
-
-
-
 <div id="container" style="padding-top: 2%;padding-bottom: 2%;">
 <div class="row">
 
@@ -34,7 +30,7 @@
 <li>martin: handlekurv fiksing og testing</li>
 <li>petter: checkout form - fikse så android enter funker som tab (input type?)</li>
 <li>petter: checkout form redesign</li>
-<li>tobias: luft over tabs (fikses med breadcrumbs? sjekk dette)</li>
+<li class="line-through">tobias: luft over tabs (fikses med breadcrumbs? sjekk dette)</li>
 <li><span class="line-through">petter: footerfeil index2</span> KUNNE IKKE FINNE IGJEN DENNE FEILEN!!</li>
 <li>petter: index2 -> garn, strikkepakke, strikkekurs</li>
 <li>martin: index1 -> fikse på orbit</li>

@@ -10,20 +10,22 @@
 	<li><a href="index.shtml">Hjem</a></li>
 	<li><a href="kategori-strikkepakker.shtml">Strikkepakker</a></li>
 	<li class="current hide-for-small"><a href="#">Sjal</a></li>
-	<li class="hide-for-medium-up"><a href="#" class="smuleknapp" data-dropdown="drop2">Våre sjal</a></li>
+	<li class="hide-for-medium-up"><a href="#" class="smuleknapp" data-dropdown="drop2">Sjal og skjerf</a></li>
       </ul>
 </div>
 <!-- slutt breadcrumbs -->
 
 <!-- start drop breadcrumbs -->
 <div id="drop2" class="f-dropdown content hide-for-medium-up" data-dropdown-content>
+  <h4 class ="subheader">Strikkepakker - Sjal og skjerv</h4>
+  <p>Vi har sjal og skjerf i svært mange forskjellige varianter. Vi har varme sjal for å holde varmen i den kalde årstiden, og lette og luftige sjal som du kan bruke hele året.</p> 
   <p>Våre strikkepakker er en enkel måte å komme i gang med å strikke selv. De fleste pakkene inneholder også strikkepinner, slik at du har alt du trenger for å strikke selv: mønster, garn og strikkepinner. På mange av pakkene kan du selv velge farge på garnet som er med i strikkepakken.</p>
-<p>Vi har sjal og skjerf i svært mange forskjellige varianter. Vi har varme sjal for å holde varmen i den kalde årstiden, og lette og luftige sjal som du kan bruke hele året.</p> 
 </div>
 <div class=" row hide-for-small">
   <div class= "columns large-12">
-    <p>Våre strikkepakker er en enkel måte å komme i gang med å strikke selv. De fleste pakkene inneholder også strikkepinner, slik at du har alt du trenger for å strikke selv: mønster, garn og strikkepinner. På mange av pakkene kan du selv velge farge på garnet som er med i strikkepakken.</p>
-<p>Vi har sjal og skjerf i svært mange forskjellige varianter. Vi har varme sjal for å holde varmen i den kalde årstiden, og lette og luftige sjal som du kan bruke hele året.</p> 
+  <h4 class ="subheader">Strikkepakker - Sjal og skjerv</h4>
+  <p>Vi har sjal og skjerf i svært mange forskjellige varianter. Vi har varme sjal for å holde varmen i den kalde årstiden, og lette og luftige sjal som du kan bruke hele året.</p> 
+  <p>Våre strikkepakker er en enkel måte å komme i gang med å strikke selv. De fleste pakkene inneholder også strikkepinner, slik at du har alt du trenger for å strikke selv: mønster, garn og strikkepinner. På mange av pakkene kan du selv velge farge på garnet som er med i strikkepakken.</p>
   </div>
 </div>
 <!-- slutt drop breadcrumbs -->
