@@ -342,7 +342,7 @@ $topbar-divider-border-top: solid 1px darken($topbar-bg-color, 10%);
 
 .instagram-caption-large {
   position: absolute;
-  bottom: 0;
+  bottom: -1px;
   background-color: rgba(255, 255, 255, 0.85);
   color: black;
   width: 100%;
@@ -398,7 +398,7 @@ strong {
   border-color: #f2f2f2;
   color: #333 !important;
   text-transform: uppercase;
-  font-weight: normal;
+  font-weight: 300;
 }
 
 .smuleknapp:hover, .smuleknapp:focus {

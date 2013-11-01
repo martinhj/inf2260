@@ -139,45 +139,55 @@
 	<p class="title" data-section-title><a href="#inspirasjon">Inspirasjon</a></p>
 	<div class="content" data-slug="inspirasjon" data-section-content>
   <h1 hide-for.small># inspirasjon</h1>
-	<p>La deg inspirere av andres kreasjoner! Trykk på bildene for å komme til garnet som er brukt. </p>	
+	<div class="space-under"> La deg inspirere av andres kreasjoner! Trykker du på bildene så kommer du til garnet som er brukt.	</div>
+  <div class="small-12 large-12 panel-custom">Bildene kommer fra <a href="http://instagram.com/" target="blank"> instagram</a>. Tag dine bilder med: <br class="show-for-medium-up"><strong>#telespinn</strong> óg <strong>#mari #fivrel #symre #pan #rye #boulce</strong> <em>eller</em> <strong>#økobomull</strong>, så får du vist frem det du har strikket. Bli inspirert og inspireer! <i class="gen-enclosed foundicon-heart "> </i><i class="gen-enclosed foundicon-smiley" ></i></div>
 
   <div class="row">
     
     
     <div class="small-6 large-4 columns space-under">
       <a href="#" data-reveal-id="ikke-implementert"><div><img src="images/instagram/skappel.jpg">
-        <div class="instagram-caption ">#skappelgenser #mohair #pan </div>
+        <div class="instagram-caption-small show-for-small">#skappelgenser #pan</div>
+        <div class="instagram-caption-large hide-for-small">#skappelgenser #pan</div>
+      </div>
+       </a>
+    </div>
+
+    <div class="small-6 large-4 columns space-under">
+      <a href="produktliste-mari.shtml"><div><img src="images/instagram/sokker-handmalt.jpg">
+        <div class="instagram-caption-small show-for-small">#håndmalt #mari</div>
+        <div class="instagram-caption-large hide-for-small">#håndmalt #mari</div>
+             
+      </div></a>
+
+    </div>
+
+    <div class="small-6 large-4 columns space-under">
+       <a href="produktliste-mari.shtml"><div><img src="images/instagram/in-progress.jpg">
+        <div class="instagram-caption-small show-for-small">#mari #ull</div>
+        <div class="instagram-caption-large hide-for-small">#mari #ull</div>  
       </div></a>
     </div>
 
     <div class="small-6 large-4 columns space-under">
-      <div><img src="images/instagram/sokker-handmalt.jpg">
-        <div class="instagram-caption hide-for-small">#håndmalt #mari #telespinn</div>    
-      </div>
-
-    </div>
-    <div class="small-6 large-4 columns space-under">
-      <div><img src="images/instagram/in-progress.jpg">
-        <div class="instagram-caption hide-for-small">#telespinn #ull</div>  
-      </div>
+       <a href="produktliste-mari.shtml"><div><img src="images/instagram/sjal.jpg">
+        <div class="instagram-caption-small show-for-small">#mohair #mari</div>
+        <div class="instagram-caption-large hide-for-small">#mohair #mari</div>
+      </div></a>
     </div>
 
     <div class="small-6 large-4 columns space-under">
-      <div><img src="images/instagram/sjal.jpg">
-        <div class="instagram-caption hide-for-small">#mohairgarn #telespinn #mari</div>
-      </div>
+      <a href="#" data-reveal-id="ikke-implementert"><div><img src="images/instagram/knapper.jpg">
+        <div class="instagram-caption-small show-for-small">#symre #gjenbruksknapper</div>
+        <div class="instagram-caption-large hide-for-small">#symre #gjenbruksknapper</div>    
+      </div></a>
     </div>
 
     <div class="small-6 large-4 columns space-under">
-      <div><img src="images/instagram/knapper.jpg">
-        <div class="instagram-caption hide-for-small">#telespinn #symre #gjenbruksknapper</div>    
-      </div>
-    </div>
-
-    <div class="small-6 large-4 columns space-under">
-      <div><img src="images/instagram/luer.jpg">
-        <div class="instagram-caption hide-for-small">#telespinn #ull</div>     
-      </div>
+       <a href="produktliste-mari.shtml"><div><img src="images/instagram/luer.jpg">
+        <div class="instagram-caption-small show-for-small">#mari #ull</div>
+        <div class="instagram-caption-large hide-for-small">#mari #ull</div>     
+      </div></a>
     </div>
 
 
@@ -187,39 +197,45 @@
     
     
     <div class="small-6 large-4 columns space-under">
-      <div><img src="images/instagram/rosa-orange-luer.jpg">
-        <div class="instagram-caption hide-for-small">#økologisk #mohair #pan </div>
+      <a href="#" data-reveal-id="ikke-implementert"><div><img src="images/instagram/rosa-orange-luer.jpg">
+        <div class="instagram-caption-large hide-for-small">#økologisk #mohair #pan </div>
       </div>
+      </a>
     </div>
 
     <div class="small-6 large-4 columns space-under">
-      <div><img src="images/instagram/lilla-symre.jpg">
-        <div class="instagram-caption hide-for-small">#telespinn #symre #strikking</div>       
+      <a href="#" data-reveal-id="ikke-implementert"><div><img src="images/instagram/lilla-symre.jpg">
+        <div class="instagram-caption-large hide-for-small"> #symre #strikking</div>       
       </div>
+      </a>
     </div>
 
     <div class="small-6 large-4 columns space-under">
-      <div><img src="images/instagram/votter.jpg">
-        <div class="instagram-caption hide-for-small">#mohair #Mari #Telespinn</div>   
+      <a href="produktliste-mari.shtml"><div><img src="images/instagram/votter.jpg">
+        <div class="instagram-caption-large hide-for-small">#mohair #Mari </div>   
       </div>
+      </a>
     </div>
 
     <div class="small-6 large-4 columns space-under">
-      <div><img src="images/instagram/garn.jpg">
-        <div class="instagram-caption hide-for-small">#garn #telespinn</div>    
+      <a href="produktliste-mari.shtml"><div><img src="images/instagram/garn.jpg">
+        <div class="instagram-caption-large hide-for-small">#garn </div>    
       </div>
+      </a>
     </div>
 
     <div class="small-6 large-4 columns space-under">
-      <div><img src="images/instagram/geit.jpg">
-        <div class="instagram-caption hide-for-small">#geit #mohair #telespinn</div>
+      <a href="#" data-reveal-id="ikke-implementert"><div><img src="images/instagram/geit.jpg">
+        <div class="instagram-caption-large hide-for-small">#geit #mohair </div>
       </div>
+      </a>
     </div>
 
     <div class="small-6 large-4 columns space-under">
-      <div><img src="images/instagram/orange-cardigan.jpg">
-        <div class="instagram-caption hide-for-small">#mohairgarnet #Symre #Telespinn</div>
+      <a href="#" data-reveal-id="ikke-implementert"><div><img src="images/instagram/orange-cardigan.jpg">
+        <div class="instagram-caption-large hide-for-small">#mohairgarnet #Symre </div>
       </div>
+      </a>
     </div>
 
 
