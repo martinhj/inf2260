@@ -19,11 +19,11 @@
 
   <li>
     <a href="#" data-reveal-id="ikke-implementert"><img src="images/karusell-forside-2/sjal.jpg" /></a>
-    <div class="orbit-caption">Telespinn har bærekraftig produksjon og jobber aktivt med bevaring av kulturlandskapet. <a href="#" data-reveal-id="ikke-implementert"> Les mer</a></div>
+    <div class="orbit-caption">Telespinn har bærekraftig produksjon og jobber aktivt med bevaring av kulturlandskapet. <a href="#" data-reveal-id="ikke-implementert">Les mer</a></div>
   </li>
   <li>
     <a href="#" data-reveal-id="ikke-implementert"><img src="images/karusell-forside-2/geit.jpg" /></a>
-    <div class="orbit-caption">Her kommer ulla fra. <a href="#" data-reveal-id="ikke-implementert"> Les mer</a></div>
+    <div class="orbit-caption">Her kommer ulla fra. <a href="#" data-reveal-id="ikke-implementert">Les mer</a></div>
   </li>
 
   
@@ -48,15 +48,15 @@
       <form action="#">
       <div class="row">
         <div class="large-12 columns">
-          <h2><a href="mari-m100.shtml">Mari gul</a></h2></div>
+          <h2><a href="mari-m300.shtml">Mari blå</a></h2></div>
       </div>
       <div class="row">
     <div class="large-12 small-12 columns show-for-small hide-for-medium-up" >
-        <img src="images/mari/m100.jpg" 
+        <img src="images/mari/m300.jpg" 
         style="margin-bottom:20px;" width="100%"  />
     </div>
     <div class="large-12 small-12 columns show-for-medium-up hide-for-small" >
-        <img src="images/mari/m100-large.jpg" 
+        <img src="images/mari/m300-large.jpg" 
         style="margin-bottom:20px;" width="100%"  />
     </div>
     
