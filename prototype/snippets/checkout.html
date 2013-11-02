@@ -9,8 +9,10 @@
 
 
       	<form action="checkout.html" method="get" autocomplete="on" class="custom large-8">
+    <a id="personlig-info"></a>
 	<fieldset>
 		<legend>1. Personlig informasjon</legend>
+		
 	<div class="progress round success small-12 large-6"><span class="meter" style="width: 20%">&nbsp;steg 1/5</span></div>
 	<div class="small large-6 success round"><span class="meter" style="width: 25%"></span></div>
 	<div class="row">
@@ -47,11 +49,15 @@
 				<option value="SE">Sweden</option>
 			</select>
 		</div>
+		<a href="#frakt" class="button">gå til frakt</a>
 	</div>
 </fieldset>
-
+<div class="bump show-for-small"></div>
+<a id="frakt"></a>
 <fieldset>	
+
 	<legend>2. Frakt</legend>
+	
 	<div class="progress round success small-12 large-6"><span class="meter" style="width: 40%">&nbsp;steg 2/5</span></div>
 	<br>
 	<div class="row">
@@ -62,10 +68,12 @@
       <br>
       <h4>Totalsum kr 705,-<h4>
 	</div>
+	<a href="#betaling" class="button">Gå til betaling</a>
     </div>
 </fieldset>
+<div class="bump show-for-small"></div>
 
-
+<a id="betaling"></a>
 <fieldset>
 	<legend>3. Betaling</legend>
 	<div class="progress round success small-12 large-6"><span class="meter" style="width: 60%">&nbsp;steg 3/5</span></div>
@@ -76,8 +84,12 @@
       <br>
       <label for="faktura"><input type="radio" id="faktura" name="betaling" value="faktura" style="display: none;"><span class="custom radio"></span> Faktura</label>
 	</div>
+	<a href="#kommentar" class="button">Kommentar</a>
+	</div>
 </fieldset>
+<div class="bump show-for-small"></div>
 
+<a id="kommentar"></a>
 <fieldset>	
 	<legend>4. Kommentar til oss</legend>
 	<div class="progress round success small-12 large-6"><span class="meter" style="width: 80%">&nbsp;steg 4/5</span></div>
@@ -86,9 +98,11 @@
         <label>Kommentarer til kjøpet (ikke obligatorisk)</label>
         <textarea placeholder="Hvis du ønsker gi oss en beskjed eller ekstra kommentar til kjøpet kan du gjøre det her"></textarea>
       </div>
+      <a href="#bekreftelse" class="button">Gjennomfør kjøp</a>
 </fieldset>
+<div class="bump show-for-small"></div>
 
-
+<a id="bekreftelse"></a>
 <fieldset>
 	<legend>5. Bekreftelse</legend>
 	<div class="progress round success small-12 large-6"><span class="meter" style="width: 100%">&nbsp;steg 4/4</span></div>

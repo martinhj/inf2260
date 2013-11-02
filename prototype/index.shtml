@@ -28,8 +28,8 @@
 <li class="line-through">martin: Produktbeskrivelser > "tillegsinformasjon" -> "detaljer"</li>
 <li class="line-through">martin: Produktbeskrivelser > ny tab "om mari" video eller bilder med produksjonsprosess</li>
 <li>martin: handlekurv fiksing og testing</li>
-<li>petter: se om garntyperinfoen kan vises m knapp eller lignende på mobil (kategori-garn.shtml#garntyper)</li>
-<li>petter: checkout form - fikse så android enter funker som tab (input type?)</li>
+<li class="line-through">petter: se om garntyperinfoen kan vises m knapp eller lignende på mobil (kategori-garn.shtml#garntyper)</li>
+<li style="color:red;">finner ikke ut av denne: checkout form -> fikse så android enter funker som tab - anyone?</li>
 <li>petter: checkout form redesign</li>
 <li class="line-through">petter: fikse de teite&feite fontende du har lagd</li>
 <li class="line-through">tobias: luft over tabs (fikses med breadcrumbs? sjekk dette)</li>

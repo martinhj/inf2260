@@ -8960,6 +8960,16 @@ ul {
   list-style-type: none;
 }
 
+/* line 419, ../sass/app.scss */
+.top-bar-section .dropdown li a {
+  font-weight: 300;
+}
+
+/* line 423, ../sass/app.scss */
+.top-bar-section ul li > a {
+  font-weight: 300;
+}
+
 /* line 440, ../sass/app.scss */
 input[type="text"],
 input[type="password"],
@@ -8976,4 +8986,9 @@ input[type="time"],
 input[type="url"],
 textarea {
   font-weight: 300;
+}
+
+/* line 447, ../sass/app.scss */
+.bump {
+  height: 500px;
 }
