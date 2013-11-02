@@ -1,5 +1,18 @@
 @charset "UTF-8";
-@import url(http://fonts.googleapis.com/css?family=Lato:300,400);
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Lato Light"), local("Lato-Light"), url(../fonts/lato-300.woff) format("woff");
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Lato Regular"), local("Lato-Regular"), url(../fonts/lato-400.woff) format("woff");
+}
+
 /*! normalize.css v2.1.2 | MIT License | git.io/normalize */
 /* ==========================================================================
    HTML5 display definitions
@@ -7315,7 +7328,7 @@ a.th {
 }
 
 /* global foundicon styles */
-/* line 63, ../sass/app.scss */
+/* line 81, ../sass/app.scss */
 [class*="foundicon-"] {
   display: inline;
   width: auto;
@@ -7327,7 +7340,7 @@ a.th {
   background-repeat: repeat;
 }
 
-/* line 73, ../sass/app.scss */
+/* line 91, ../sass/app.scss */
 [class*="foundicon-"]:before {
   font-family: "GeneralFoundicons";
   font-weight: 300;
@@ -7576,13 +7589,13 @@ a.th {
   content: "\f02e";
 }
 
-/* line 134, ../sass/app.scss */
+/* line 152, ../sass/app.scss */
 #container {
   max-width: 1000px;
   margin: 0 auto;
 }
 
-/* line 143, ../sass/app.scss */
+/* line 161, ../sass/app.scss */
 footer {
   width: 100%;
   padding: 1%;
@@ -7592,7 +7605,7 @@ footer {
 }
 
 @media only screen {
-  /* line 157, ../sass/app.scss */
+  /* line 175, ../sass/app.scss */
   .top-bar .cart {
     color: #fff;
     font-weight: 300;
@@ -7602,7 +7615,7 @@ footer {
     top: 8px;
   }
 
-  /* line 165, ../sass/app.scss */
+  /* line 183, ../sass/app.scss */
   .top-bar .cart a {
     color: #fff;
   }
@@ -8014,33 +8027,33 @@ footer {
     display: block;
   }
 
-  /* line 251, ../sass/app.scss */
+  /* line 269, ../sass/app.scss */
   .top-bar {
     height: 150px !important;
   }
 
-  /* line 256, ../sass/app.scss */
+  /* line 274, ../sass/app.scss */
   .top-bar-section li a:not(.button) {
     padding: 15x 30px !important;
   }
 
-  /* line 262, ../sass/app.scss */
+  /* line 280, ../sass/app.scss */
   .top-bar-section .has-form {
     padding: 8px 0 0 15px !important;
     width: 190px !important;
   }
 
-  /* line 268, ../sass/app.scss */
+  /* line 286, ../sass/app.scss */
   .top-bar-section ul {
     background: #fff !important;
   }
 
-  /* line 272, ../sass/app.scss */
+  /* line 290, ../sass/app.scss */
   .top-bar .name img {
     display: none;
   }
 
-  /* line 275, ../sass/app.scss */
+  /* line 293, ../sass/app.scss */
   .top-bar .name h1 a:before {
     background-image: url("../images/logo_desktop.png");
     background-repeat: no-repeat;
@@ -8053,12 +8066,12 @@ footer {
     width: 152px;
   }
 
-  /* line 289, ../sass/app.scss */
+  /* line 307, ../sass/app.scss */
   .top-bar .name h1 span {
     display: none;
   }
 
-  /* line 292, ../sass/app.scss */
+  /* line 310, ../sass/app.scss */
   .top-bar form {
     margin: 0px;
   }
@@ -8740,22 +8753,22 @@ footer {
     display: block;
   }
 }
-/* line 298, ../sass/app.scss */
+/* line 316, ../sass/app.scss */
 .menu-leftpad {
   padding-left: 0.625em;
 }
 
-/* line 305, ../sass/app.scss */
+/* line 323, ../sass/app.scss */
 #center {
   text-align: center;
 }
 
-/* line 313, ../sass/app.scss */
+/* line 331, ../sass/app.scss */
 .reveal-modal .close-reveal-modal {
   position: static;
 }
 
-/* line 320, ../sass/app.scss */
+/* line 338, ../sass/app.scss */
 .panel-custom {
   border-style: solid;
   border-width: 1px;
@@ -8765,7 +8778,7 @@ footer {
   background: pink;
 }
 
-/* line 333, ../sass/app.scss */
+/* line 351, ../sass/app.scss */
 .instagram-caption-small {
   position: static;
   bottom: 0;
@@ -8776,7 +8789,7 @@ footer {
   font-size: 0.775em;
 }
 
-/* line 343, ../sass/app.scss */
+/* line 361, ../sass/app.scss */
 .instagram-caption-large {
   position: absolute;
   bottom: -1px;
@@ -8787,27 +8800,27 @@ footer {
   font-size: 0.875em;
 }
 
-/* line 352, ../sass/app.scss */
+/* line 370, ../sass/app.scss */
 strong {
   font-weight: 400;
 }
 
-/* line 359, ../sass/app.scss */
+/* line 377, ../sass/app.scss */
 .space-under {
   margin-bottom: 1.25em;
 }
 
-/* line 367, ../sass/app.scss */
+/* line 385, ../sass/app.scss */
 .menu-indent {
   text-indent: 0.625em;
 }
 
-/* line 371, ../sass/app.scss */
+/* line 389, ../sass/app.scss */
 .line-through {
   text-decoration: line-through;
 }
 
-/* line 379, ../sass/app.scss */
+/* line 397, ../sass/app.scss */
 .telespinncrumbs {
   display: block;
   padding: 0.5625em 0.875em 0.5625em;
@@ -8823,7 +8836,7 @@ strong {
   margin: 7px 0 0 0;
   padding: 0;
 }
-/* line 387, ../sass/app.scss */
+/* line 405, ../sass/app.scss */
 .telespinncrumbs li {
   margin: 0;
   float: left;
@@ -8883,7 +8896,7 @@ strong {
   margin: 0;
 }
 
-/* line 390, ../sass/app.scss */
+/* line 408, ../sass/app.scss */
 .smuleknapp {
   border-style: solid;
   border-width: 1px;
@@ -8944,33 +8957,33 @@ strong {
   border-color: white transparent transparent transparent;
 }
 
-/* line 404, ../sass/app.scss */
+/* line 422, ../sass/app.scss */
 .smuleknapp:hover, .smuleknapp:focus {
   background-color: #f2f2f2;
   color: #333;
 }
 
-/* line 408, ../sass/app.scss */
+/* line 426, ../sass/app.scss */
 .smuleknapp:before {
   border-color: #666666 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
 }
 
-/* line 412, ../sass/app.scss */
+/* line 430, ../sass/app.scss */
 ul {
   list-style-type: none;
 }
 
-/* line 419, ../sass/app.scss */
+/* line 437, ../sass/app.scss */
 .top-bar-section .dropdown li a {
   font-weight: 300;
 }
 
-/* line 423, ../sass/app.scss */
+/* line 441, ../sass/app.scss */
 .top-bar-section ul li > a {
   font-weight: 300;
 }
 
-/* line 440, ../sass/app.scss */
+/* line 458, ../sass/app.scss */
 input[type="text"],
 input[type="password"],
 input[type="date"],
@@ -8988,7 +9001,7 @@ textarea {
   font-weight: 300;
 }
 
-/* line 447, ../sass/app.scss */
+/* line 465, ../sass/app.scss */
 .bump {
   height: 500px;
 }
