@@ -44,20 +44,95 @@
   <h1 class="hide-for-small show-for-meduim-up">6 mest populære produkter</h1>
   <div class="row">
     
+      <div class="small-12 large-4 columns">
+     <form action="#">
+      <div class="row">
+        <div class="large-12 columns">
+          <h2><a href="mari-m100.shtml">Pan turkis</a></h2></div>
+      </div>
+      <div class="row">
+    <div class="large-12 small-12 columns show-for-small hide-for-medium-up" >
+        <img src="images/pan-small.jpg" 
+        style="margin-bottom:20px;" width="100%"  />
+    </div>
+    <div class="large-12 small-12 columns show-for-medium-up hide-for-small" >
+        <img src="images/pan-large.jpg" 
+        style="margin-bottom:20px;" width="100%"  />
+    </div>
+    
+    </div>  
+      <div class="row">
+  <div class="small-12 large-12 columns"><div class="row collapse">
+          <div class="small-3 large-3 columns"> <span class="prefix">á 150kr</span></div>
+          <div class="small-3 large-3 columns"> <span class="prefix">antall:</span></div>
+          <div class="small-2 large-2 columns"><a class="small button expand" onclick='javascript: document.getElementById("qtym100").value--;' value='-'>-</a></div>
+          <div class="small-2 large-2 columns"><input type="tel" id="qtym100" value="1" /></div>
+    <div class="small-2 large-2 columns"><a class="small button expand" onclick='javascript: document.getElementById("qtym100").value++;' value='+'>+</a></div>
+        </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="large-12 small-12 columns"><a href="#" data-reveal-id="ikke-implementert" class="small button expand success">Kjøp</a>
+        </div>
+      </div>
+    </form>
+
+    </div>  
+
+ 
+
+
+
+   <div class="small-12 large-4 columns">
+     <form action="#">
+      <div class="row">
+        <div class="large-12 columns">
+          <h2><a href="mari-m100.shtml">Skappelpakke</a></h2></div>
+      </div>
+      <div class="row">
+    <div class="large-12 small-12 columns show-for-small hide-for-medium-up" >
+        <img src="images/skappel.jpg" 
+        style="margin-bottom:20px;" width="100%"  />
+    </div>
+    <div class="large-12 small-12 columns show-for-medium-up hide-for-small" >
+        <img src="images/skappel-large.jpg" 
+        style="margin-bottom:20px;" width="100%"  />
+    </div>
+    
+    </div>  
+      <div class="row">
+  <div class="small-12 large-12 columns"><div class="row collapse">
+          <div class="small-3 large-3 columns"> <span class="prefix">á 550kr</span></div>
+          <div class="small-3 large-3 columns"> <span class="prefix">antall:</span></div>
+          <div class="small-2 large-2 columns"><a class="small button expand" onclick='javascript: document.getElementById("qtym100").value--;' value='-'>-</a></div>
+          <div class="small-2 large-2 columns"><input type="tel" id="qtym100" value="1" /></div>
+    <div class="small-2 large-2 columns"><a class="small button expand" onclick='javascript: document.getElementById("qtym100").value++;' value='+'>+</a></div>
+        </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="large-12 small-12 columns"><a href="#" data-reveal-id="ikke-implementert" class="small button expand success">Kjøp</a>
+        </div>
+      </div>
+    </form>
+    </div>
+
+  
+
     <div class="small-12 large-4 columns">
       <form action="#">
       <div class="row">
         <div class="large-12 columns">
-          <h2><a href="mari-m300.shtml">Mari blå</a></h2></div>
+          <h2><a href="strikkekurs.shtml">Strikkekurs</a></h2></div>
       </div>
       <div class="row">
-    <a href="mari-m300.shtml">
+    <a href="strikkekurs.shtml">
     <div class="large-12 small-12 columns show-for-small hide-for-medium-up" >
-        <img src="images/mari/m300.jpg" 
+        <img src="images/strikkekurs.jpg" 
         style="margin-bottom:20px;" width="100%"  />
     </div>
     <div class="large-12 small-12 columns show-for-medium-up hide-for-small" >
-        <img src="images/mari/m300-large.jpg" 
+        <img src="images/strikkekurs-large.jpg" 
         style="margin-bottom:20px;" width="100%"  />
     </div></a>
     
@@ -81,40 +156,7 @@
     </div>
 
 
-    <div class="small-12 large-4 columns">
-     <form action="#">
-      <div class="row">
-        <div class="large-12 columns">
-          <h2><a href="mari-m100.shtml">Mari natur</a></h2></div>
-      </div>
-      <div class="row">
-    <div class="large-12 small-12 columns show-for-small hide-for-medium-up" >
-        <img src="images/mari/m001.jpg" 
-        style="margin-bottom:20px;" width="100%"  />
-    </div>
-    <div class="large-12 small-12 columns show-for-medium-up hide-for-small" >
-        <img src="images/mari/m001-large.jpg" 
-        style="margin-bottom:20px;" width="100%"  />
-    </div>
-    
-    </div>  
-      <div class="row">
-  <div class="small-12 large-12 columns"><div class="row collapse">
-          <div class="small-3 large-3 columns"> <span class="prefix">á 150kr</span></div>
-          <div class="small-3 large-3 columns"> <span class="prefix">antall:</span></div>
-          <div class="small-2 large-2 columns"><a class="small button expand" onclick='javascript: document.getElementById("qtym100").value--;' value='-'>-</a></div>
-          <div class="small-2 large-2 columns"><input type="tel" id="qtym100" value="1" /></div>
-    <div class="small-2 large-2 columns"><a class="small button expand" onclick='javascript: document.getElementById("qtym100").value++;' value='+'>+</a></div>
-        </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="large-12 small-12 columns"><a href="#" data-reveal-id="ikke-implementert" class="small button expand success">Kjøp</a>
-        </div>
-      </div>
-    </form>
-
-    </div>
+   
 
     <div class="small-12 large-4 columns">
      <form action="#">
@@ -151,40 +193,7 @@
 
     </div>
 
-    <div class="small-12 large-4 columns">
-     <form action="#">
-      <div class="row">
-        <div class="large-12 columns">
-          <h2><a href="mari-m100.shtml">Pan turkis</a></h2></div>
-      </div>
-      <div class="row">
-    <div class="large-12 small-12 columns show-for-small hide-for-medium-up" >
-        <img src="images/pan-small.jpg" 
-        style="margin-bottom:20px;" width="100%"  />
-    </div>
-    <div class="large-12 small-12 columns show-for-medium-up hide-for-small" >
-        <img src="images/pan-large.jpg" 
-        style="margin-bottom:20px;" width="100%"  />
-    </div>
-    
-    </div>  
-      <div class="row">
-  <div class="small-12 large-12 columns"><div class="row collapse">
-          <div class="small-3 large-3 columns"> <span class="prefix">á 150kr</span></div>
-          <div class="small-3 large-3 columns"> <span class="prefix">antall:</span></div>
-          <div class="small-2 large-2 columns"><a class="small button expand" onclick='javascript: document.getElementById("qtym100").value--;' value='-'>-</a></div>
-          <div class="small-2 large-2 columns"><input type="tel" id="qtym100" value="1" /></div>
-    <div class="small-2 large-2 columns"><a class="small button expand" onclick='javascript: document.getElementById("qtym100").value++;' value='+'>+</a></div>
-        </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="large-12 small-12 columns"><a href="#" data-reveal-id="ikke-implementert" class="small button expand success">Kjøp</a>
-        </div>
-      </div>
-    </form>
 
-    </div>
 
     <div class="small-12 large-4 columns">
      <form action="#">
@@ -221,26 +230,26 @@
 
     </div>
 
-    <div class="small-12 large-4 columns">
+  <div class="small-12 large-4 columns">
      <form action="#">
       <div class="row">
         <div class="large-12 columns">
-          <h2><a href="mari-m100.shtml">Skappelgenser</a></h2></div>
+          <h2><a href="sjal001.shtml">Sjalpakke gul</a></h2></div>
       </div>
       <div class="row">
     <div class="large-12 small-12 columns show-for-small hide-for-medium-up" >
-        <img src="images/skappel.jpg" 
+        <img src="images/sjal/sjal001.jpg" 
         style="margin-bottom:20px;" width="100%"  />
     </div>
     <div class="large-12 small-12 columns show-for-medium-up hide-for-small" >
-        <img src="images/skappel-large.jpg" 
+        <img src="images/sjal/sjal001-large.jpg" 
         style="margin-bottom:20px;" width="100%"  />
     </div>
     
     </div>  
       <div class="row">
   <div class="small-12 large-12 columns"><div class="row collapse">
-          <div class="small-3 large-3 columns"> <span class="prefix">á 150kr</span></div>
+          <div class="small-3 large-3 columns"> <span class="prefix">á 350kr</span></div>
           <div class="small-3 large-3 columns"> <span class="prefix">antall:</span></div>
           <div class="small-2 large-2 columns"><a class="small button expand" onclick='javascript: document.getElementById("qtym100").value--;' value='-'>-</a></div>
           <div class="small-2 large-2 columns"><input type="tel" id="qtym100" value="1" /></div>
@@ -253,11 +262,8 @@
         </div>
       </div>
     </form>
+
     </div>
-
-    
-
-
 
   </div>
 </div>

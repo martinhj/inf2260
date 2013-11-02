@@ -296,7 +296,7 @@ $paragraph-font-weight: 300;
 
 // $form-label-pointer: pointer;
 // $form-label-font-size: em-calc(14);
-// $form-label-font-weight: 500;
+$form-label-font-weight: 300;
 // $form-label-font-color: lighten(#000, 30%);
 // $form-label-bottom-margin: em-calc(3);
 // $input-font-family: inherit;
@@ -323,7 +323,7 @@ $paragraph-font-weight: 300;
 // We use these to style the legends when you use them
 
 // $legend-bg: #fff;
-// $legend-font-weight: bold;
+$legend-font-weight: 300;
 // $legend-padding: em-calc(0 3);
 
 // We use these to style the prefix and postfix input elements
@@ -1094,7 +1094,7 @@ $orbit-timer-show-progress-bar: false;
 // $side-nav-link-color: $primary-color;
 // $side-nav-link-color-active: lighten(#000, 30%);
 // $side-nav-font-size: em-calc(14);
-// $side-nav-font-weight: bold;
+$side-nav-font-weight: 300;
 
 // We use these to control border styles
 

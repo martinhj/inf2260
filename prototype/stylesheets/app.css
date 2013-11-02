@@ -2737,7 +2737,7 @@ label {
   color: #4d4d4d;
   cursor: pointer;
   display: block;
-  font-weight: 500;
+  font-weight: 300;
   margin-bottom: 0.1875em;
   /* Styles for required inputs */
 }
@@ -3041,7 +3041,7 @@ fieldset {
 }
 /* line 221, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.3.2/scss/foundation/components/_forms.scss */
 fieldset legend {
-  font-weight: bold;
+  font-weight: 300;
   background: white;
   padding: 0 0.1875em;
   margin: 0;
@@ -6692,7 +6692,7 @@ ul.pagination li {
 /* line 48, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.3.2/scss/foundation/components/_side-nav.scss */
 .side-nav li.active > a:first-child {
   color: #4d4d4d;
-  font-weight: bold;
+  font-weight: 300;
 }
 /* line 53, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.3.2/scss/foundation/components/_side-nav.scss */
 .side-nav li.divider {
@@ -7330,7 +7330,7 @@ a.th {
 /* line 73, ../sass/app.scss */
 [class*="foundicon-"]:before {
   font-family: "GeneralFoundicons";
-  font-weight: normal;
+  font-weight: 300;
   font-style: normal;
   text-decoration: inherit;
 }
@@ -7595,7 +7595,7 @@ footer {
   /* line 157, ../sass/app.scss */
   .top-bar .cart {
     color: #fff;
-    font-weight: bold;
+    font-weight: 300;
     margin: 0;
     position: absolute;
     right: 44px;
@@ -7999,7 +7999,7 @@ footer {
     margin-bottom: 0;
     text-transform: none;
     color: #222222;
-    font-weight: bold;
+    font-weight: 300;
     font-size: 0.875em;
   }
 
@@ -8958,4 +8958,14 @@ strong {
 /* line 412, ../sass/app.scss */
 ul {
   list-style-type: none;
+}
+
+/* line 418, ../sass/app.scss */
+.top-bar-section .dropdown li a {
+  font-weight: 300;
+}
+
+/* line 422, ../sass/app.scss */
+.top-bar-section ul li > a {
+  font-weight: 300;
 }
