@@ -2216,7 +2216,7 @@ ol li ol {
 /* line 291, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.3.2/scss/foundation/components/_type.scss */
 dl dt {
   margin-bottom: 0.3em;
-  font-weight: bold;
+  font-weight: 300;
 }
 /* line 295, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.3.2/scss/foundation/components/_type.scss */
 dl dd {
@@ -4670,7 +4670,7 @@ label.error {
 }
 /* line 144, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.3.2/scss/foundation/components/_top-bar.scss */
 .top-bar .name h1 a {
-  font-weight: bold;
+  font-weight: 300;
   color: white;
   width: 50%;
   display: block;
@@ -4687,7 +4687,7 @@ label.error {
   color: white;
   text-transform: uppercase;
   font-size: 0.8125em;
-  font-weight: bold;
+  font-weight: 300;
   position: relative;
   display: block;
   padding: 0 15px;
@@ -4774,7 +4774,7 @@ label.error {
   padding: 12px 0 12px 0;
   padding-left: 15px;
   font-size: 0.8125em;
-  font-weight: bold;
+  font-weight: 300;
   background: #222222;
 }
 /* line 269, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.3.2/scss/foundation/components/_top-bar.scss */
@@ -4873,7 +4873,7 @@ label.error {
 }
 /* line 354, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.3.2/scss/foundation/components/_top-bar.scss */
 .top-bar-section .dropdown li a.parent-link {
-  font-weight: bold;
+  font-weight: 300;
 }
 /* line 359, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.3.2/scss/foundation/components/_top-bar.scss */
 .top-bar-section .dropdown li.title h5 {
@@ -5475,7 +5475,7 @@ label.error {
   top: 0.5em;
   right: 0.6875em;
   color: #aaaaaa;
-  font-weight: bold;
+  font-weight: 300;
   cursor: pointer;
 }
 
@@ -5602,7 +5602,7 @@ label.error {
 .joyride-tip-guide h6 {
   line-height: 1.25;
   margin: 0;
-  font-weight: bold;
+  font-weight: 300;
   color: white;
 }
 
@@ -5639,7 +5639,7 @@ label.error {
   color: #777777 !important;
   text-decoration: none;
   font-size: 30px;
-  font-weight: normal;
+  font-weight: 300;
   line-height: .5 !important;
 }
 /* line 147, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.3.2/scss/foundation/components/_joyride.scss */
@@ -6576,7 +6576,7 @@ ul.pagination li {
   padding: 0.9375em 1.25em;
   text-align: center;
   color: #333333;
-  font-weight: bold;
+  font-weight: 300;
   font-size: 1em;
 }
 /* line 125, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.3.2/scss/foundation/components/_pricing-tables.scss */
@@ -6585,7 +6585,7 @@ ul.pagination li {
   padding: 0.9375em 1.25em;
   text-align: center;
   color: #333333;
-  font-weight: normal;
+  font-weight: 300;
   font-size: 1.25em;
 }
 /* line 126, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.3.2/scss/foundation/components/_pricing-tables.scss */
@@ -6595,7 +6595,7 @@ ul.pagination li {
   text-align: center;
   color: #777777;
   font-size: 0.75em;
-  font-weight: normal;
+  font-weight: 300;
   line-height: 1.4;
   border-bottom: dotted 1px #dddddd;
 }
@@ -6606,7 +6606,7 @@ ul.pagination li {
   text-align: center;
   color: #333333;
   font-size: 0.875em;
-  font-weight: normal;
+  font-weight: 300;
   border-bottom: dotted 1px #dddddd;
 }
 /* line 128, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.3.2/scss/foundation/components/_pricing-tables.scss */
@@ -7778,7 +7778,7 @@ footer {
   }
   /* line 144, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.3.2/scss/foundation/components/_top-bar.scss */
   .top-bar .name h1 a {
-    font-weight: bold;
+    font-weight: 300;
     color: #222222;
     width: 50%;
     display: block;
@@ -7795,7 +7795,7 @@ footer {
     color: #222222;
     text-transform: uppercase;
     font-size: 0.8125em;
-    font-weight: bold;
+    font-weight: 300;
     position: relative;
     display: block;
     padding: 0 20px;
@@ -8958,16 +8958,6 @@ strong {
 /* line 412, ../sass/app.scss */
 ul {
   list-style-type: none;
-}
-
-/* line 419, ../sass/app.scss */
-.top-bar-section .dropdown li a {
-  font-weight: 300;
-}
-
-/* line 423, ../sass/app.scss */
-.top-bar-section ul li > a {
-  font-weight: 300;
 }
 
 /* line 440, ../sass/app.scss */

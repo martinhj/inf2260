@@ -42,6 +42,11 @@
           </div>
         </div> 
       </a> 
+      <div class="row hide-for-medium-up">
+          <div class="small-12 small-centered columns"><a href="#" data-reveal-id="fivrel" class="small small-12 secondary radius button">Om fivrel</a>         
+          </div>
+      </div>
+
 
       <a href="#" data-reveal-id="ikke-implementert">
         <div class="row">
@@ -309,7 +314,10 @@
 
 </div>
 <!-- slutt tabs -->
-
+<div id="fivrel" class="reveal-modal">
+  <p>Fivrel er et fint ett-tråds garn i kidkvalitet. Fivrel har navnet sitt etter sommerfugl på nynorsk - Fivrel - som det finnes mange av i Svartdal. Fivrel har samme ullblanding som Mari, og er derfor svært mykt. Dette garnet egner seg blant annet til sjal og skjerf. Fivrel består av 80% kidmohair og 20% merinoull.</p>
+  <p><a class="close-reveal-modal button radius" style="color:white;"> x lukk</a></p>
+</div>
 
 
 

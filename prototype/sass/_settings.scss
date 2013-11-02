@@ -239,7 +239,7 @@ $paragraph-font-weight: 300;
 // $list-style-position: outside;
 // $list-side-margin: 0;
 // $list-nested-margin: em-calc(20);
-// $definition-list-header-weight: bold;
+$definition-list-header-weight: 300;
 // $definition-list-header-margin-bottom: .3em;
 // $definition-list-margin-bottom: em-calc(12);
 
@@ -741,7 +741,7 @@ $alert-font-weight: 300;
 
 // $joyride-tip-font-color: #fff;
 // $joyride-tip-font-size: em-calc(14);
-// $joyride-tip-header-weight: bold;
+$joyride-tip-header-weight: 300;
 
 // This changes the nub size
 
@@ -757,7 +757,7 @@ $alert-font-weight: 300;
 
 // $joyride-tip-close-color: #777;
 // $joyride-tip-close-size: 30px;
-// $joyride-tip-close-weight: normal;
+$joyride-tip-close-weight: 300;
 
 // When Joyride is filling the screen, we use this style for the bg
 
@@ -935,7 +935,7 @@ $pagination-link-current-font-weight: 300;
 // $price-title-padding: em-calc(15 20);
 // $price-title-align: center;
 // $price-title-color: #333;
-// $price-title-weight: bold;
+$price-title-weight: 300;
 // $price-title-size: em-calc(16);
 
 // We use these to control the price styles
@@ -944,7 +944,7 @@ $pagination-link-current-font-weight: 300;
 // $price-money-padding: em-calc(15, 20);
 // $price-money-align: center;
 // $price-money-color: #333;
-// $price-money-weight: normal;
+$price-money-weight: 300;
 // $price-money-size: em-calc(20);
 
 // We use these to control the description styles
@@ -954,7 +954,7 @@ $pagination-link-current-font-weight: 300;
 // $price-desc-padding: em-calc(15);
 // $price-desc-align: center;
 // $price-desc-font-size: em-calc(12);
-// $price-desc-weight: normal;
+$price-desc-weight: 300;
 // $price-desc-line-height: 1.4;
 // $price-desc-bottom-border: dotted 1px #ddd;
 
@@ -964,7 +964,7 @@ $pagination-link-current-font-weight: 300;
 // $price-item-padding: em-calc(15);
 // $price-item-align: center;
 // $price-item-font-size: em-calc(14);
-// $price-item-weight: normal;
+$price-item-weight: 300;
 // $price-item-bottom-border: dotted 1px #ddd;
 
 // We use these to control the CTA area styles
@@ -1024,7 +1024,7 @@ $pagination-link-current-font-weight: 300;
 // $reveal-close-top: em-calc(8);
 // $reveal-close-side: em-calc(11);
 // $reveal-close-color: #aaa;
-// $reveal-close-weight: bold;
+$reveal-close-weight: 300;
 
 // We use these to control the modal border
 
@@ -1269,7 +1269,7 @@ $tooltip-close-font-weight: 300;
 
 // Controlling the styles for the title in the top bar
 
-// $topbar-title-weight: bold;
+$topbar-title-weight: 300;
 // $topbar-title-font-size: em-calc(17);
 
 // Style the top bar dropdown elements
@@ -1286,7 +1286,7 @@ $tooltip-close-font-weight: 300;
 // $topbar-link-color: #fff;
 // $topbar-link-color-hover: #fff;
 // $topbar-link-color-active: #fff;
-// $topbar-link-weight: bold;
+$topbar-link-weight: 300;
 // $topbar-link-font-size: em-calc(13);
 // $topbar-link-hover-lightness: -30%; // Darken by 30%
 // $topbar-link-bg-hover: darken($topbar-bg-color, 3%);
@@ -1302,7 +1302,7 @@ $topbar-dropdown-label-font-size: em-calc(12);
 
 // $topbar-menu-link-transform: uppercase;
 // $topbar-menu-link-font-size: em-calc(13);
-// $topbar-menu-link-weight: bold;
+$topbar-menu-link-weight: 300;
 // $topbar-menu-link-color: #fff;
 // $topbar-menu-icon-color: #fff;
 // $topbar-menu-link-color-toggled: #888;
