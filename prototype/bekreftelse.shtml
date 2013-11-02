@@ -1,0 +1,23 @@
+<!--#include virtual="snippets/head.html" --> 
+<body>
+<!--#include virtual="snippets/sidetopp.html" --> 
+<!--#include virtual="snippets/menu1.html" --> 
+
+
+
+<h1>Takk for handelen</h1>
+
+Trykk her så blir du registrert kunde og får en mail du må bekrefte
+
+Varene blir sendt neste dag, eller samme dag hvis orderen er plassert før kl 9. Har du valgt servicpakke så sender vi deg sporingsnummer i løpet av 24 timer. 
+
+<a href="index2.shtml" class="button radius"> Tilbake til nettbutikken</a>
+ 
+  
+
+
+
+<!--#include virtual="snippets/overlay.html" -->
+<!--#include virtual="snippets/footer.html" --> 
+<!--#include virtual="snippets/smooth-scroll.html" -->
+<!--#include virtual="snippets/sidebunn.html" --> 

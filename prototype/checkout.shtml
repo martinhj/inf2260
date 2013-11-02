@@ -2,7 +2,240 @@
 <body>
 <!--#include virtual="snippets/sidetopp.html" --> 
 <!--#include virtual="snippets/menu1.html" --> 
-<!--#include virtual="snippets/checkout.html" -->
+
+
+
+
+<div class="section-container tabs" data-section="tabs">
+  <section class="active">
+    <p class="title" data-section-title><a href="#">Handle som gjest</a></p>
+    <div class="content" data-section-content>
+
+    	<p>Handlet hos oss tidligere? <br>Så fint, da kan du <a href="#" data-reveal-id="ikke-implementert">logge inn</a> for raskere utsjekking</p>
+
+<!-- start checkout-small-->
+<div class="show-for-small">
+<form action="checkout.html" method="get" autocomplete="on" class="custom large-8">
+		<a id="personlig-info"></a>
+		
+			<h2>Personlig informasjon</h2>	
+			<div class="row">
+				<div class="small-10 rows">
+					<input type="text" name="fname" x-autocompletetype="given-name" placeholder="Fornavn">
+				</div> 
+				<div class="small-10 rows">
+					<input type="text" name="lname" x-autocompletetype="family-name" placeholder ="Etternavn">
+				</div>
+				<div class="small-11 rows">
+					<input type="email" name="email" x-autocompletetype="email" placeholder="e-postadresse">
+				</div> 	
+				<div class="small-12 rows">
+					<input type="text" name="address" x-autocompletetype="street-address" placeholder="Gate/vei 1"> 
+				</div>
+				<div class="small-12 rows">
+					<input type="text" x-autocompletetype="address-line2" placeholder="Gate/vei 2 (ikke obligatorisk)">
+			 	</div>
+				<div class="small-4 rows">
+					<input type="number" x-autocompletetype="postal-code" placeholder="Postnr">
+				</div>
+				<div class="small-6 rows">
+					<input type="text" name="postal-code" x-autocompletetype="administrative-area" placeholder="P.Sted">
+				</div> 
+
+				<div class="small-8rows">
+					<label for="land" class="right inline">(velg land)</label>
+					<select id="land" class="small">
+						<option calue"NO">Norge</option>
+						<option value="DK">Danmark</option>
+						<option value="FI">Finland</option>
+						<option value="IS">Iceland</option>
+						<option value="SJ">Svalbard and Jan Mayen</option>
+						<option value="SE">Sweden</option>
+					</select>
+				</div>
+				<a href="#frakt" class="button">gå til frakt</a>
+			</div>
+
+
+
+
+
+<div class="bump show-for-small"></div>
+		<a id="frakt"></a>
+			<h2>Frakt</h2>
+			<div class="row">
+			 <div class="small-12 columns">
+			 <label for="servicepakke-hjemlevering"><input type="radio" checked id="servicepakke-hjemlevering" name="frakt" value="servicepakke-hjemlevering" style="display: none;"><span class="custom radio"></span> Klimanøytral Servicepakke kr 189,- (1-3 dager) hjemlevering på kvelden. Sjåføren ringer 30-60 minutter før han kommer</label>
+		      <br>
+		      
+		      <label for="servicepakke"><input type="radio" id="servicepakke" name="frakt" value="servicepakke" style="display: none;"><span class="custom radio"></span> Klimanøytral Servicepakke kr 105,- (1-3 dager). Hentes på postkontor/post i butikk</label>
+		      <br>
+
+		      <label for="brevpost"><input type="radio" id="brevpost" name="frakt" value="brevpost" style="display: none;"><span class="custom radio"></span> Brevpost kr 67,- (3-5 dager B-økonomi) i postkassen eller hentes på postkontoret/post i butikk hvis for stor</label>
+		      <br>
+
+		      <h4>Totalsum kr 705,-</h4>
+			</div>
+			<a href="#kommentar" class="button">Ikke obligatorisk beskjed</a>
+			<a href="#betaling" class="button">Til betalingsvalg</a>
+		    </div>
+
+
+<div class="bump show-for-small"></div>
+
+		<a id="kommentar"></a>
+			<h2>Kommentar til oss</h2>
+			<div class="small-12 columns">
+		        <label>Kommentarer til kjøpet (ikke obligatorisk)</label>
+		        <textarea placeholder="Hvis du ønsker gi oss en beskjed eller ekstra kommentar til kjøpet kan du gjøre det her"></textarea>
+		      </div>
+		      <a href="#betaling" class="button">Til betalingsvalg</a>
+<div class="bump show-for-small"></div>
+
+
+		<a id="betaling"></a>
+			<h2>Betaling</h2>
+			<div class="row">
+			 <div class="small-12 columns">
+		      <label for="paypal"><input type="radio" checked id="paypal" name="betaling" value="paypal" style="display: none;"><span class="custom radio"></span> Paypal</label>
+		      <br>
+		      <label for="faktura"><input type="radio" id="faktura" name="betaling" value="faktura" style="display: none;"><span class="custom radio"></span> Faktura</label>
+			</div>
+			
+			<p><a href="paypal.shtml" class=" button radius">Betal</a> </p>
+			</div>
+
+    
+    </form>
+    </div>
+
+<!-- end checkout-small-->
+<!-- Start checkout medium-up -->
+    <div class="show-for-medium-up">
+<form action="checkout.html" method="get" autocomplete="on" class="custom large-8">
+		<a id="personlig-info"></a>
+		<fieldset>
+				<legend>1. Personlig informasjon</legend>
+			<div class=" large-6 success round"><span class="meter" style="width: 25%"></span></div>
+			<div class="row">
+				<div class="large-4 rows">
+					<input type="text" name="fname" x-autocompletetype="given-name" placeholder="Fornavn">
+				</div> 
+				<div class="large-4 rows">
+					<input type="text" name="lname" x-autocompletetype="family-name" placeholder ="Etternavn">
+				</div>
+				<div class="large-6 rows">
+					<input type="email" name="email" x-autocompletetype="email" placeholder="e-postadresse">
+				</div> 	
+				<div class="large-6 rows">
+					<input type="text" name="address" x-autocompletetype="street-address" placeholder="Gate/vei 1"> 
+				</div>
+				<div class="large-6 rows">
+					<input type="text" x-autocompletetype="address-line2" placeholder="Gate/vei 2 (ikke obligatorisk)">
+			 	</div>
+				<div class="large-3 rows">
+					<input type="number" x-autocompletetype="postal-code" placeholder="Postnr">
+				</div>
+				<div class="large-4 rows">
+					<input type="text" name="postal-code" x-autocompletetype="administrative-area" placeholder="P.Sted">
+				</div> 
+
+				<div class="large-3 rows">
+					<label for="land" class="right inline">(velg land)</label>
+					<select id="land" class="small">
+						<option calue"NO">Norge</option>
+						<option value="DK">Danmark</option>
+						<option value="FI">Finland</option>
+						<option value="IS">Iceland</option>
+						<option value="SJ">Svalbard and Jan Mayen</option>
+						<option value="SE">Sweden</option>
+					</select>
+				</div>
+			</div>
+		</fieldset>
+
+
+		<fieldset>	
+			<legend>2. Frakt</legend>	
+			<br>
+			<div class="row">
+			 <div class="large-12 columns">
+		      <label for="brevpost"><input type="radio" id="brevpost" name="frakt" value="brevpost" style="display: none;"><span class="custom radio"></span> Brevpost kr 67,- (3-5 dager B-økonomi)</label>
+		      <br>
+		      <label for="servicepakke"><input type="radio" checked id="servicepakke" name="frakt" value="servicepakke" style="display: none;"><span class="custom radio"></span> Klimanøytral Servicepakke kr 105,- (1-3 dager)</label>
+		      <br>
+		      <h4>Totalsum kr 705,-</h4>
+			</div>
+		    </div>
+		</fieldset>
+
+		<fieldset>	
+			<legend>3. Kommentar til oss</legend>
+			<br>
+			<div class="large-8 columns">
+		        <label>Kommentarer til kjøpet (ikke obligatorisk)</label>
+		        <textarea placeholder="Hvis du ønsker gi oss en beskjed eller ekstra kommentar til kjøpet kan du gjøre det her"></textarea>
+		      </div>
+		</fieldset>
+
+		<fieldset>
+			<legend>4. Betaling</legend>
+			<br>
+			<div class="row">
+			 <div class="large-4 columns">
+		      <label for="paypal"><input type="radio" checked id="paypal" name="betaling" value="paypal" style="display: none;"><span class="custom radio"></span> Paypal</label>
+		      <br>
+		      <label for="faktura"><input type="radio" id="faktura" name="betaling" value="faktura" style="display: none;"><span class="custom radio"></span> Faktura</label>
+			</div>
+			<p><a href="paypal.shtml" class=" button radius">Til betaling</a> </p>
+			</div>
+		</fieldset>
+    
+    </form>
+    </div>
+
+
+    </div>
+  </section>
+
+
+  <section>
+    <p class="title" data-section-title><a href="#">Logg inn /<br>registrer ny konto</a></p>
+    <div class="content" data-section-content>
+    
+
+    <p>Logg inn / registrer ny konto</p>
+    <form>
+
+		<div class="row">
+		    <div class="small-8">
+		      <div class="row">
+		       	 <div class="small-9 columns">
+		        	<input type="text" id="epost" placeholder="E-postadresse">
+		        </div>
+		        <div class="small-9 columns">
+		        	<input type="text" id="passord" placeholder="Passord">
+		        </div>
+		     	<div class="small-3 columns">
+		        	<label for="passord" class="left inline"><a href="#" data-reveal-id="ikke-implementert">glemt passord ?</a></label>
+		        </div>
+		    </div>
+		  </div>
+		</div>
+
+
+		<a href="#" data-reveal-id="ikke-implementert" class=" button radius">Logg inn</a> 
+		<a href="#" data-reveal-id="ikke-implementert" class=" button success radius">Registrer ny konto</a>
+
+	</form>     
+    </div>
+  </section>
+</div>
+ 
+  
+
+
+
 <!--#include virtual="snippets/overlay.html" -->
 <!--#include virtual="snippets/footer.html" --> 
 <!--#include virtual="snippets/smooth-scroll.html" -->
