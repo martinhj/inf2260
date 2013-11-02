@@ -133,10 +133,10 @@
 <div class="row">
 <div class="columns large-8"><p></p></div>
 <div class="columns small-12 large-2" >
-<a href="kategori-mari.shtml" class="button small expand secondary" style="float:right;">fortsett å handle</a>
+<a href="kategori-garn.shtml" class="button small expand secondary" style="float:right;">fortsett å handle</a>
 </div>
 <div class="columns small-12 large-2" >
-<a href="checkout.shtml" class="button small expand success" style="float:right;">betale</a>
+<a href="checkout.shtml" class="button small expand success" style="float:right;">til betaling</a>
 </div>
 </div>
 
