@@ -413,13 +413,31 @@ ul {
   list-style-type: none;
 }
 
-// meny ikke fet font//
-
+///////////////////////
+// div ikke fet font //
+///////////////////////
 .top-bar-section .dropdown li a {
   font-weight: 300;
 }
 
 .top-bar-section ul li > a {
   font-weight: 300;
+}
+
+input[type="text"], 
+input[type="password"], 
+input[type="date"], 
+input[type="datetime"], 
+input[type="datetime-local"], 
+input[type="month"], 
+input[type="week"], 
+input[type="email"], 
+input[type="number"], 
+input[type="search"], 
+input[type="tel"], 
+input[type="time"], 
+input[type="url"], 
+textarea { 
+    font-weight: 300;
 }
 
