@@ -2,7 +2,14 @@
 <body>
 <!--#include virtual="snippets/sidetopp.html" --> 
 <!--#include virtual="snippets/menu1.html" --> 
-
+<!-- start breadcrumbs -->
+<div class="panel">
+      <ul class="telespinncrumbs">
+	<li><a href="index.shtml">Hjem</a></li>
+	<li class="current"><a href="#">Strikkekurs</a></li>
+      </ul>
+</div>
+<!-- slutt breadcrumbs -->
 
 <div class="row">
 <div class="large-12 columns"><h2>Abonnér på vårt strikkekurs</h2></div>
@@ -20,15 +27,15 @@
  
 <div class="row" style="margin-top:30px;margin-bottom:30px;">
   <div class="large-4 small-12 columns">
-    <a href="#" data-reveal-id="ikke-implementert"><h3>Del 1: Leggvarmere</h3></a>
+    <h3>Del 1: Leggvarmere</h3>
     <img src="images/DSC_2388.JPG" />
   </div>
   <div class="large-4 small-12 columns">
-    <a href="#" data-reveal-id="ikke-implementert"><h3>Del 3: Sjal</h3></a>
+    <h3>Del 3: Sjal</h3>
     <img src="images/karusell-forside-2/sjal.jpg"/>
   </div>
   <div class="large-4 small-12 columns">
-    <a href="#" data-reveal-id="ikke-implementert"><h3>Del 6: Skappelgenser</h3></a>
+    <h3>Del 6: Skappelgenser</h3>
     <img src="images/skappel-large.jpg" />
   </div>
   <div class="large-12 columns"><br><a href="#" data-reveal-id="ikke-implementert" class="small button expand">Se oversikt over hele kurset</a>

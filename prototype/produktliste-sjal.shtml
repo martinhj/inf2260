@@ -17,7 +17,7 @@
 
 <!-- start drop breadcrumbs -->
 <div id="drop2" class="f-dropdown content hide-for-medium-up" data-dropdown-content>
-  <h4 class ="subheader">Strikkepakker - Sjal og skjerv</h4>
+  <h4 class ="subheader">Strikkepakker - Sjal og skjerf</h4>
   <p>Vi har sjal og skjerf i svært mange forskjellige varianter. Vi har varme sjal for å holde varmen i den kalde årstiden, og lette og luftige sjal som du kan bruke hele året.</p> 
   <p>Våre strikkepakker er en enkel måte å komme i gang med å strikke selv. De fleste pakkene inneholder også strikkepinner, slik at du har alt du trenger for å strikke selv: mønster, garn og strikkepinner. På mange av pakkene kan du selv velge farge på garnet som er med i strikkepakken.</p>
 </div>
@@ -30,23 +30,23 @@
 </div>
 <!-- slutt drop breadcrumbs -->
 
-<!--  -->
+<!-- produkter  -->
 <div class="row">
-  <!-- Genser 1 -->
+  <!-- Sjal 1 -->
   <div class="large-6 small-12 columns">
     <form action="#">
       <div class="row">
         <div class="large-12 columns">
-          <h2><a href="sjal001.shtml">Sjal nr.1</a></h2></div>
+        <h2><a href="sjal001.shtml">Sjal nr.1</a></h2></div>
       </div>
       <div class="row">
     <div class="large-12 small-12 columns show-for-small hide-for-medium-up" >
-        <img src="images/sjal/sjal001.jpg" 
-        style="margin-bottom:20px;" />
+         <a href="sjal001.shtml"><img src="images/sjal/sjal001.jpg" 
+        style="margin-bottom:20px;" /></a>
     </div>
     <div class="large-12 small-12 columns show-for-medium-up hide-for-small" >
-        <img src="images/sjal/sjal001-large.jpg" 
-        style="margin-bottom:20px;" />
+         <a href="sjal001.shtml"><img src="images/sjal/sjal001-large.jpg" 
+        style="margin-bottom:20px;" /></a>
     </div>
     
     </div>  
@@ -72,16 +72,16 @@
     <form action="#">
       <div class="row">
         <div class="large-12 columns">
-          <h2><a href="sjal002.shtml">Sjal nr.2</a></h2></div>
+         <h2><a href="sjal002.shtml">Sjal nr.2</a></h2></div>
       </div>
       <div class="row">
     <div class="large-12 small-12 columns show-for-small hide-for-medium-up" >
-        <img src="images/sjal/sjal002.jpg" 
-        style="margin-bottom:20px;" />
+        <a href="sjal002.shtml"><img src="images/sjal/sjal002.jpg" 
+        style="margin-bottom:20px;" /></a>
     </div>
     <div class="large-12 small-12 columns show-for-medium-up hide-for-small" >
-        <img src="images/sjal/sjal002-large.jpg" 
-        style="margin-bottom:20px;" />
+        <a href="sjal002.shtml"><img src="images/sjal/sjal002-large.jpg" 
+        style="margin-bottom:20px;" /></a>
     </div>
     </div>  
       <div class="row">
@@ -114,12 +114,12 @@
       </div>
       <div class="row">
     <div class="large-12 small-12 columns show-for-small hide-for-medium-up" >
-        <img src="images/sjal/sjal003.jpg" 
-        style="margin-bottom:20px;" />
+        <a href="sjal003.shtml"><img src="images/sjal/sjal003.jpg" 
+        style="margin-bottom:20px;" /></a>
     </div>
     <div class="large-12 small-12 columns show-for-medium-up hide-for-small" >
-        <img src="images/sjal/sjal003-large.jpg" 
-        style="margin-bottom:20px;"  />
+        <a href="sjal003.shtml"><img src="images/sjal/sjal003-large.jpg" 
+        style="margin-bottom:20px;"  /></a>
     </div>
     
     </div>  
@@ -149,12 +149,12 @@
       </div>
       <div class="row">
     <div class="large-12 small-12 columns show-for-small hide-for-medium-up" >
-        <img src="images/sjal/sjal004.jpg" 
-        style="margin-bottom:20px;" />
+        <a href="sjal004.shtml"><img src="images/sjal/sjal004.jpg" 
+        style="margin-bottom:20px;" /></a>
     </div>
     <div class="large-12 small-12 columns show-for-medium-up hide-for-small" >
-        <img src="images/sjal/sjal004-large.jpg" 
-        style="margin-bottom:20px;"  />
+        <a href="sjal004.shtml"><img src="images/sjal/sjal004-large.jpg" 
+        style="margin-bottom:20px;"  /></a>
     </div>
     </div>  
       <div class="row">

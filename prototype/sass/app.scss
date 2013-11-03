@@ -14,9 +14,6 @@
   src: local('Lato Regular'), local('Lato-Regular'), url(../fonts/lato-400.woff) format('woff');
 }
 
-
-
-
 @import "settings"; 
 
 // Comment out this import if you dont want to use normalize
@@ -427,7 +424,7 @@ strong {
     border-color: #666 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
 }
 
-ul {
+.smuleknapp ul {
   list-style-type: none;
 }
 
