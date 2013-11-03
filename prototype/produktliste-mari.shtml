@@ -1,27 +1,43 @@
-
-
 <!--#include virtual="snippets/head.html" --> 
-
 <body>
 <!--#include virtual="snippets/sidetopp.html" --> 
 <!--#include virtual="snippets/menu1.html" --> 
-<div class="section-container accordion" data-section="tabs" data-options="one_up: false;">
-  <section>
-    <p class="title" data-section-title><a href="#">Mari kidmohairgarn</a></p>
-    <div class="content" data-section-content>
-      <p><em>Egenskaper:</em> Mari gir ca. 170 meter per 50 gram, strikkepinner: 2 - 3,5.<br />
-	<em>Vaskeanvisning:</em> Vaskes på ullvask 30 grader.<br />
-	<em>Strikkefasthet:</em> ca. 25m per 10cm på pinne nr.3.<br />
-	<em>Materialer:</em> 80% kidmohair og 20% merinoull.</p>
-    </div>
-  </section>
+
+<!-- start breadcrumbs -->
+<div class="panel">
+      <ul class="telespinncrumbs">
+	<li><a href="index.shtml">Hjem</a></li>
+	<li><a href="kategori-garn.shtml">Garn</a></li>
+	<li class="current hide-for-small"><a href="#">Mari Kidmohairgarn</a></li>
+	<li class="hide-for-medium-up"><a href="#" class="smuleknapp" data-dropdown="drop2">Mari kidmohairgarn</a></li>
+      </ul>
 </div>
+<!-- slutt breadcrumbs -->
+
+<!-- start drop breadcrumbs -->
+<div id="drop2" class="f-dropdown content hide-for-medium-up" data-dropdown-content>
+  <h4 class = "subheader">Mari kidmohairgarn</h4>
+  <p><em>Egenskaper:</em> Mari gir ca. 170 meter per 50 gram, strikkepinner: 2 - 3,5.<br />
+    <em>Vaskeanvisning:</em> Vaskes på ullvask 30 grader.<br />
+    <em>Strikkefasthet:</em> ca. 25m per 10cm på pinne nr.3.<br />
+    <em>Materialer:</em> 80% kidmohair og 20% merinoull.</p>
+</div>
+
+<div class=" row hide-for-small">
+  <div class= "columns large-12">
+    <h4 class = "subheader">Mari kidmohairgarn</h4>
+    <p><em>Egenskaper:</em> Mari gir ca. 170 meter per 50 gram, strikkepinner: 2 - 3,5.<br />
+      <em>Vaskeanvisning:</em> Vaskes på ullvask 30 grader.<br />
+      <em>Strikkefasthet:</em> ca. 25m per 10cm på pinne nr.3.<br />
+      <em>Materialer:</em> 80% kidmohair og 20% merinoull.</p>
+  </div>
+</div>
+<!-- slutt drop breadcrumbs -->
 
 <div class="section-container tabs" data-section="tabs">
   <section class="active">
     <p class="title" data-section-title><a href="#panel1">Alle Mari Garn</a></p>
     <div class="content" data-section-content>
-
 
 <!-- Mari M001 & Mari M100 -->
 <div class="row">
@@ -34,12 +50,12 @@
       </div>
       <div class="row">
     <div class="large-12 small-12 columns show-for-small hide-for-medium-up" >
-        <img src="images/mari/m001.jpg" 
-        style="margin-bottom:20px;" width="100%"  />
+        <a href="mari-m001.shtml"><img src="images/mari/m001.jpg" 
+        style="margin-bottom:20px;" width="100%"  /></a>
     </div>
     <div class="large-12 small-12 columns show-for-medium-up hide-for-small" >
-        <img src="images/mari/m001-large.jpg" 
-        style="margin-bottom:20px;" width="100%"  />
+        <a href="mari-m001.shtml"><img src="images/mari/m001-large.jpg" 
+        style="margin-bottom:20px;" width="100%"  /></a>
     </div>
     
     </div>  
@@ -69,12 +85,12 @@
       </div>
       <div class="row">
     <div class="large-12 small-12 columns show-for-small hide-for-medium-up" >
-        <img src="images/mari/m100.jpg" 
-        style="margin-bottom:20px;" width="100%"  />
+        <a href="mari-m100.shtml"><img src="images/mari/m100.jpg" 
+        style="margin-bottom:20px;" width="100%"  /></a>
     </div>
     <div class="large-12 small-12 columns show-for-medium-up hide-for-small" >
-        <img src="images/mari/m100-large.jpg" 
-        style="margin-bottom:20px;" width="100%"  />
+        <a href="mari-m100.shtml"><img src="images/mari/m100-large.jpg" 
+        style="margin-bottom:20px;" width="100%"  /></a>
     </div>
     </div>  
       <div class="row">
@@ -103,16 +119,16 @@
     <form action="#">
       <div class="row">
         <div class="large-12 columns">
-          <h2><a href="mari-m200.shtml">Mari burgunder</a></h2></div>
+          <h2><a href="mari-m200.shtml">Mari rød</a></h2></div>
       </div>
       <div class="row">
     <div class="large-12 small-12 columns show-for-small hide-for-medium-up" >
-        <img src="images/mari/m200.jpg" 
-        style="margin-bottom:20px;" width="100%"  />
+        <a href="mari-m200.shtml"><img src="images/mari/m200.jpg" 
+        style="margin-bottom:20px;" width="100%"  /></a>
     </div>
     <div class="large-12 small-12 columns show-for-medium-up hide-for-small" >
-        <img src="images/mari/m200-large.jpg" 
-        style="margin-bottom:20px;" width="100%"  />
+        <a href="mari-m200.shtml"><img src="images/mari/m200-large.jpg" 
+        style="margin-bottom:20px;" width="100%"  /></a>
     </div>
     </div>  
       <div class="row">
@@ -141,12 +157,12 @@
       </div>
       <div class="row">
     <div class="large-12 small-12 columns show-for-small hide-for-medium-up" >
-        <img src="images/mari/m300.jpg" 
-        style="margin-bottom:20px;" width="100%"  />
+        <a href="mari-m300.shtml"><img src="images/mari/m300.jpg" 
+        style="margin-bottom:20px;" width="100%"  /></a>
     </div>
     <div class="large-12 small-12 columns show-for-medium-up hide-for-small" >
-        <img src="images/mari/m300-large.jpg" 
-        style="margin-bottom:20px;" width="100%"  />
+        <a href="mari-m300.shtml"><img src="images/mari/m300-large.jpg" 
+        style="margin-bottom:20px;" width="100%"  /></a>
     </div>
     </div>  
       <div class="row">
