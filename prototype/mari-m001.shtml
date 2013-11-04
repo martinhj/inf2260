@@ -85,8 +85,7 @@
               <tr><td>Vekt(kg)</td><td><span id="vekt"></span></td></tr>
               </table>
             </div>
-        </section>
-          <!-- <section> -->
+        </section> <!-- <section> -->
           <!-- <p class="title" data-section-title> -->
           <!-- <a href="#">Tilsvarende produkter</a> -->
           <!-- </p> -->
@@ -98,9 +97,13 @@
         <p class="title" data-section-title><a href="#">Om mari</a></p>
             <div class="content" data-section-content>
                 <h4>Produksjonen av Mari hos Telespinn:</h4>
-                <img src="http://placehold.it/300x200/" width="100%">
-                <!-- <iframe width="100%" src="//www.youtube.com/embed/cK_yxSDzzXo"
-                frameborder="0" allowfullscreen></iframe> -->
+				Her kan du se hvordan Mari blir produsert.
+				<br/><br/>
+				<div class="flex-video">
+				<iframe width="420" height="315"
+				src="//www.youtube.com/embed/cK_yxSDzzXo" frameborder="0"
+				allowfullscreen></iframe>
+				</div>
             </div>
         </section>
       </div>
