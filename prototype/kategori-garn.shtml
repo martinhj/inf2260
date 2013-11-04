@@ -25,10 +25,8 @@
         </div>
       </a>  
       <div class="row hide-for-medium-up">
-          <div class="small-12 small-centered columns"><a href="#" data-dropdown="drop2" class="small small-12 secondary radius button dropdown">Om mari</a>         
-          <ul id="drop2" data-dropdown-content="" class="f-dropdown close">
-          <p style="padding: 5px;">Mari er et spesielt mykt 2-tråds garn som er svært behagelig mot huden. Mari er oppkalt etter blomsten Søstermarihånd, en orkidéart det finnes spesielt mye av i Svartdal. Garnet er spunnet av mohair fra de to første klippene av geitekillingen, såkalt kidmohair. Mari egner seg meget bra til sjal, luer og baby/barnetøy. Mari gir ca. 170 meter per 50 gram, strikkepinner: 2 - 3,5. Vaskes på ullvask 30 grader. Strikkefasthet ca. 25m per 10cm på pinne nr.3. Mari består av 80% kidmohair og 20% merinoull.</p>
-        </ul></div>
+          <div class="small-12 small-centered columns"><a href="#" data-reveal-id="mari" class="small small-12 secondary radius button">Om mari</a>         
+          </div>
       </div>
 
       <a href="#" data-reveal-id="ikke-implementert">
@@ -59,6 +57,11 @@
           </div>
         </div>  
       </a>
+      <div class="row hide-for-medium-up">
+          <div class="small-12 small-centered columns"><a href="#" data-reveal-id="symre" class="small small-12 secondary radius button">Om symre</a>         
+          </div>
+      </div>
+
 
       <a href="#" data-reveal-id="ikke-implementert">
         <div class="row">
@@ -71,6 +74,11 @@
           </div>
         </div>  
       </a>
+      <div class="row hide-for-medium-up">
+          <div class="small-12 small-centered columns"><a href="#" data-reveal-id="pan" class="small small-12 secondary radius button">Om pan</a>         
+          </div>
+      </div>
+
 
       <a href="#" data-reveal-id="ikke-implementert">
         <div class="row">
@@ -83,6 +91,11 @@
           </div>
         </div> 
       </a> 
+      <div class="row hide-for-medium-up">
+          <div class="small-12 small-centered columns"><a href="#" data-reveal-id="rye" class="small small-12 secondary radius button">Om ryegarn</a>         
+          </div>
+      </div>
+
 
       <a href="#" data-reveal-id="ikke-implementert">
         <div class="row">
@@ -95,6 +108,11 @@
           </div>
         </div> 
       </a> 
+      <div class="row hide-for-medium-up">
+          <div class="small-12 small-centered columns"><a href="#" data-reveal-id="boucle" class="small small-12 secondary radius button">Om bouclégarn</a>         
+          </div>
+      </div>
+
 
       <a href="#" data-reveal-id="ikke-implementert">
         <div class="row">
@@ -106,7 +124,12 @@
           <p>Vi har valgt å ta inn dette økologiske bomullsgarnet. Mens tradisjonell bomullsproduksjon kan være tildels svært skadelig for miljøet, er det motsatte tilfelle her. Bomullen blir økologisk produsert av lokale indianerfamilier i Peru, og arealet som brukes til bomullsproduksjonen ble tidligere brukt til å dyrke coca. Dette garnet er heller ikke farget, og leveres i fire forskjellige farger som er bomullens naturlige farge. Dette Pakuchogarnet er dermed blant det mest bærekraftige bomullsgarnet du får tak i, og det er derfor både Fairtrade- og økologisk sertifisert.</p>
           </div>
         </div>
-      </a>  
+      </a> 
+      <div class="row hide-for-medium-up">
+          <div class="small-12 small-centered columns"><a href="#" data-reveal-id="økobomull" class="small small-12 secondary radius button">Om økologisk bomullsgarn</a>         
+          </div>
+      </div>
+ 
 
   </div> 
 </section>
@@ -314,11 +337,40 @@
 
 </div>
 <!-- slutt tabs -->
+<div id="mari" class="reveal-modal">
+  <p>Mari er et spesielt mykt 2-tråds garn som er svært behagelig mot huden. Mari er oppkalt etter blomsten Søstermarihånd, en orkidéart det finnes spesielt mye av i Svartdal. Garnet er spunnet av mohair fra de to første klippene av geitekillingen, såkalt kidmohair. Mari egner seg meget bra til sjal, luer og baby/barnetøy.</p>
+  <p><a class="close-reveal-modal button radius" style="color:white;"> x lukk</a></p>
+</div>
+
 <div id="fivrel" class="reveal-modal">
   <p>Fivrel er et fint ett-tråds garn i kidkvalitet. Fivrel har navnet sitt etter sommerfugl på nynorsk - Fivrel - som det finnes mange av i Svartdal. Fivrel har samme ullblanding som Mari, og er derfor svært mykt. Dette garnet egner seg blant annet til sjal og skjerf. Fivrel består av 80% kidmohair og 20% merinoull.</p>
   <p><a class="close-reveal-modal button radius" style="color:white;"> x lukk</a></p>
 </div>
 
+<div id="symre" class="reveal-modal">
+  <p>Symre strikkegarn er et tynt totråds garn som er svært blankt og mykt. Symre har navnet sitt etter blomsterfamilien med navnet Symre som det finnes flere sorter av i kulturlandskapet i Svartdal. Symre passer godt til de fleste strikkeprodukter, som gensere, jakker, luer og også barnetøy.</p>
+  <p><a class="close-reveal-modal button radius" style="color:white;"> x lukk</a></p>
+</div>
+
+<div id="pan" class="reveal-modal">
+  <p>Pan sportsgarn er et kraftig tretråds garn som er meget slitesterkt, blankt og forholdsvis mykt. Pan er oppkalt etter skogsguden Pan, som var halvt geitebukk og halvt menneske. Garnet er spunnet av mohair fra voksne geiter og geitebukker. Det egner seg godt til gensere, sokker, votter og luer. </p>
+  <p><a class="close-reveal-modal button radius" style="color:white;"> x lukk</a></p>
+</div>
+
+<div id="rye" class="reveal-modal">
+  <p>Ryegarnet vi lager er helt unikt. Av dette spesielt tykke garnet kan du veve tepper som er svært behagelige å gå på. Du kan også strikke eller fingerhekle med dette garnet. Ryegarnet er like naturlig og miljøvennlig som våre andre garn, og selvsagt 100% lokalt produsert. Ryegarnet blir laget av en blanding av mohair og spælsau. Her bruker vi spesielt kraftig fiber, noe som gjør ryegarnet spesielt slitesterkt, samtidig som dette forsatt er mykt og behagelig garn. Det er ingen bunter som er helt like hverken i farge eller størrelse. </p>
+  <p><a class="close-reveal-modal button radius" style="color:white;"> x lukk</a></p>
+</div>
+
+<div id="boucle" class="reveal-modal">
+  <p>Bouclégarnet spinner vi ikke selv da vi ikke har utstyr til å spinne garn med løkker slik bouclégarnet har. Garnet er spunnet i Sør-Afrika, hvor det er spesielt mye mohairgeiter. Bouclégarnet er fint til sjal, gensere, luer og andre tekstiler som skal være ekstra lodne. Vaskes på ullvask 30 grader. Bouclégarnet består av 78% mohair, 13% merino og 9% nylon.</p>
+  <p><a class="close-reveal-modal button radius" style="color:white;"> x lukk</a></p>
+</div>
+
+<div id="økobomull" class="reveal-modal">
+  <p>Bomullen blir økologisk produsert av lokale indianerfamilier i Peru, og arealet som brukes til bomullsproduksjonen ble tidligere brukt til å dyrke coca. Dette garnet er ikke farget og fargene det leveres i er bomullens naturlige farge. Dette Pakuchogarnet er dermed blant det mest bærekraftige bomullsgarnet du får tak i, og er både Fairtrade- og økologisk sertifisert.</p>
+  <p><a class="close-reveal-modal button radius" style="color:white;"> x lukk</a></p>
+</div>
 
 
 <!--#include virtual="snippets/overlay.html" -->
