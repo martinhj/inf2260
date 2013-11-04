@@ -392,9 +392,23 @@ textarea {
   height: 500px;
 }
 
-/////////////////////////////
-//no bullets unordered list//
-/////////////////////////////
+//////////////////
+//footer styling//
+//////////////////
 footer ul{
     list-style-type: none;
+}
+
+footer a .gen-enclosed{
+  color: #F79B2E;  
+  font-size: em-calc(80); 
+}
+
+footer a:hover .gen-enclosed{
+  color: #f98912; 
+  
+}
+
+footer a .social{
+    font-size: em-calc(80);
 }
