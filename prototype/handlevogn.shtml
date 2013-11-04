@@ -2,6 +2,14 @@
 <body>
 <!--#include virtual="snippets/sidetopp.html" --> 
 <!--#include virtual="snippets/menu1.html" --> 
+<!-- start breadcrumbs -->
+<div class="panel">
+      <ul class="telespinncrumbs">
+	<li><a href="index.shtml">Hjem</a></li>
+	<li class="current"><a href="#">Handlevogn</a></li>
+      </ul>
+</div>
+<!-- slutt breadcrumbs -->
 
 <!-- Produkttabell for små skjermer -->
 <table style="width:100%;" class="show-for-small hide-for-medium-up">
