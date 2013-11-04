@@ -6,17 +6,33 @@
 <!-- Produkttabell for små skjermer -->
 <table style="width:100%;" class="show-for-small hide-for-medium-up">
     <tr>
-        <td width="65%">
-        <a href="mari-m001.shtml"> 
-        <img src="images/mari/m001.jpg" width="75%"/><br/>
-        Mari - natur </a>
+        <td width="45%">
+        <img src="http://placehold.it/400x100"/><br/>
+        Produkt xxx
         </td>
-        <td width="30%">
-            <b>pris:</b> 100
+        <td width="45%">
+            <span style="float:right;">
+            <b>pris:</b> 100<br/><br/>
+            </span>
+            <div style="clear:both;"></div>
+            <div class="row">
+            <div class="small-4 columns">
+            <a class="small button" 
+            onclick='javascript: document.getElementById("qtym001").value--;'>
+            -</a></div>
+            <div class="small-4 columns">
             <input  type="tel" id="qtym001" value="1" /></div>
-            <b>sum:</b> 100
+            <div class="small-4 columns">
+            <a class="small button" 
+            onclick='javascript: document.getElementById("qtym001").value++;'>
+            +</a></div>
+            </div>
+            <span style="float:right;">
+            <b>sum:</b> <span id="m001-sum">100</span>
+            </span>
         </td>
         <td>
+            <br/>
             <a class="small button expand postfix" 
             onclick='javascript: document.getElementById("qtym001").value = 0;'>
 			Slett</a></div>
@@ -24,14 +40,29 @@
     </tr>
     <tr>
         <td>
-        <a href="mari-m100.shtml">
-        <img src="images/mari/m100.jpg" width="75%"/><br/>
-        Mari - gul</a>
+        <img src="http://placehold.it/400x100"/><br/>
+        Produkt xxx
         </td>
-        <td>
-            <b>pris:</b> 100
-            <input  type="tel" id="qtym100" value="1" />
-            <b>sum:</b> 100
+        <td width="45%">
+            <span style="float:right;">
+            <b>pris:</b> 100<br/><br/>
+            </span>
+            <div style="clear:both;"></div>
+            <div class="row">
+            <div class="small-4 columns">
+            <a class="small button" 
+            onclick='javascript: document.getElementById("qtym100").value--;'>
+            -</a></div>
+            <div class="small-4 columns">
+            <input  type="tel" id="qtym100" value="1" /></div>
+            <div class="small-4 columns">
+            <a class="small button" 
+            onclick='javascript: document.getElementById("qtym100").value++;'>
+            +</a></div>
+            </div>
+            <span style="float:right;">
+            <b>sum:</b> <span id="m001-sum">100</span>
+            </span>
         </td>
         <td>
             <a class="small button expand "
@@ -58,10 +89,10 @@
     <tr>
         <td>
         <div class="columns large-4">
-        <a href="mari-m001.shtml"> <img src="images/mari/m001.jpg"/> </a>
+        <img src="http://placehold.it/400x100"/><br/>
         </div>
         <div class="columns large-8">
-        <a href="mari-m001.shtml"> Mari - natur </a>
+        Produkt xxx
         </div>
         
         </td>
@@ -94,12 +125,10 @@
     <tr>
         <td>
         <div class="columns large-4">
-        <a href="mari-m100.shtml">
-        <img src="images/mari/m100.jpg"/>
-        </a>
+        <img src="http://placehold.it/400x100"/><br/>
         </div>
         <div class="columns large-8">
-        <a href="mari-m100.shtml">Mari - gul</a>
+        Produkt xxx
         </div>
         
         </td>
