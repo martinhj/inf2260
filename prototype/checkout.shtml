@@ -69,7 +69,10 @@
 
 <div class="bump show-for-small"></div>
 		<a id="frakt"></a>
-			<h2>Frakt</h2>
+		<div class="row">
+			<div class="small-6 columns"><h2>Frakt</h2></div>
+			<div class="small-6 columns"><a class="tiny secondary button" href="#personlig-info"><i class="general foundicon-left-arrow"> tilbake til personlig info</i></a></div>
+		</div>
 			<div class="row">
 			 <div class="small-12 columns">
 			 <label for="hjemlevering"><input type="radio" checked id="hjemlevering" name="frakt" value="hjemlevering" style="display: none;"><span class="custom radio"></span> Hjemlevering kr 189,- 
@@ -96,11 +99,14 @@
 
 
 <div class="bump show-for-small"></div>
-
+		
 
 		<a id="betaling"></a>
-			<h2>Betalingsvalg</h2>
-			<div class="row">
+		<div class="row">
+			<div class="small-7 columns"><h2>Betalingsvalg</h2></div>
+			<div class="small-5 columns"><a class="tiny secondary button" href="#frakt"><i class="general foundicon-left-arrow"> tilbake til frakt</i></a></div>
+		</div>			
+		<div class="row">
 			 <div class="small-12 columns">
 		      <label for="paypal"><input type="radio" checked id="paypal" name="betaling" value="paypal" style="display: none;"><span class="custom radio"></span> Paypal</label>
 		      <br>

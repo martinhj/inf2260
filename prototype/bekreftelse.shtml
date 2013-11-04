@@ -14,7 +14,7 @@ Varene blir sendt neste dag, eller samme dag hvis orderen er plassert før kl 9.
 <br><br>
 Du handlet som gjest - ønsker du å registrere deg som kunde med opplysningene fra denne handelen? 
 <br><br>
-Som registrert kunde får går det raskere å handle neste gang. Du kan også få tilsendt tilbud og nyhetsbrev. Det er selvsagr gratis å registrere segog vi videreformidler ikke dine opplysninger til tredjepart. Trykk på knappen under og alt du trenger å gjøre er å rykke på en bekreftelseslink vi sender til din epostadresse. 
+Som registrert kunde får går det raskere å handle neste gang. Du kan også få tilsendt tilbud og nyhetsbrev. Det er selvsagt gratis å registrere seg og vi videreformidler ikke dine opplysninger til tredjepart. Trykk på knappen under og alt du trenger å gjøre er å trykke på bekreftelseslinken vi sender til din epostadresse. 
 <br><br>
 <form class="custom">
 <label class="space-under" for="tilbud"><input type="checkbox" id="tilbud" checked style="display: none;"><span class="custom checkbox"></span> Send meg tilbud</label>
