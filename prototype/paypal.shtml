@@ -12,11 +12,11 @@
 
 
 <div class="row show-for-small">
-	<div class="small-12 columns"><a href="bekreftelse.shtml" class="button expand radius">Betal</a></div>
+	<div class="small-12 columns"><a href="bekreftelse.shtml" class="button expand">Betal</a></div>
 </div>
 
 <div class="row show-for-medium-up">
-   <div class="small-6 large-4 large-centered columns"><a href="bekreftelse.shtml" class="button expand radius">Betal</a></div>
+   <div class="small-6 large-4 large-centered columns"><a href="bekreftelse.shtml" class="button expand">Betal</a></div>
 
 </div>
 

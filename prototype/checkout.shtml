@@ -60,7 +60,7 @@
 				</div>
 				 <label class="space-under" for="leveringsadresse"><input type="checkbox" id="leveringsadresse" checked style="display: none;"><span class="custom checkbox"></span> Levering til samme adresse</label>
 
-				<a href="#frakt" class="button expand radius">gå til frakt</a>
+				<a href="#frakt" class="button expand ">gå til frakt</a>
 			</div>
 
 
@@ -91,7 +91,7 @@
 		      <h4>Totalsum kr 705,-</h4>
 			</div>
 			
-			<a href="#betaling" class="button expand radius">Til betalingsvalg</a>
+			<a href="#betaling" class="button expand ">Til betalingsvalg</a>
 		    </div>
 
 
@@ -107,7 +107,7 @@
 		      <label class="space-under" for="faktura"><input type="radio" id="faktura" name="betaling" value="faktura" style="display: none;"><span class="custom radio"></span> Faktura</label>
 			</div>
 
-			<p><a href="paypal.shtml" class=" button expand radius">Betal hos paypal</a> </p>
+			<p><a href="paypal.shtml" class=" button expand ">Betal hos paypal</a> </p>
 			
 			</div>
 
@@ -221,7 +221,7 @@
 		      <br>
 		      <label for="faktura"><input type="radio" id="faktura" name="betaling" value="faktura" style="display: none;"><span class="custom radio"></span> Faktura</label>
 			</div>
-			<p><a href="paypal.shtml" class=" button radius">Til betaling</a> </p>
+			<p><a href="paypal.shtml" class=" button ">Til betaling</a> </p>
 			</div>
 		</fieldset>
     
@@ -258,8 +258,8 @@
 		</div>
 
 
-		<a href="#" data-reveal-id="ikke-implementert" class=" button radius">Logg inn</a> 
-		<a href="#" data-reveal-id="ikke-implementert" class=" button success radius">Registrer ny konto</a>
+		<a href="#" data-reveal-id="ikke-implementert" class=" button ">Logg inn</a> 
+		<a href="#" data-reveal-id="ikke-implementert" class=" button success ">Registrer ny konto</a>
 
 	</form>     
     </div>

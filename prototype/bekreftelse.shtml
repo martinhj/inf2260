@@ -4,16 +4,30 @@
 <!--#include virtual="snippets/menu1.html" --> 
 
 
+<div class="row">
 
+<div class="hide-for-small large-6 columns"><img src="images/geit.png"></div>
+	<div class="small-12 large-6 columns">
 <h1>Takk for handelen</h1>
 
-Trykk her så blir du registrert kunde og får en mail du må bekrefte
+Varene blir sendt neste dag, eller samme dag hvis orderen er plassert før kl 9. Har du valgt forsendelse som kan spores så sender vi deg sporingsnummer i løpet av 24 timer. 
+<br><br>
+Du handlet som gjest - ønsker du å registrere deg som kunde med opplysningene fra denne handelen? 
+<br><br>
+Som registrert kunde får går det raskere å handle neste gang. Du kan også få tilsendt tilbud og nyhetsbrev. Det er selvsagr gratis å registrere segog vi videreformidler ikke dine opplysninger til tredjepart. Trykk på knappen under og alt du trenger å gjøre er å rykke på en bekreftelseslink vi sender til din epostadresse. 
+<br><br>
+<form class="custom">
+<label class="space-under" for="tilbud"><input type="checkbox" id="tilbud" checked style="display: none;"><span class="custom checkbox"></span> Send meg tilbud</label>
+<label class="space-under" for="nyhetsbrev"><input type="checkbox" id="nyhetsbrev" checked style="display: none;"><span class="custom checkbox"></span> Abonnér på nyhetsbrev</label>
+</form>
+<a href="#" data-reveal-id="ikke-implementert" class="button success"> Bli kunde</a>
 
-Varene blir sendt neste dag, eller samme dag hvis orderen er plassert før kl 9. Har du valgt servicpakke så sender vi deg sporingsnummer i løpet av 24 timer. 
 
-<a href="index2.shtml" class="button radius"> Tilbake til nettbutikken</a>
- 
-  
+
+<a href="index2.shtml" class="button"> Tilbake til nettbutikken</a>
+
+</div>
+ </div>  
 
 
 
