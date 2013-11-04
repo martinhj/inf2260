@@ -61,7 +61,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="large-12 small-12 columns"><a href="#" data-reveal-id="ikke-implementert" class="small button expand success">Kjøp</a>
+        <div class="large-12 small-12 columns"><a href="handlevogn.shtml" class="small button expand success" data-reveal-id="handlevogn">Kjøp</a>
         </div>
       </div>
     </form>
@@ -95,7 +95,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="large-12 small-12 columns"><a href="#" data-reveal-id="ikke-implementert" class="small button expand success">Kjøp</a>
+        <div class="large-12 small-12 columns"><a href="handlevogn.shtml" class="small button expand success" data-reveal-id="handlevogn">Kjøp</a>
         </div>
       </div>
     </form>
@@ -134,7 +134,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="large-12 small-12 columns"><a href="#" data-reveal-id="ikke-implementert" class="small button expand success">Kjøp</a>
+        <div class="large-12 small-12 columns"><a href="handlevogn.shtml" class="small button expand success" data-reveal-id="handlevogn">Kjøp</a>
         </div>
       </div>
     </form>
@@ -168,7 +168,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="large-12 small-12 columns"><a href="#" data-reveal-id="ikke-implementert" class="small button expand success">Kjøp</a>
+        <div class="large-12 small-12 columns"><a href="handlevogn.shtml" class="small button expand success" data-reveal-id="handlevogn">Kjøp</a>
         </div>
       </div>
     </form>
@@ -176,6 +176,7 @@
 </div>
 <hr class="hide-for-small" />
 
+<!--#include virtual="snippets/overlay_handlevogn.html" -->
 <!--#include virtual="snippets/overlay.html" -->
 <!--#include virtual="snippets/footer.html" -->
 <!--#include virtual="snippets/sidebunn.html" --> 
