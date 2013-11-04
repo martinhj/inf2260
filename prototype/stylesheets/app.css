@@ -8754,3 +8754,11 @@ footer a:hover .gen-enclosed {
 footer a .social {
   font-size: 5em;
 }
+
+/* line 419, ../sass/app.scss */
+form.custom .custom.checkbox.checked:before {
+  font-size: 1.8em;
+  content: "✓";
+  margin-left: -7px;
+  margin-top: -1px;
+}

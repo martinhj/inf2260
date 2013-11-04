@@ -412,3 +412,13 @@ footer a:hover .gen-enclosed{
 footer a .social{
     font-size: em-calc(80);
 }
+
+//////////////////////
+//check i checkbox ✓//
+//////////////////////
+form.custom .custom.checkbox.checked:before {
+    font-size: 1.8em;
+    content: "✓";
+    margin-left: -7px;
+    margin-top: -1px;
+}
