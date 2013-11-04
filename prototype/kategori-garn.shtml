@@ -213,7 +213,7 @@
       </div></a>
     </div>
 
-    <a href="kategori-garn.shtml#garntyper">herheher</a>
+
 	</div>
 
   <div class="row hide-for-small">
@@ -262,10 +262,8 @@
     </div>
 
     </div>
-  </div>
 
-
-  <!-- last-inn-mer-knapp (kun small) -->
+<!-- last-inn-mer-knapp (kun small) -->
   <div class="small-12 show-for-small hide-for-medium-up button radius" ><a href='#' data-reveal-id="ikke-implementert"><h2 style="color:white;"> mer inspirasjon </h2></a></div>
   <!-- end last-inn-mer-knapp -->
 
@@ -285,6 +283,11 @@
   </ul>
 </div>
 <!-- end paginering -->
+
+  </div>
+
+
+  
 
 
 </section>

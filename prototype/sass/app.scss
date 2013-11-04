@@ -463,7 +463,9 @@ textarea {
   height: 500px;
 }
 
-ul
-{
+/////////////////////////////
+//no bullets unordered list//
+/////////////////////////////
+footer ul{
     list-style-type: none;
 }
