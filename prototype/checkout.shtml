@@ -42,9 +42,9 @@
 					<input type="text" name="postal-code" x-autocompletetype="administrative-area" placeholder="P.Sted">
 				</div> 
 
-				<div class="small-8rows">
-					<label for="land" class="right inline">(velg land)</label>
-					<select id="land" class="small">
+				<div class="row">
+					<div class="small-6 columns">
+					<select id="land" class="expand">
 						<option calue"NO">Norge</option>
 						<option value="DK">Danmark</option>
 						<option value="FI">Finland</option>
@@ -52,8 +52,15 @@
 						<option value="SJ">Svalbard and Jan Mayen</option>
 						<option value="SE">Sweden</option>
 					</select>
+					</div>
+					<div class="small-4  columns">
+					<label for="land" class="left inline">(velg land)</label>
+					</div>
+					<div class="small-2  columns"></div>
 				</div>
-				<a href="#frakt" class="button">gå til frakt</a>
+				 <label class="space-under" for="leveringsadresse"><input type="checkbox" id="leveringsadresse" checked style="display: none;"><span class="custom checkbox"></span> Levering til samme adresse</label>
+
+				<a href="#frakt" class="button expand radius">gå til frakt</a>
 			</div>
 
 
@@ -65,44 +72,43 @@
 			<h2>Frakt</h2>
 			<div class="row">
 			 <div class="small-12 columns">
-			 <label for="servicepakke-hjemlevering"><input type="radio" checked id="servicepakke-hjemlevering" name="frakt" value="servicepakke-hjemlevering" style="display: none;"><span class="custom radio"></span> Klimanøytral Servicepakke kr 189,- (1-3 dager) hjemlevering på kvelden. Sjåføren ringer 30-60 minutter før han kommer</label>
+			 <label for="hjemlevering"><input type="radio" checked id="hjemlevering" name="frakt" value="hjemlevering" style="display: none;"><span class="custom radio"></span> Hjemlevering kr 189,- 
+			 <br>(1-3 dager) Pakken leveres hjem til deg man-fre mellom kl. 17:00-21:00. Du kan endre leveringsdag når pakker er på vei til deg.</label>
 		      <br>
 		      
-		      <label for="servicepakke"><input type="radio" id="servicepakke" name="frakt" value="servicepakke" style="display: none;"><span class="custom radio"></span> Klimanøytral Servicepakke kr 105,- (1-3 dager). Hentes på postkontor/post i butikk</label>
+		      <label for="servicepakke"><input type="radio" id="servicepakke" name="frakt" value="servicepakke" style="display: none;"><span class="custom radio"></span> Klimanøytral Servicepakke kr 105,-
+		      <br>(1-3 dager). Hentes på postkontor/post i butikk</label>
 		      <br>
 
-		      <label for="brevpost"><input type="radio" id="brevpost" name="frakt" value="brevpost" style="display: none;"><span class="custom radio"></span> Brevpost kr 67,- (3-5 dager B-økonomi) i postkassen eller hentes på postkontoret/post i butikk hvis for stor</label>
+		      <label for="ekspress"><input type="radio" id="ekspress" name="frakt" value="ekspress" style="display: none;"><span class="custom radio"></span> Ekspress over natten kr 250,- 
+		      <br>leveres på døren dagen etter bestilling klokken 09:00. På mindre steder vil leveringstidspunktet kunne forskyves til innen klokken 16:00.</label>
+		      <br>
+
+		      <label for="brevpost"><input type="radio" id="brevpost" name="frakt" value="brevpost" style="display: none;"><span class="custom radio"></span> Brevpost kr 67,- 
+		      <br>(3-5 dager B-økonomi) i postkassen eller hentes på postkontoret/post i butikk hvis pakken er for stor for postkassen</label>
 		      <br>
 
 		      <h4>Totalsum kr 705,-</h4>
 			</div>
-			<a href="#kommentar" class="button">Ikke obligatorisk beskjed</a>
-			<a href="#betaling" class="button">Til betalingsvalg</a>
+			
+			<a href="#betaling" class="button expand radius">Til betalingsvalg</a>
 		    </div>
 
 
 <div class="bump show-for-small"></div>
 
-		<a id="kommentar"></a>
-			<h2>Kommentar til oss</h2>
-			<div class="small-12 columns">
-		        <label>Kommentarer til kjøpet (ikke obligatorisk)</label>
-		        <textarea placeholder="Hvis du ønsker gi oss en beskjed eller ekstra kommentar til kjøpet kan du gjøre det her"></textarea>
-		      </div>
-		      <a href="#betaling" class="button">Til betalingsvalg</a>
-<div class="bump show-for-small"></div>
-
 
 		<a id="betaling"></a>
-			<h2>Betaling</h2>
+			<h2>Betalingsvalg</h2>
 			<div class="row">
 			 <div class="small-12 columns">
 		      <label for="paypal"><input type="radio" checked id="paypal" name="betaling" value="paypal" style="display: none;"><span class="custom radio"></span> Paypal</label>
 		      <br>
-		      <label for="faktura"><input type="radio" id="faktura" name="betaling" value="faktura" style="display: none;"><span class="custom radio"></span> Faktura</label>
+		      <label class="space-under" for="faktura"><input type="radio" id="faktura" name="betaling" value="faktura" style="display: none;"><span class="custom radio"></span> Faktura</label>
 			</div>
+
+			<p><a href="paypal.shtml" class=" button expand radius">Betal hos paypal</a> </p>
 			
-			<p><a href="paypal.shtml" class=" button radius">Betal</a> </p>
 			</div>
 
     
@@ -140,9 +146,9 @@
 					<input type="text" name="postal-code" x-autocompletetype="administrative-area" placeholder="P.Sted">
 				</div> 
 
-				<div class="large-3 rows">
-					<label for="land" class="right inline">(velg land)</label>
-					<select id="land" class="small">
+				<div class="row">
+					<div class="large-6 columns">
+					<select id="land" class="expand">
 						<option calue"NO">Norge</option>
 						<option value="DK">Danmark</option>
 						<option value="FI">Finland</option>
@@ -150,7 +156,14 @@
 						<option value="SJ">Svalbard and Jan Mayen</option>
 						<option value="SE">Sweden</option>
 					</select>
+					</div>
+					<div class="large-4  columns">
+					<label for="land" class="left inline">(velg land)</label>
+					</div>
+					<div class="large-2  columns"></div>
 				</div>
+				 
+				<label class="space-under" for="leveringsadresse"><input type="checkbox" id="leveringsadresse" checked style="display: none;"><span class="custom checkbox"></span> Levering til samme adresse</label>
 			</div>
 		</fieldset>
 
@@ -160,14 +173,35 @@
 			<br>
 			<div class="row">
 			 <div class="large-12 columns">
-		      <label for="brevpost"><input type="radio" id="brevpost" name="frakt" value="brevpost" style="display: none;"><span class="custom radio"></span> Brevpost kr 67,- (3-5 dager B-økonomi)</label>
+
+
+		      <label for="hjemlevering-large"><input type="radio" checked id="hjemlevering-large" name="frakt" value="hjemlevering-large" style="display: none;"><span class="custom radio"></span> Hjemlevering kr 189,- 
+			 <br>(1-3 dager) Pakken leveres hjem til deg man-fre mellom kl. 17:00-21:00. Du kan endre leveringsdag når pakker er på vei til deg.</label>
 		      <br>
-		      <label for="servicepakke"><input type="radio" checked id="servicepakke" name="frakt" value="servicepakke" style="display: none;"><span class="custom radio"></span> Klimanøytral Servicepakke kr 105,- (1-3 dager)</label>
+		      
+		      <label for="servicepakke-large"><input type="radio" id="servicepakke-large" name="frakt" value="servicepakke-large" style="display: none;"><span class="custom radio"></span> Klimanøytral Servicepakke kr 105,-
+		      <br>(1-3 dager). Hentes på postkontor/post i butikk</label>
+		      <br>
+
+		      <label for="ekspress-large"><input type="radio" id="ekspress-large" name="frakt" value="ekspress-large" style="display: none;"><span class="custom radio"></span> Ekspress over natten kr 250,- 
+		      <br>leveres på døren dagen etter bestilling klokken 09:00. På mindre steder vil leveringstidspunktet kunne forskyves til innen klokken 16:00.</label>
+		      <br>
+
+		      <label for="brevpost-large"><input type="radio" id="brevpost-large" name="frakt" value="brevpost-large" style="display: none;"><span class="custom radio"></span> Brevpost kr 67,- 
+		      <br>(3-5 dager B-økonomi) i postkassen eller hentes på postkontoret/post i butikk hvis pakken er for stor for postkassen</label>
+		      <br>
+
+
 		      <br>
 		      <h4>Totalsum kr 705,-</h4>
 			</div>
 		    </div>
 		</fieldset>
+
+
+
+
+
 
 		<fieldset>	
 			<legend>3. Kommentar til oss</legend>
