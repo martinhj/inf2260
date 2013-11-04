@@ -160,7 +160,7 @@
 </table>
 
 <!-- Tabell for stor -->
-<table style="width:100%;" class="hide-for-small show-for-medium-up">
+<table id="handlevogn" style="width:100%;" class="hide-for-small show-for-medium-up">
     <tr>
         <td>Produkt
         </td>
@@ -226,29 +226,39 @@
         <div class="row ">
         <div class="small-2 large-4 columns">
             <a class="small button" 
-            onclick='javascript: document.getElementById("qtym100l").value--;'>
+            onclick='javascript: document.getElementById("qtym100l").value--;updateSum()'>
             -</a></div>
         <div class="small-2 large-4 columns">
             <input  type="tel" id="qtym100l" value="1" /></div>
         <div class="small-2 large-4 columns">
             <a class="small button" 
-            onclick='javascript: document.getElementById("qtym100l").value++;'>
+            onclick='javascript: document.getElementById("qtym100l").value++;updateSum()'>
             +</a></div>
         </div>
         </td>
         <td>
-            100
+            <span id="m100lsum">100</span>
         </td>
         <td>
             <a class="small button expand"
-            onclick='javascript: document.getElementById("qtym100l").value = 0;'>
-			Slett</a></div>
+            onclick='javascript: deleteItem()'>
+			Slett</a>
         </td>
     </tr>
 </table>
 <div class="row">
 <div class="columns large-8"><p></p></div>
 <div class="columns small-12 large-2" >
+<script>
+function updateSum() {
+    var text = document.getElementById('qtym100l').value;
+    document.getElementById('m100lsum').innerHTML = text * 100;
+}
+function deleteItem() {
+    document.getElementById('handlevogn').deleteRow(2);
+
+}
+</script>
 <a href="kategori-garn.shtml" class="button small expand secondary" style="float:right;">fortsett å handle</a>
 </div>
 <div class="columns small-12 large-2" >
@@ -257,6 +267,7 @@
     </a>
 </div>
 </div>
+
 
 
 
