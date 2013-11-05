@@ -1,3 +1,16 @@
+<script>
+
+ function tabhandler(anchor) {
+   
+   var url = window.location.pathname;
+   var filename = url.substring(url.lastIndexOf('/')+1);
+   if (filename == "kategori-garn.shtml") {
+     window.location.hash = anchor;
+     location.reload();
+   } else window.location.href = "kategori-garn.shtml"+anchor;
+   
+ }
+</script>
 <nav class="top-bar" data-options="back_text:Tilbake">
   <ul class="title-area">
     <!-- Title Area -->
@@ -23,7 +36,7 @@
 	  <li class="divider "></li>
 	  <li><label>Garn</label></li>
 	  <li class="divider "></li>
-	  <li class="menu-indent"><a href="kategori-garn.shtml#garntyper">Garn etter type</a></li>
+	  <li class="menu-indent"><a href="kategori-garn.shtml#garntyper" >Garn etter type</a></li>
 	  <li class="divider "></li>
 	  <li class="menu-indent"><a href="kategori-garn.shtml#jeg-vil-lage">Jeg vil lage...</a></li>
 	  <li class="divider"></li>
@@ -82,10 +95,10 @@
 	<p class="title menu-leftpad" data-section-title><a href="#">Garn</a></p>
 	<div class="content" data-section-content>
 	  <ul class="side-nav">
-            <li><a href="kategori-garn.shtml#garntyper">Garn etter type</a></li>
-            <li><a href="kategori-garn.shtml#jeg-vil-lage">Jeg vil lage...</a></li>
-            <li><a href="kategori-garn.shtml#inspirasjon">Bli inspirert</a></li>
-	    <li><a href="kategori-garn.shtml#teknikk">Garn etter egenskaper</a></li>
+            <li><a href="#" onclick="tabhandler('#garntyper')" >Garn etter type</a></li>
+            <li><a href="#" onclick="tabhandler('#jeg-vil-lage')" >Jeg vil lage...</a></li>
+            <li><a href="#" onclick="tabhandler('#inspirasjon')" >Bli inspirert</a></li>
+	    <li><a href="#" onclick="tabhandler('#teknikk')" >Garn etter egenskaper</a></li>
 	  </ul>
 	</div>
       </section>
@@ -113,3 +126,4 @@
     </div>
 </div>
 <!-- slutt mobil nav -->
+
