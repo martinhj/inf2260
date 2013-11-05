@@ -1,7 +1,7 @@
 <!--#include virtual="snippets/head.html" --> 
 <body>
 <!--#include virtual="snippets/sidetopp.html" --> 
-<!--#include virtual="snippets/menu1.html" --> 
+<!--#include virtual="snippets/menu2.html" --> 
 <!-- start breadcrumbs -->
 <div class="panel">
       <ul class="telespinncrumbs">
@@ -147,18 +147,18 @@
     <p class="title" data-section-title><a href="#jeg-vil-lage">Jeg vil <br>lage..</a></p>
     <div class="content" data-slug="jeg-vil-lage" data-section-content>
           <div id="center" class="row display">
-          <a href="kategori-jeg-vil-lage-genser.shtml" ><div class="small-6 large-4 columns"><h2>Genser</h2><br><img alt="-" src="images/genser.gif"></div></a>
+          <a href="kategori-jeg-vil-lage-genser.shtml" ><div class="small-6 large-4 columns"><h2>Genser</h2><br><img alt="-" src="images/genser.png"></div></a>
 
-          <a href="#"  data-reveal-id="ikke-implementert"><div class="small-6 large-4 columns"><h2>Sjal og skjerf</h2><br><img alt="-" src="images/skjerf.gif"></div></a>
+          <a href="#"  data-reveal-id="ikke-implementert"><div class="small-6 large-4 columns"><h2>Sjal og skjerf</h2><br><img alt="-" src="images/skjerf.png"></div></a>
           
-          <a href="#" data-reveal-id="ikke-implementert"><div class="small-6 large-4 columns"><h2>Lue</h2><br><img alt="-" src="images/lue.gif"></div></a>
+          <a href="#" data-reveal-id="ikke-implementert"><div class="small-6 large-4 columns"><h2>Lue</h2><br><img alt="-" src="images/lue.png"></div></a>
         
 
-          <a href="#" data-reveal-id="ikke-implementert"><div class="small-6 large-4 columns"><h2>Votter</h2><br><img alt="-" src="images/votter.jpg"></div></a>
+          <a href="#" data-reveal-id="ikke-implementert"><div class="small-6 large-4 columns"><h2>Votter</h2><br><img alt="-" src="images/votter.png"></div></a>
           
-          <a href="#" data-reveal-id="ikke-implementert"><div class="small-6 large-4 columns"><h2>Rye</h2><br><img alt="-" src="images/fillerye.jpg"></div></a>
+          <a href="#" data-reveal-id="ikke-implementert"><div class="small-6 large-4 columns"><h2>Rye</h2><br><img alt="-" src="images/fillerye.png"></div></a>
           
-          <a href="#" data-reveal-id="ikke-implementert"><div class="small-6 large-4 columns"><h2>Barneklær</h2><br><img alt="-" src="images/sparkebukse.jpg"></div></a>
+          <a href="#" data-reveal-id="ikke-implementert"><div class="small-6 large-4 columns"><h2>Barneklær</h2><br><img alt="-" src="images/sparkebukse.png"></div></a>
         </div>
 
     </div>
