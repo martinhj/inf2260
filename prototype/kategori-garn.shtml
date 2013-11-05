@@ -16,7 +16,7 @@
 <div class="section-container tabs" data-section="tabs" data-options="deep_linking: true">
   
   <section>
-    <p class="title" data-section-title><a href="#garntyper">Garntyper</a></p>
+    <p class="title" data-section-title><a href="kategori-garn.shtml#garntyper">Garntyper</a></p>
     
     <div class="content" data-slug="garntyper" data-section-content>
 
@@ -167,7 +167,7 @@
 
 <!-- start tab inspirasjon -->
 <section>
-	<p class="title" data-section-title><a href="#inspirasjon">Inspirasjon</a></p>
+	<p class="title" data-section-title><a href="kategori-garn.shtml#inspirasjon">Inspirasjon</a></p>
 	<div class="content" data-slug="inspirasjon" data-section-content>
   <h2># inspirasjon</h2>
 	<div class="space-under"> La deg inspirere av andres kreasjoner! Trykker du på bildene så kommer du til garnet som er brukt.	</div>
@@ -303,7 +303,7 @@
 
 <!-- start tab teknikk -->
 <section>
-	<p class="title" data-section-title><a href="#teknikk"><span class="show-for-small">Tek-<br>nikk</span><span class="show-for-medium-up">Teknikk</span></a></p>
+	<p class="title" data-section-title><a href="kategori-garn.shtml#teknikk"><span class="show-for-small">Tek-<br>nikk</span><span class="show-for-medium-up">Teknikk</span></a></p>
 	<div class="content" data-slug="teknikk" data-section-content>
 <p>Finn passende garn ved å velge ønsket teknikk/ garnkvalitet:</p>
 <form id="egenskaper-teknikk" class="custom">
