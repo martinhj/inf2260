@@ -3,7 +3,15 @@
 <!--#include virtual="snippets/sidetopp.html" --> 
 <!--#include virtual="snippets/menu1.html" --> 
 
-
+<!-- start breadcrumbs -->
+<div class="panel">
+      <ul class="telespinncrumbs">
+	<li><a href="index.shtml">Hjem</a></li>
+	<li><a href="handlevogn.shtml">Handlevogn</a></li>
+	<li>Kassen</li>
+      </ul>
+</div>
+<!-- slutt breadcrumbs -->  
 
 
 <div class="section-container tabs" data-section="tabs">
@@ -89,6 +97,10 @@
 
 		      <label for="brevpost"><input type="radio" id="brevpost" name="frakt" value="brevpost" style="display: none;"><span class="custom radio"></span> Brevpost kr 67,- 
 		      <br>(3-5 dager B-økonomi) i postkassen eller hentes på postkontoret/post i butikk hvis pakken er for stor for postkassen</label>
+		      <br>
+
+		      <label for="hente"><input type="radio" id="hente" name="frakt" value="hente" style="display: none;"><span class="custom radio"></span> Hente hos Telespinn (gratis) 
+		      <br>Ordre kan plukkes opp mandag-fredag 0800-1700</label>
 		      <br>
 
 		      <h4>Totalsum kr 705,-</h4>
@@ -196,7 +208,9 @@
 		      <label for="brevpost-large"><input type="radio" id="brevpost-large" name="frakt" value="brevpost-large" style="display: none;"><span class="custom radio"></span> Brevpost kr 67,- 
 		      <br>(3-5 dager B-økonomi) i postkassen eller hentes på postkontoret/post i butikk hvis pakken er for stor for postkassen</label>
 		      <br>
-
+		      <label for="hente"><input type="radio" id="hente" name="frakt" value="hente" style="display: none;"><span class="custom radio"></span> Hente hos Telespinn (gratis) 
+		      <br>Ordre kan plukkes opp mandag-fredag 0800-1700</label>
+		      <br>
 
 		      <br>
 		      <h4>Totalsum kr 705,-</h4>
