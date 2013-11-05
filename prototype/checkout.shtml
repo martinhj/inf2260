@@ -53,7 +53,7 @@
 				<div class="row">
 					<div class="small-6 columns">
 					<select id="land" class="expand">
-						<option calue"NO">Norge</option>
+						<option value="NO">Norge</option>
 						<option value="DK">Danmark</option>
 						<option value="FI">Finland</option>
 						<option value="IS">Iceland</option>
@@ -137,7 +137,7 @@
 <!-- Start checkout medium-up -->
     <div class="show-for-medium-up">
 <form action="checkout.html" method="get" autocomplete="on" class="custom large-8">
-		<a id="personlig-info"></a>
+		<a id="personlig-info-large"></a>
 		<fieldset>
 				<legend>1. Personlig informasjon</legend>
 			<div class=" large-6 success round"><span class="meter" style="width: 25%"></span></div>
@@ -166,8 +166,8 @@
 
 				<div class="row">
 					<div class="large-6 columns">
-					<select id="land" class="expand">
-						<option calue"NO">Norge</option>
+					<select id="land-large" class="expand">
+						<option value="NO">Norge</option>
 						<option value="DK">Danmark</option>
 						<option value="FI">Finland</option>
 						<option value="IS">Iceland</option>
@@ -176,12 +176,12 @@
 					</select>
 					</div>
 					<div class="large-4  columns">
-					<label for="land" class="left inline">(velg land)</label>
+					<label for="land-large" class="left inline">(velg land)</label>
 					</div>
 					<div class="large-2  columns"></div>
 				</div>
 				 
-				<label class="space-under" for="leveringsadresse"><input type="checkbox" id="leveringsadresse" checked style="display: none;"><span class="custom checkbox"></span> Levering til samme adresse</label>
+				<label class="space-under" for="leveringsadresse-large"><input type="checkbox" id="leveringsadresse-large" checked style="display: none;"><span class="custom checkbox"></span> Levering til samme adresse</label>
 			</div>
 		</fieldset>
 
@@ -208,7 +208,7 @@
 		      <label for="brevpost-large"><input type="radio" id="brevpost-large" name="frakt" value="brevpost-large" style="display: none;"><span class="custom radio"></span> Brevpost kr 67,- 
 		      <br>(3-5 dager B-økonomi) i postkassen eller hentes på postkontoret/post i butikk hvis pakken er for stor for postkassen</label>
 		      <br>
-		      <label for="hente"><input type="radio" id="hente" name="frakt" value="hente" style="display: none;"><span class="custom radio"></span> Hente hos Telespinn (gratis) 
+		      <label for="hente-large"><input type="radio" id="hente-large" name="frakt" value="hente-large" style="display: none;"><span class="custom radio"></span> Hente hos Telespinn (gratis) 
 		      <br>Ordre kan plukkes opp mandag-fredag 0800-1700</label>
 		      <br>
 
@@ -237,9 +237,9 @@
 			<br>
 			<div class="row">
 			 <div class="large-4 columns">
-		      <label for="paypal"><input type="radio" checked id="paypal" name="betaling" value="paypal" style="display: none;"><span class="custom radio"></span> Paypal</label>
+		      <label for="paypal-large"><input type="radio" checked id="paypal-large" name="betaling" value="paypal-large" style="display: none;"><span class="custom radio"></span> Paypal</label>
 		      <br>
-		      <label for="faktura"><input type="radio" id="faktura" name="betaling" value="faktura" style="display: none;"><span class="custom radio"></span> Faktura</label>
+		      <label for="faktura-large"><input type="radio" id="faktura-large" name="betaling" value="faktura-large" style="display: none;"><span class="custom radio"></span> Faktura</label>
 			</div>
 			<p><a href="paypal.shtml" class=" button ">Til betaling</a> </p>
 			</div>
