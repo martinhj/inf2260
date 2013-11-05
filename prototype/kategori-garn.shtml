@@ -1,7 +1,7 @@
 <!--#include virtual="snippets/head.html" --> 
 <body>
 <!--#include virtual="snippets/sidetopp.html" --> 
-<!--#include virtual="snippets/menu2.html" --> 
+<!--#include virtual="snippets/menu1.html" --> 
 <!-- start breadcrumbs -->
 <div class="panel">
       <ul class="telespinncrumbs">
