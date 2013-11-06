@@ -8762,3 +8762,9 @@ form.custom .custom.checkbox.checked:before {
   margin-left: -7px;
   margin-top: -1px;
 }
+
+/* line 426, ../sass/app.scss */
+.justify {
+  text-align: justify;
+  text-justify: inter-word;
+}
