@@ -333,7 +333,7 @@
   </div>
 <div class="row">
      <div class="large-10 columns"></div>
-    <div class="large-2 columns"> <a href="#" class="button expand">Finn garn!</a></div>
+    <div class="large-2 columns"> <a href="#" data-reveal-id="ikke-implementert" class="button expand">Finn garn!</a></div>
 </div>
 </form>
 </div>
