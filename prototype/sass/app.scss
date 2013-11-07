@@ -264,10 +264,10 @@ $topbar-divider-border-top: solid 1px darken($topbar-bg-color, 10%);
 .panel-custom {
   border-style: solid;
   border-width: 1px;
-  border-color: #ff8da1;
+  border-color: #fde8a8;
   margin-bottom: 1.25em;
   padding: 5px;
-  background: pink;
+  background: #fff3cd;
 }
 
 ///////////////////////////
@@ -423,7 +423,23 @@ form.custom .custom.checkbox.checked:before {
     margin-top: -1px;
 }
 
+////////////////////
+// justified text //
+////////////////////
 .justify {
 text-align:justify;
 text-justify:inter-word;
 }
+
+/////////////////
+// søppelknapp //
+/////////////////
+
+.delete { 
+  @include button($bg:#DA5959 );
+}
+
+
+
+
+

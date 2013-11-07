@@ -42,7 +42,7 @@
     </div>
 </div>
 <div class="small-2 large-1 columns">
-            <a class="small button expand" 
+            <a class="small button expand delete" 
             onclick='javascript: document.getElementById("qtymm01").value = 0;
             deleteDiv("dm01"); '>
             <i class="gen-enclosed foundicon-trash"></i>
@@ -83,7 +83,7 @@
     </div>
 </div>
 <div class="small-2 large-1 columns">
-            <a class="small button expand" 
+            <a class="small button expand delete" 
             onclick='javascript: document.getElementById("qtymm02").value = 0;
             deleteDiv("dm02")'>
             <i class="gen-enclosed foundicon-trash"></i>
@@ -212,7 +212,7 @@
             <span id="m001lsum">100</span>
         </td>
         <td>
-            <a class="small button expand"
+            <a class="small button expand delete"
             onclick='javascript: document.getElementById("qtym001l").value = 0;deleteItem(1)'>
 			Slett</a></div>
         </td>
@@ -248,7 +248,7 @@
             <span id="m100lsum">100</span>
         </td>
         <td>
-            <a class="small button expand"
+            <a class="small button expand delete"
             onclick='javascript: deleteItem(2)'>
 			Slett</a>
         </td>
