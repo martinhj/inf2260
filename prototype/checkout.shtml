@@ -44,7 +44,7 @@
 					<input type="text" x-autocompletetype="address-line2" placeholder="Gate/vei 2 (ikke obligatorisk)">
 			 	</div>
 				<div class="small-4 rows">
-					<input type="number" x-autocompletetype="postal-code" placeholder="Postnr">
+					<input type="tel" x-autocompletetype="postal-code" placeholder="Postnr">
 				</div>
 				<div class="small-6 rows">
 					<input type="text" name="postal-code" x-autocompletetype="administrative-area" placeholder="P.Sted">
