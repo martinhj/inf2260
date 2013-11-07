@@ -1,0 +1,296 @@
+<!--#include virtual="snippets/head.html" --> 
+<body>
+<!--#include virtual="snippets/sidetopp.html" --> 
+<!--#include virtual="snippets/menu1.html" --> 
+
+<!-- start breadcrumbs -->
+<div class="panel">
+      <ul class="telespinncrumbs">
+	<li><a href="index.shtml">Hjem</a></li>
+	<li><a href="handlevogn.shtml">Handlevogn</a></li>
+	<li>Kassen</li>
+      </ul>
+</div>
+<!-- slutt breadcrumbs -->  
+
+
+<div class="section-container tabs" data-section="tabs">
+  <section class="active">
+    <p class="title" data-section-title><a href="#">Handle som gjest</a></p>
+    <div class="content" data-section-content>
+
+    	<p>Handlet hos oss tidligere? <br>Så fint, da kan du <a href="#" data-reveal-id="ikke-implementert">logge inn</a> for raskere utsjekking</p>
+
+<!-- start checkout-small-->
+<div class="show-for-small">
+<form action="checkout.html" method="get" autocomplete="on" class="custom large-8">
+		<a id="personlig-info"></a>
+		
+			<h2>Personlig informasjon</h2>	
+			<div class="row">
+				<div class="small-10 rows">
+					<input type="text" name="fname" x-autocompletetype="given-name" placeholder="Fornavn">
+				</div> 
+				<div class="small-10 rows">
+					<input type="text" name="lname" x-autocompletetype="family-name" placeholder ="Etternavn">
+				</div>
+				<div class="small-11 rows">
+					<input type="email" name="email" x-autocompletetype="email" placeholder="e-postadresse">
+				</div> 	
+				<div class="small-12 rows">
+					<input type="text" name="address" x-autocompletetype="street-address" placeholder="Gate/vei 1"> 
+				</div>
+				<div class="small-12 rows">
+					<input type="text" x-autocompletetype="address-line2" placeholder="Gate/vei 2 (ikke obligatorisk)">
+			 	</div>
+				<div class="small-4 rows">
+					<input type="tel" x-autocompletetype="postal-code" placeholder="Postnr">
+				</div>
+				<div class="small-6 rows">
+					<input type="text" name="postal-code" x-autocompletetype="administrative-area" placeholder="P.Sted">
+				</div> 
+
+				<div class="row">
+					<div class="small-6 columns">
+					<select id="land" class="expand">
+						<option value="NO">Norge</option>
+						<option value="DK">Danmark</option>
+						<option value="FI">Finland</option>
+						<option value="IS">Iceland</option>
+						<option value="SJ">Svalbard and Jan Mayen</option>
+						<option value="SE">Sweden</option>
+					</select>
+					</div>
+					<div class="small-4  columns">
+					<label for="land" class="left inline">(velg land)</label>
+					</div>
+					<div class="small-2  columns"></div>
+				</div>
+				 <label class="space-under" for="leveringsadresse"><input type="checkbox" id="leveringsadresse" checked style="display: none;"><span class="custom checkbox"></span> Levering til samme adresse</label>
+
+				<a href="#frakt" class="button expand ">gå til frakt</a>
+			</div>
+
+
+
+
+
+<div class="bump show-for-small"></div>
+		<a id="frakt"></a>
+		<div class="row">
+			<div class="small-6 columns"><h2>Frakt</h2></div>
+			<div class="small-6 columns"><a class="tiny secondary button" href="#personlig-info"><i class="general foundicon-left-arrow"> tilbake til personlig info</i></a></div>
+		</div>
+			<div class="row">
+			 <div class="small-12 columns">
+			 <label for="hjemlevering"><input type="radio" checked id="hjemlevering" name="frakt" value="hjemlevering" style="display: none;"><span class="custom radio"></span> Hjemlevering kr 189,- 
+			 <br>(1-3 dager) Pakken leveres hjem til deg man-fre mellom kl. 17:00-21:00. Du kan endre leveringsdag når pakker er på vei til deg.</label>
+		      <br>
+		      
+		      <label for="servicepakke"><input type="radio" id="servicepakke" name="frakt" value="servicepakke" style="display: none;"><span class="custom radio"></span> Klimanøytral Servicepakke kr 105,-
+		      <br>(1-3 dager). Hentes på postkontor/post i butikk</label>
+		      <br>
+
+		      <label for="ekspress"><input type="radio" id="ekspress" name="frakt" value="ekspress" style="display: none;"><span class="custom radio"></span> Ekspress over natten kr 250,- 
+		      <br>leveres på døren dagen etter bestilling klokken 09:00. På mindre steder vil leveringstidspunktet kunne forskyves til innen klokken 16:00.</label>
+		      <br>
+
+		      <label for="brevpost"><input type="radio" id="brevpost" name="frakt" value="brevpost" style="display: none;"><span class="custom radio"></span> Brevpost kr 67,- 
+		      <br>(3-5 dager B-økonomi) i postkassen eller hentes på postkontoret/post i butikk hvis pakken er for stor for postkassen</label>
+		      <br>
+
+		      <label for="hente"><input type="radio" id="hente" name="frakt" value="hente" style="display: none;"><span class="custom radio"></span> Hente hos Telespinn (gratis) 
+		      <br>Ordre kan plukkes opp mandag-fredag 0800-1700</label>
+		      <br>
+
+		      <h4>Totalsum kr 705,-</h4>
+			</div>
+			
+			<a href="#betaling" class="button expand ">Til betalingsvalg</a>
+		    </div>
+
+
+<div class="bump show-for-small"></div>
+		
+
+		<a id="betaling"></a>
+		<div class="row">
+			<div class="small-7 columns"><h2>Betalingsvalg</h2></div>
+			<div class="small-5 columns"><a class="tiny secondary button" href="#frakt"><i class="general foundicon-left-arrow"> tilbake til frakt</i></a></div>
+		</div>			
+		<div class="row">
+			 <div class="small-12 columns">
+		      <label for="paypal"><input type="radio" checked id="paypal" name="betaling" value="paypal" style="display: none;"><span class="custom radio"></span> Paypal</label>
+		      <br>
+		      <label class="space-under" for="faktura"><input type="radio" id="faktura" name="betaling" value="faktura" style="display: none;"><span class="custom radio"></span> Faktura</label>
+			</div>
+
+			<p><a href="paypal.shtml" class=" button expand ">Betal hos paypal</a> </p>
+			
+			</div>
+
+    
+    </form>
+    </div>
+
+<!-- end checkout-small-->
+<!-- Start checkout medium-up -->
+    <div class="show-for-medium-up">
+<form action="checkout.html" method="get" autocomplete="on" class="custom large-8">
+		<a id="personlig-info-large"></a>
+		<fieldset>
+				<legend>1. Personlig informasjon</legend>
+			<div class=" large-6 success round"><span class="meter" style="width: 25%"></span></div>
+			<div class="row">
+				<div class="large-4 rows">
+					<input type="text" name="fname" x-autocompletetype="given-name" placeholder="Fornavn">
+				</div> 
+				<div class="large-4 rows">
+					<input type="text" name="lname" x-autocompletetype="family-name" placeholder ="Etternavn">
+				</div>
+				<div class="large-6 rows">
+					<input type="email" name="email" x-autocompletetype="email" placeholder="e-postadresse">
+				</div> 	
+				<div class="large-6 rows">
+					<input type="text" name="address" x-autocompletetype="street-address" placeholder="Gate/vei 1"> 
+				</div>
+				<div class="large-6 rows">
+					<input type="text" x-autocompletetype="address-line2" placeholder="Gate/vei 2 (ikke obligatorisk)">
+			 	</div>
+				<div class="large-3 rows">
+					<input type="number" x-autocompletetype="postal-code" placeholder="Postnr">
+				</div>
+				<div class="large-4 rows">
+					<input type="text" name="postal-code" x-autocompletetype="administrative-area" placeholder="P.Sted">
+				</div> 
+
+				<div class="row">
+					<div class="large-6 columns">
+					<select id="land-large" class="expand">
+						<option value="NO">Norge</option>
+						<option value="DK">Danmark</option>
+						<option value="FI">Finland</option>
+						<option value="IS">Iceland</option>
+						<option value="SJ">Svalbard and Jan Mayen</option>
+						<option value="SE">Sweden</option>
+					</select>
+					</div>
+					<div class="large-4  columns">
+					<label for="land-large" class="left inline">(velg land)</label>
+					</div>
+					<div class="large-2  columns"></div>
+				</div>
+				 
+				<label class="space-under" for="leveringsadresse-large"><input type="checkbox" id="leveringsadresse-large" checked style="display: none;"><span class="custom checkbox"></span> Levering til samme adresse</label>
+			</div>
+		</fieldset>
+
+
+		<fieldset>	
+			<legend>2. Frakt</legend>	
+			<br>
+			<div class="row">
+			 <div class="large-12 columns">
+
+
+		      <label for="hjemlevering-large"><input type="radio" checked id="hjemlevering-large" name="frakt" value="hjemlevering-large" style="display: none;"><span class="custom radio"></span> Hjemlevering kr 189,- 
+			 <br>(1-3 dager) Pakken leveres hjem til deg man-fre mellom kl. 17:00-21:00. Du kan endre leveringsdag når pakker er på vei til deg.</label>
+		      <br>
+		      
+		      <label for="servicepakke-large"><input type="radio" id="servicepakke-large" name="frakt" value="servicepakke-large" style="display: none;"><span class="custom radio"></span> Klimanøytral Servicepakke kr 105,-
+		      <br>(1-3 dager). Hentes på postkontor/post i butikk</label>
+		      <br>
+
+		      <label for="ekspress-large"><input type="radio" id="ekspress-large" name="frakt" value="ekspress-large" style="display: none;"><span class="custom radio"></span> Ekspress over natten kr 250,- 
+		      <br>leveres på døren dagen etter bestilling klokken 09:00. På mindre steder vil leveringstidspunktet kunne forskyves til innen klokken 16:00.</label>
+		      <br>
+
+		      <label for="brevpost-large"><input type="radio" id="brevpost-large" name="frakt" value="brevpost-large" style="display: none;"><span class="custom radio"></span> Brevpost kr 67,- 
+		      <br>(3-5 dager B-økonomi) i postkassen eller hentes på postkontoret/post i butikk hvis pakken er for stor for postkassen</label>
+		      <br>
+		      <label for="hente-large"><input type="radio" id="hente-large" name="frakt" value="hente-large" style="display: none;"><span class="custom radio"></span> Hente hos Telespinn (gratis) 
+		      <br>Ordre kan plukkes opp mandag-fredag 0800-1700</label>
+		      <br>
+
+		      <br>
+		      <h4>Totalsum kr 705,-</h4>
+			</div>
+		    </div>
+		</fieldset>
+
+
+
+
+
+
+		<fieldset>	
+			<legend>3. Kommentar til oss</legend>
+			<br>
+			<div class="large-8 columns">
+		        <label>Kommentarer til kjøpet (ikke obligatorisk)</label>
+		        <textarea placeholder="Hvis du ønsker gi oss en beskjed eller ekstra kommentar til kjøpet kan du gjøre det her"></textarea>
+		      </div>
+		</fieldset>
+
+		<fieldset>
+			<legend>4. Betaling</legend>
+			<br>
+			<div class="row">
+			 <div class="large-4 columns">
+		      <label for="paypal-large"><input type="radio" checked id="paypal-large" name="betaling" value="paypal-large" style="display: none;"><span class="custom radio"></span> Paypal</label>
+		      <br>
+		      <label for="faktura-large"><input type="radio" id="faktura-large" name="betaling" value="faktura-large" style="display: none;"><span class="custom radio"></span> Faktura</label>
+			</div>
+			<p><a href="paypal.shtml" class=" button ">Til betaling</a> </p>
+			</div>
+		</fieldset>
+    
+    </form>
+    </div>
+
+
+    </div>
+  </section>
+
+
+  <section>
+    <p class="title" data-section-title><a href="#">Logg inn /<br>registrer ny konto</a></p>
+    <div class="content" data-section-content>
+    
+
+    <p>Logg inn / registrer ny konto</p>
+    <form>
+
+		<div class="row">
+		    <div class="small-8">
+		      <div class="row">
+		       	 <div class="small-9 columns">
+		        	<input type="text" id="epost" placeholder="E-postadresse">
+		        </div>
+		        <div class="small-9 columns">
+		        	<input type="text" id="passord" placeholder="Passord">
+		        </div>
+		     	<div class="small-3 columns">
+		        	<label for="passord" class="left inline"><a href="#" data-reveal-id="ikke-implementert">glemt passord ?</a></label>
+		        </div>
+		    </div>
+		  </div>
+		</div>
+
+
+		<a href="#" data-reveal-id="ikke-implementert" class=" button ">Logg inn</a> 
+		<a href="#" data-reveal-id="ikke-implementert" class=" button success ">Registrer ny konto</a>
+
+	</form>     
+    </div>
+  </section>
+</div>
+ 
+  
+
+
+
+<!--#include virtual="snippets/overlay.html" -->
+<!--#include virtual="snippets/footer.html" --> 
+<!--#include virtual="snippets/smooth-scroll.html" -->
+<!--#include virtual="snippets/sidebunn.html" --> 

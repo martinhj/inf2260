@@ -1,0 +1,130 @@
+<script>
+
+ function tabhandler(anchor) {
+   
+   var url = window.location.pathname;
+   var filename = url.substring(url.lastIndexOf('/')+1);
+   if (filename == "kategori-garn.shtml") {
+     window.location.hash = anchor;
+     location.reload();
+   } else window.location.href = "kategori-garn.shtml"+anchor;
+   
+ }
+</script>
+
+<nav class="top-bar" data-options="back_text:Tilbake">
+  <ul class="title-area">
+    <!-- Title Area -->
+    <li class="name">
+      <h1><a href="index.shtml"><img src="images/logo-mobile2.png" width="130" height="45" alt="logo" /><span></span></a></h1>
+    </li>
+    
+    <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+    <li class="toggle-topbar menu-icon"><a href="#" id="clickme"><span></span></a></li>
+    <li class="cart hide-for-medium-up"> <a href="handlevogn.shtml"><i class="foundicon-cart"></i>(1)</a></li>
+  </ul>
+  
+  <section class="top-bar-section">    
+    <!-- Left Nav Section -->
+    <ul class="left hide-for-small">     
+    </ul>
+    <!-- Right Nav Section -->
+    <ul class="right hide-for-small">
+      <li class="divider"></li>
+      <li><a href="handlevogn.shtml"><i class="foundicon-cart"></i> Handlevogn</a></li>
+      <li class="has-dropdown"><a href="#">Nettbutikk</a>
+        <ul class="dropdown">
+	  <li class="divider "></li>
+	  <li><label>Garn</label></li>
+	  <li class="divider "></li>
+	  <li class="menu-indent"><a href="kategori-garn.shtml#garntyper" >Garn etter type</a></li>
+	  <li class="divider "></li>
+	  <li class="menu-indent"><a href="kategori-garn.shtml#jeg-vil-lage">Jeg vil lage...</a></li>
+	  <li class="divider"></li>
+	  <li class="menu-indent"><a href="kategori-garn.shtml#inspirasjon">Bli inspirert</a></li>
+	  <li class="divider "></li>
+	  <li class="menu-indent"><a href="kategori-garn.shtml#teknikk">Garn etter egenskaper</a></li>
+	  <li class="divider "></li>
+	  <li class="menu-indent"><a href="kategori-strikkepakker.shtml">Strikkepakker</a></li>
+	  <li class="divider "></li>
+	  <li class="menu-indent"><a href="strikkekurs.shtml">Strikkekurs</a></li>
+	  <li class="divider "></li>
+	  <li><label>Andre produkter</label></li>
+          <li class="divider "></li>
+	  <li class="menu-indent"><a  data-reveal-id="ikke-implementert" href="">Ferdigprodukter</a></li>
+          <li class="divider "></li>
+	  <li class="menu-indent"><a  data-reveal-id="ikke-implementert" href="">Tilbehør</a></li>
+        </ul>
+      </li>
+      <li class="has-dropdown"><a href="">Om oss</a>	
+        <ul class="dropdown">
+          <li class="hide-for-medium-up"><label>Om oss</label></li>
+	  <li class="divider "></li>
+          <li><a data-reveal-id="ikke-implementert" href="">Spinneri</a></li>
+          <li class="divider "></li>
+          <li><a data-reveal-id="ikke-implementert" href="">Kulturlandskapet</a></li>
+          <li class="divider "></li>
+	  <li><a data-reveal-id="ikke-implementert" href="">Besøk oss</a></li>
+          <li class="divider "></li>
+	  <li><a data-reveal-id="ikke-implementert" href="">Kontakt</a></li>
+        </ul>
+      </li>
+      <li class="has-form">
+        <form>
+          <div class="row collapse">
+            <div class="small-8 columns">
+              <input type="text">
+            </div>
+            <div class="small-4 columns">
+              <a data-reveal-id="ikke-implementert" href="" class="button">Søk</a>
+            </div>
+          </div>
+        </form>
+      </li>
+      <li class="divider "></li>
+    </ul>
+  </section>
+</nav>
+
+<!-- start mobil nav -->
+<div style="display:none" id="drop1" class= "section-container horizontal-nav" data-section="horizontal-nav" data-options="">
+  <section>
+    <p class="title" data-section-title> <a href="#">Nettbutikk</a></p>
+  </section>
+    <div class= "section-container accordion" data-section="accordion" data-options="one_up: false;" style="margin:0;border-top:none;" >
+      <section>
+	<p class="title menu-leftpad" data-section-title><a href="#">Garn</a></p>
+	<div class="content" data-section-content>
+	  <ul class="side-nav">
+            <li><a href="#" onclick="tabhandler('#garntyper')" >Garn etter type</a></li>
+            <li><a href="#" onclick="tabhandler('#jeg-vil-lage')" >Jeg vil lage...</a></li>
+            <li><a href="#" onclick="tabhandler('#inspirasjon')" >Bli inspirert</a></li>
+	    <li><a href="#" onclick="tabhandler('#teknikk')" >Garn etter egenskaper</a></li>
+	  </ul>
+	</div>
+      </section>
+    </div>
+    <section>
+      <p class="title menu-leftpad" data-section-title><a href="kategori-strikkepakker.shtml">Strikkepakker</a></p>
+    </section>
+    <section>
+    <p class="title  menu-leftpad" data-section-title><a href="strikkekurs.shtml">Strikkekurs</a></p>
+    </section>
+    <section>
+      <p class="title menu-leftpad" data-section-title><a  data-reveal-id="ikke-implementert" href="">Ferdigprodukter</a></p>
+    </section>
+    <section>
+      <p class="title menu-leftpad" data-section-title><a  data-reveal-id="ikke-implementert" href="">Tilbehør</a></p>
+    </section>
+    <section>
+      <p class="title" data-section-title><a data-reveal-id="ikke-implementert" href="#">Om oss</a></p>
+    </section>    
+    <div class="panel">
+      <div  class="row collapse">
+        <div class="small-10 columns"><input type="text" style="margin:0;"></div>
+	<div class="small-2 columns"><a data-reveal-id="ikke-implementert" href="" class="button small expand" style="margin:0;">Søk</a></div>
+      </div>
+    </div>
+</div>
+<!-- slutt mobil nav -->
+

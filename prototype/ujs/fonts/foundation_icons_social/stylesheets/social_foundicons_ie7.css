@@ -1,0 +1,157 @@
+/* general icons for IE7 */
+/* line 4, ../sass/social_foundicons_ie7.scss */
+[class*="foundiconsos-"] {
+  font-family: "SocialFoundicons";
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 12, ../sass/_settings.scss */
+.foundiconsos-thumb-up {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf000;");
+}
+
+/* line 12, ../sass/_settings.scss */
+.foundiconsos-thumb-down {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf001;");
+}
+
+/* line 12, ../sass/_settings.scss */
+.foundiconsos-rss {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf002;");
+}
+
+/* line 12, ../sass/_settings.scss */
+.foundiconsos-facebook {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf003;");
+}
+
+/* line 12, ../sass/_settings.scss */
+.foundiconsos-twitter {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf004;");
+}
+
+/* line 12, ../sass/_settings.scss */
+.foundiconsos-pinterest {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf005;");
+}
+
+/* line 12, ../sass/_settings.scss */
+.foundiconsos-github {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf006;");
+}
+
+/* line 12, ../sass/_settings.scss */
+.foundiconsos-path {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf007;");
+}
+
+/* line 12, ../sass/_settings.scss */
+.foundiconsos-linkedin {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf008;");
+}
+
+/* line 12, ../sass/_settings.scss */
+.foundiconsos-dribbble {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf009;");
+}
+
+/* line 12, ../sass/_settings.scss */
+.foundiconsos-stumble-upon {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00a;");
+}
+
+/* line 12, ../sass/_settings.scss */
+.foundiconsos-behance {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00b;");
+}
+
+/* line 12, ../sass/_settings.scss */
+.foundiconsos-reddit {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00c;");
+}
+
+/* line 12, ../sass/_settings.scss */
+.foundiconsos-google-plus {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00d;");
+}
+
+/* line 12, ../sass/_settings.scss */
+.foundiconsos-youtube {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00e;");
+}
+
+/* line 12, ../sass/_settings.scss */
+.foundiconsos-vimeo {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00f;");
+}
+
+/* line 12, ../sass/_settings.scss */
+.foundiconsos-flickr {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf010;");
+}
+
+/* line 12, ../sass/_settings.scss */
+.foundiconsos-slideshare {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf011;");
+}
+
+/* line 12, ../sass/_settings.scss */
+.foundiconsos-picassa {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf012;");
+}
+
+/* line 12, ../sass/_settings.scss */
+.foundiconsos-skype {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf013;");
+}
+
+/* line 12, ../sass/_settings.scss */
+.foundiconsos-steam {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf014;");
+}
+
+/* line 12, ../sass/_settings.scss */
+.foundiconsos-instagram {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf015;");
+}
+
+/* line 12, ../sass/_settings.scss */
+.foundiconsos-foursquare {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf016;");
+}
+
+/* line 12, ../sass/_settings.scss */
+.foundiconsos-delicious {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf017;");
+}
+
+/* line 12, ../sass/_settings.scss */
+.foundiconsos-chat {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf018;");
+}
+
+/* line 12, ../sass/_settings.scss */
+.foundiconsos-torso {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf019;");
+}
+
+/* line 12, ../sass/_settings.scss */
+.foundiconsos-tumblr {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf01a;");
+}
+
+/* line 12, ../sass/_settings.scss */
+.foundiconsos-video-chat {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf01b;");
+}
+
+/* line 12, ../sass/_settings.scss */
+.foundiconsos-digg {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf01c;");
+}
+
+/* line 12, ../sass/_settings.scss */
+.foundiconsos-wordpress {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf01d;");
+}

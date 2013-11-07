@@ -1,0 +1,75 @@
+<!--#include virtual="snippets/head.html" --> 
+<body>
+<!--#include virtual="snippets/sidetopp.html" --> 
+<!--#include virtual="snippets/menu1.html" --> 
+
+<!-- start breadcrumbs -->
+<div class="panel">
+      <ul class="telespinncrumbs">
+	<li><a href="index.shtml">Hjem</a></li>
+	<li class="current hide-for-small"><a href="#">Strikkepakker</a></li>
+	<li class="hide-for-medium-up"><a href="#" class="smuleknapp" data-dropdown="drop2">Strikkepakker</a></li>
+      </ul>
+</div>
+<!-- slutt breadcrumbs -->
+
+<!-- start drop breadcrumbs -->
+<div id="drop2" class="f-dropdown content hide-for-medium-up" data-dropdown-content>
+  <h4 class ="subheader">Strikkepakker</h4> 
+  <p>Våre strikkepakker er en enkel måte å komme i gang med å strikke selv. De fleste pakkene inneholder også strikkepinner, slik at du har alt du trenger for å strikke selv: mønster, garn og strikkepinner. På mange av pakkene kan du selv velge farge på garnet som er med i strikkepakken.</p>
+</div>
+<div class=" row hide-for-small">
+  <div class= "columns large-12">
+  <h4 class ="subheader">Strikkepakker</h4>
+  <p>Våre strikkepakker er en enkel måte å komme i gang med å strikke selv. De fleste pakkene inneholder også strikkepinner, slik at du har alt du trenger for å strikke selv: mønster, garn og strikkepinner. På mange av pakkene kan du selv velge farge på garnet som er med i strikkepakken.</p>
+  </div>
+</div>
+<!-- slutt drop breadcrumbs -->
+
+<div class="row">
+  <div class=" large-6 columns">
+    <form action="#">    
+      <h2>Gensere</h2>
+	<img src="images/skappel-large.jpg" style="margin-bottom:20px;" />	    
+    </form>
+  </div>
+  
+  <div class="large-6 columns">
+    <form action="#">   
+      <h2><a href="produktliste-sjal.shtml">Sjal og skjerf</a></h2>
+      <a href="produktliste-sjal.shtml"><img src="images/sjal.jpg" style="margin-bottom:20px;" /></a>
+    </form>
+  </div>
+</div>
+
+<div class="row">
+  <div class=" large-6 columns">
+    <form action="#">
+      <h2>Luer og votter</h2>
+      <img src="http://placehold.it/800x571" style="margin-bottom:20px;" />	
+    </form>
+  </div>
+  
+  <div class="large-6 columns">
+    <form action="#">
+      <h2>Rye</h2>
+      <img src="http://placehold.it/800x571" style="margin-bottom:20px;" />
+    </form>
+  </div>
+</div>
+
+<div class="row">
+  <div class=" large-6 columns">
+    <form action="#">
+      <h2>Barneklær</h2>
+      <img src="http://placehold.it/800x571" style="margin-bottom:20px;" />	
+    </form>
+  </div>
+  
+  <div class="large-6 columns">
+  </div>
+</div>
+
+<!--#include virtual="snippets/overlay.html" -->
+<!--#include virtual="snippets/footer.html" --> 
+<!--#include virtual="snippets/sidebunn.html" --> 
