@@ -41,7 +41,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="large-12 small-12 columns"><a href="#" data-reveal-id="ikke-implementert" class="small button expand success">Legg i handlevognen</a>
+          <div class="large-12 small-12 columns"><a href="#" data-reveal-id="handlevogn" class="small button expand success">Legg i handlevognen</a>
           </div>
         </div>
       </div>

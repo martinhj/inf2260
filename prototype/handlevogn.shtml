@@ -50,7 +50,8 @@
 </div>
 </div>
 <div class="row">
-<div class="small-9 large-10 columns">Produktet du har valgt 1.</div>
+<div class="small-9 large-10 columns"><span style="color:#DA5959;">Illusjon:</span> Lat som du ser produket du valgte
+</div>
 <div class="small-3 large-2 columns"><b>sum:</b> <span id="mm01sum">100</span></div>
 </div>
 <hr/>
@@ -91,7 +92,7 @@
 </div>
 </div>
 <div class="row">
-<div class="small-9 large-10 columns">Produktet du har valgt 2.</div>
+<div class="small-9 large-10 columns"><span style="color:#DA5959;">Illusjon:</span> Lat som du ser produket du valgte</div>
 <div class="small-3 large-2 columns"><b>sum:</b> <span id="mm02sum">400</span></div>
 </div>
 <hr/>
@@ -135,7 +136,7 @@
     <tr>
         <td>
         <img src="http://placehold.it/400x100"/><br/>
-        Produkt xxx
+        <span style="color:#DA5959;">Illusjon:</span> Lat som du ser produket du valgte
         </td>
         <td width="45%">
             <span style="float:right;">
@@ -187,7 +188,7 @@
         <img src="http://placehold.it/400x100"/><br/>
         </div>
         <div class="columns large-8">
-        Produkt xxx
+        <span style="color:#DA5959;">Illusjon:</span> Lat som du ser produket du valgte
         </div>
         
         </td>
@@ -223,7 +224,7 @@
         <img src="http://placehold.it/400x100"/><br/>
         </div>
         <div class="columns large-8">
-        Produkt xxx
+        <span style="color:#DA5959;">Illusjon:</span> Lat som du ser produket du valgte
         </div>
         
         </td>
