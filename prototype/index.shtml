@@ -11,7 +11,6 @@
 <div class="large-11 small-11 columns">
 <a href="index1.shtml"  class=" button success radius small-10 large-5"> til forside 1</a>
 <a href="index2.shtml"  class=" button radius small-10 large-5">til forside 2</a>
-<a href="ujs/index2.shtml" class="button small-10 large-5">uten fastclick</a>
 <!--<h3>To do</h3>
 <ul>
 <li class="line-through">tobias: meny logo og tekst -> (logo m tekst - uten tekst på meny)</li>
