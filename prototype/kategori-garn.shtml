@@ -24,7 +24,9 @@
       
         <div class="row">
 
-          <div class="large-12 columns"><h2><a href="produktliste-mari.shtml">Mari kidmohairgarn</a></h2></div>
+          <div class="large-12 columns"><h2 class="inline"><a href="produktliste-mari.shtml">Mari kidmohairgarn</a></h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         <h2 class="inline"><a href="#" class="hide-for-medium-up" data-reveal-id="mari"><i class="fi-info"></i></a></h2>
+          </div>
         </div>
         <div class="row">
           <a href="produktliste-mari.shtml"><div class="large-4 columns" ><img alt="-" src="images/mari.jpg" style="margin-bottom:20px;"></div></a>
@@ -32,10 +34,7 @@
             <p>Mari er et spesielt mykt 2-tråds garn som er svært behagelig mot huden. Mari er oppkalt etter blomsten Søstermarihånd, en orkidéart det finnes spesielt mye av i Svartdal. Garnet er spunnet av mohair fra de to første klippene av geitekillingen, såkalt kidmohair. Mari egner seg meget bra til sjal, luer og baby/barnetøy. Mari gir ca. 170 meter per 50 gram, strikkepinner: 2 - 3,5. Vaskes på ullvask 30 grader. Strikkefasthet ca. 25m per 10cm på pinne nr.3. Mari består av 80% kidmohair og 20% merinoull.</p>
           </div>
         </div>
-      <div class="row hide-for-medium-up">
-          <div class="small-12 small-centered columns"><a href="#" data-reveal-id="mari" class="small small-12 secondary  button">Om mari</a>         
-          </div>
-      </div>
+
 
       
         <div class="row">
@@ -163,9 +162,9 @@
 <section>
 	<p class="title" data-section-title><a href="#inspirasjon">Inspirasjon</a></p>
 	<div class="content" data-slug="inspirasjon" data-section-content>
-  <h2># inspirasjon</h2>
+  <h2># inspirasjon <i class="fi-social-instagram" ></i></h2>
 	<div class="space-under"> La deg inspirere av andres kreasjoner! Trykker du på bildene så kommer du til garnet som er brukt.	</div>
-  <div class="small-12 large-12 panel-custom">Bildene kommer fra <a href="http://instagram.com/" target="blank"> instagram</a>. Tag dine bilder med: <br class="show-for-medium-up"><strong>#telespinn</strong> óg <strong>#mari #fivrel #symre #pan #rye #boulce</strong> <em>eller</em> <strong>#økobomull</strong>, så får du vist frem det du har strikket. Bli inspirert og inspireer! <i class="gen-enclosed foundicon-heart "> </i><i class="gen-enclosed foundicon-smiley" ></i></div>
+  <div class="small-12 large-12 panel-custom">Bildene kommer fra <a href="http://instagram.com/" target="blank"> instagram</a>. Tag dine bilder med: <br class="show-for-medium-up"><strong>#telespinn</strong> óg <strong>#mari #fivrel #symre #pan #rye #boulce</strong> <em>eller</em> <strong>#økobomull</strong>, så får du vist frem det du har strikket. Bli inspirert og inspireer! <i class="fi-heart "> </i></div>
 
   <div class="row">
     

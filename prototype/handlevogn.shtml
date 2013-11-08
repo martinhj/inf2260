@@ -45,7 +45,7 @@
             <a class="small button expand delete" 
             onclick='javascript: document.getElementById("qtymm01").value = 0;
             deleteDiv("dm01"); '>
-            <i class="gen-enclosed foundicon-trash"></i>
+            <i class="fi-trash"></i>
 			</a>
 </div>
 </div>
@@ -87,7 +87,7 @@
             <a class="small button expand delete" 
             onclick='javascript: document.getElementById("qtymm02").value = 0;
             deleteDiv("dm02")'>
-            <i class="gen-enclosed foundicon-trash"></i>
+            <i class="fi-trash"></i>
 			</a>
 </div>
 </div>

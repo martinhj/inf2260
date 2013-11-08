@@ -10529,3 +10529,8 @@ form.custom .custom.checkbox.checked:before {
   font-size: 24px;
   top: 6px;
 }
+
+/* line 1043, ../sass/app.scss */
+.inline {
+  display: inline;
+}
