@@ -10261,17 +10261,22 @@ strong {
   margin-bottom: 1.25em;
 }
 
-/* line 907, ../sass/app.scss */
+/* line 903, ../sass/app.scss */
+.space-under-40 {
+  margin-bottom: 2.5em;
+}
+
+/* line 911, ../sass/app.scss */
 .menu-indent {
   text-indent: 0.625em;
 }
 
-/* line 911, ../sass/app.scss */
+/* line 915, ../sass/app.scss */
 .line-through {
   text-decoration: line-through;
 }
 
-/* line 919, ../sass/app.scss */
+/* line 923, ../sass/app.scss */
 .telespinncrumbs {
   display: block;
   padding: 0.5625em 0.875em 0.5625em;
@@ -10287,7 +10292,7 @@ strong {
   margin: 7px 0 0 0;
   padding: 0;
 }
-/* line 927, ../sass/app.scss */
+/* line 931, ../sass/app.scss */
 .telespinncrumbs li {
   margin: 0;
   float: left;
@@ -10347,7 +10352,7 @@ strong {
   margin: 0;
 }
 
-/* line 930, ../sass/app.scss */
+/* line 934, ../sass/app.scss */
 .smuleknapp {
   border-style: solid;
   border-width: 1px;
@@ -10408,33 +10413,33 @@ strong {
   border-color: white transparent transparent transparent;
 }
 
-/* line 944, ../sass/app.scss */
+/* line 948, ../sass/app.scss */
 .smuleknapp:hover, .smuleknapp:focus {
   background-color: #f2f2f2;
   color: #333;
 }
 
-/* line 948, ../sass/app.scss */
+/* line 952, ../sass/app.scss */
 .smuleknapp:before {
   border-color: #666666 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
 }
 
-/* line 952, ../sass/app.scss */
+/* line 956, ../sass/app.scss */
 .smuleknapp ul {
   list-style-type: none;
 }
 
-/* line 959, ../sass/app.scss */
+/* line 963, ../sass/app.scss */
 .top-bar-section .dropdown li a {
   font-weight: 300;
 }
 
-/* line 963, ../sass/app.scss */
+/* line 967, ../sass/app.scss */
 .top-bar-section ul li > a {
   font-weight: 300;
 }
 
-/* line 980, ../sass/app.scss */
+/* line 984, ../sass/app.scss */
 input[type="text"],
 input[type="password"],
 input[type="date"],
@@ -10452,34 +10457,34 @@ textarea {
   font-weight: 300;
 }
 
-/* line 987, ../sass/app.scss */
+/* line 991, ../sass/app.scss */
 .bump {
   height: 500px;
 }
 
-/* line 994, ../sass/app.scss */
+/* line 998, ../sass/app.scss */
 footer ul {
   list-style-type: none;
 }
 
-/* line 998, ../sass/app.scss */
+/* line 1002, ../sass/app.scss */
 footer a .fi-mail {
   color: #F79B2E;
   font-size: 5em;
 }
 
-/* line 1003, ../sass/app.scss */
+/* line 1007, ../sass/app.scss */
 footer a:hover .fi-mail {
   color: #f98912;
 }
 
-/* line 1008, ../sass/app.scss */
+/* line 1012, ../sass/app.scss */
 footer a .fi-social-facebook {
   font-size: 5em;
   padding-left: 10%;
 }
 
-/* line 1016, ../sass/app.scss */
+/* line 1020, ../sass/app.scss */
 form.custom .custom.checkbox.checked:before {
   font-size: 1.8em;
   content: "✓";
@@ -10487,13 +10492,13 @@ form.custom .custom.checkbox.checked:before {
   margin-top: -1px;
 }
 
-/* line 1026, ../sass/app.scss */
+/* line 1030, ../sass/app.scss */
 .justify {
   text-align: justify;
   text-justify: inter-word;
 }
 
-/* line 1035, ../sass/app.scss */
+/* line 1039, ../sass/app.scss */
 .delete {
   border-style: solid;
   border-width: 1px;
@@ -10524,13 +10529,13 @@ form.custom .custom.checkbox.checked:before {
   color: white;
 }
 
-/* line 1039, ../sass/app.scss */
+/* line 1046, ../sass/app.scss */
 .size-24 {
   font-size: 24px;
   top: 6px;
 }
 
-/* line 1043, ../sass/app.scss */
-.inline {
-  display: inline;
+/* line 1054, ../sass/app.scss */
+.info {
+  font-size: 2.5em;
 }

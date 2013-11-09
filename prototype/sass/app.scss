@@ -900,6 +900,10 @@ strong {
     margin-bottom: em-calc(20);
 }
 
+.space-under-40{
+  margin-bottom: em-calc(40);
+}
+
 ////////////////
 //meny innrykk//
 ////////////////
@@ -1036,11 +1040,17 @@ text-justify:inter-word;
   @include button($bg:#DA5959 );
 }
 
+///////////////////////////////////////
+// larger cart icon on mobile top bar//
+///////////////////////////////////////
 .size-24 {
   font-size: 24px;
   top: 6px;
 }
-.inline{
-  display: inline;
-}
 
+/////////////////////////
+// info size garntyper //
+/////////////////////////
+.info{
+  font-size: 2.5em;
+}
