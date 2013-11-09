@@ -1054,3 +1054,18 @@ text-justify:inter-word;
 .info{
   font-size: 2.5em;
 }
+
+/////////////////////////////////
+// hvit bakgrunn under anntall //
+/////////////////////////////////
+span.prefix, label.prefix .white{
+  background: #fff;
+  border: none;
+}
+
+////////////////////////
+// price to the right //
+////////////////////////
+.price h3{
+  text-align: right;
+}

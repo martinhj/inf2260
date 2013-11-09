@@ -10539,3 +10539,14 @@ form.custom .custom.checkbox.checked:before {
 .info {
   font-size: 2.5em;
 }
+
+/* line 1061, ../sass/app.scss */
+span.prefix, label.prefix .white {
+  background: #fff;
+  border: none;
+}
+
+/* line 1069, ../sass/app.scss */
+.price h3 {
+  text-align: right;
+}
