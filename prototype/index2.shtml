@@ -186,8 +186,8 @@
       <div class="row">
         <div class="small-8 large-8 columns">
           <h3><a href="strikkekurs.shtml">Strikkekurs</a></h3></div>
+          <div class="small-4 large-4 columns price"><h3>kr1999</h3></div>
       </div>
-      <div class="small-4 large-4 columns price"><h3>kr1999</h3></div>
       </div>
       <a href="strikkekurs.shtml"><div class="row">
     <div class="large-12 small-12 columns show-for-small hide-for-medium-up" >
@@ -209,6 +209,7 @@
     <div class="large-3 small-3 columns"><a href="#" data-reveal-id="handlevogn" class="small button expand success">Kjøp</a></div>
         </div>
         </div>
+      </div>
       </div>
       </div>
     </form>
