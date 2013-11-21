@@ -48,7 +48,7 @@
         
 
         <div class="row">
-          <div class="small-8 large-8 columns"><h3><a href="mari-m001.shtml">Mari natur</a></h3></div>
+          <div class="small-8 large-8 columns"><h3><a href="mari-m001.shtml">mari natur</a></h3></div>
           <div class="small-4 large-4 columns price"><h3>kr100</h3></div>
       </div>
       <a href="mari-m001.shtml"><div class="row">
@@ -64,10 +64,10 @@
       <div class="row">
         <div class="small-12 large-12 columns"><div class="row collapse">
           <div class="small-3 large-3 columns"> <span class="prefix white">antall:</span></div>
-          <div class="small-2 large-2 columns"><a class="small button expand" onclick='javascript: document.getElementById("qtym100").value--;' value='-'><i class="fi-minus"></i> </a></div>
+          <div class="small-2 large-2 columns"><a class="small button expand" onclick='javascript: document.getelementbyid("qtym100").value--;' value='-'><i class="fi-minus"></i> </a></div>
           <div class="small-2 large-2 columns"><input type="tel" id="qtym100" value="1" /></div>
-    <div class="small-2 large-2 columns"><a class="small button expand" onclick='javascript: document.getElementById("qtym100").value++;' value='+'><i class="fi-plus"></i> </a></div>
-    <div class="large-3 small-3 columns"><a href="#" data-reveal-id="handlevogn" class="small button expand success">Kjøp</a>
+    <div class="small-2 large-2 columns"><a class="small button expand" onclick='javascript: document.getelementbyid("qtym100").value++;' value='+'><i class="fi-plus"></i> </a></div>
+    <div class="large-3 small-3 columns"><a href="#" data-reveal-id="handlevogn" class="small button expand success">kjøp</a>
         </div>
         </div>
         </div>
@@ -84,7 +84,7 @@
      <form action="#">
       <div class="row">
         <div class="large-12 columns">
-          <h2><a href="mari-m001.shtml">Mari natur</a></h2></div>
+          <h2><a href="mari-m001.shtml">mari natur</a></h2></div>
       </div>
       <a href="mari-m001.shtml"><div class="row">
     <div class="large-12 small-12 columns show-for-small hide-for-medium-up" >
@@ -101,20 +101,20 @@
   <div class="small-12 large-12 columns"><div class="row collapse">
           <div class="small-3 large-3 columns"> <span class="prefix">á 150kr</span></div>
           <div class="small-3 large-3 columns"> <span class="prefix">antall:</span></div>
-          <div class="small-2 large-2 columns"><a class="small button expand" onclick='javascript: document.getElementById("qtym100").value--;' value='-'>-</a></div>
+          <div class="small-2 large-2 columns"><a class="small button expand" onclick='javascript: document.getelementbyid("qtym100").value--;' value='-'>-</a></div>
           <div class="small-2 large-2 columns"><input type="tel" id="qtym100" value="1" /></div>
-    <div class="small-2 large-2 columns"><a class="small button expand" onclick='javascript: document.getElementById("qtym100").value++;' value='+'>+</a></div>
+    <div class="small-2 large-2 columns"><a class="small button expand" onclick='javascript: document.getelementbyid("qtym100").value++;' value='+'>+</a></div>
         </div>
         </div>
       </div>
       <div class="row">
-        <div class="large-12 small-12 columns"><a href="#" data-reveal-id="handlevogn" class="small button expand success">Legg i handlevognen</a>
+        <div class="large-12 small-12 columns"><a href="#" data-reveal-id="handlevogn" class="small button expand success">legg i handlevognen</a>
         </div>
       </div>
     </form>
     </div>  -->
         <div class="row">
-          <div class="small-8 large-8 columns"><h3><a href="mari-m001.shtml">Sjalpakke gul</a></h3></div>
+          <div class="small-8 large-8 columns"><h3><a href="mari-m001.shtml">sjalpakke gul</a></h3></div>
           <div class="small-4 large-4 columns price"><h3>kr350</h3></div>
       </div>
       <a href="mari-m001.shtml"><div class="row">
@@ -130,10 +130,10 @@
       <div class="row">
         <div class="small-12 large-12 columns"><div class="row collapse">
           <div class="small-3 large-3 columns"> <span class="prefix white">antall:</span></div>
-          <div class="small-2 large-2 columns"><a class="small button expand" onclick='javascript: document.getElementById("qtym101").value--;' value='-'><i class="fi-minus"></i> </a></div>
+          <div class="small-2 large-2 columns"><a class="small button expand" onclick='javascript: document.getelementbyid("qtym101").value--;' value='-'><i class="fi-minus"></i> </a></div>
           <div class="small-2 large-2 columns"><input type="tel" id="qtym101" value="1" /></div>
-    <div class="small-2 large-2 columns"><a class="small button expand" onclick='javascript: document.getElementById("qtym101").value++;' value='+'><i class="fi-plus"></i> </a></div>
-    <div class="large-3 small-3 columns"><a href="#" data-reveal-id="handlevogn" class="small button expand success">Kjøp</a>
+    <div class="small-2 large-2 columns"><a class="small button expand" onclick='javascript: document.getelementbyid("qtym101").value++;' value='+'><i class="fi-plus"></i> </a></div>
+    <div class="large-3 small-3 columns"><a href="#" data-reveal-id="handlevogn" class="small button expand success">kjøp</a>
         </div>
         </div>
         </div>
@@ -146,7 +146,7 @@
      <form action="#">
       <div class="row">
         <div class="large-12 columns">
-          <h2><a href="sjal001.shtml">Sjalpakke gul</a></h2></div>
+          <h2><a href="sjal001.shtml">sjalpakke gul</a></h2></div>
       </div>
       <a href="sjal001.shtml"><div class="row">
     <div class="large-12 small-12 columns show-for-small hide-for-medium-up" >
@@ -163,14 +163,14 @@
   <div class="small-12 large-12 columns"><div class="row collapse">
           <div class="small-3 large-3 columns"> <span class="prefix">á 350kr</span></div>
           <div class="small-3 large-3 columns"> <span class="prefix">antall:</span></div>
-          <div class="small-2 large-2 columns"><a class="small button expand" onclick='javascript: document.getElementById("qtym101").value--;' value='-'>-</a></div>
+          <div class="small-2 large-2 columns"><a class="small button expand" onclick='javascript: document.getelementbyid("qtym101").value--;' value='-'>-</a></div>
           <div class="small-2 large-2 columns"><input type="tel" id="qtym101" value="1" /></div>
-    <div class="small-2 large-2 columns"><a class="small button expand" onclick='javascript: document.getElementById("qtym101").value++;' value='+'>+</a></div>
+    <div class="small-2 large-2 columns"><a class="small button expand" onclick='javascript: document.getelementbyid("qtym101").value++;' value='+'>+</a></div>
         </div>
         </div>
       </div>
       <div class="row">
-        <div class="large-12 small-12 columns"><a href="#" data-reveal-id="handlevogn" class="small button expand success">Legg i handlevognen</a>
+        <div class="large-12 small-12 columns"><a href="#" data-reveal-id="handlevogn" class="small button expand success">legg i handlevognen</a>
         </div>
       </div>
     </form>
@@ -185,7 +185,7 @@
       <form action="#">
       <div class="row">
         <div class="small-8 large-8 columns">
-          <h3><a href="strikkekurs.shtml">Strikkekurs</a></h3></div>
+          <h3><a href="strikkekurs.shtml">strikkekurs</a></h3></div>
           <div class="small-4 large-4 columns price"><h3>kr1999</h3></div>
       </div>
       </div>
@@ -203,14 +203,12 @@
       <div class="row">
   <div class="small-12 large-12 columns"><div class="row collapse">
           <div class="small-3 large-3 columns"> <span class="prefix">antall:</span></div>
-          <div class="small-2 large-2 columns"><a class="small button expand" onclick='javascript: document.getElementById("qtym102").value--;' value='-'>-</a></div>
+          <div class="small-2 large-2 columns"><a class="small button expand" onclick='javascript: document.getelementbyid("qtym102").value--;' value='-'>-</a></div>
           <div class="small-2 large-2 columns"><input type="tel" id="qtym102" value="1" /></div>
-    <div class="small-2 large-2 columns"><a class="small button expand" onclick='javascript: document.getElementById("qtym102").value++;' value='+'>+</a></div>
-    <div class="large-3 small-3 columns"><a href="#" data-reveal-id="handlevogn" class="small button expand success">Kjøp</a></div>
+    <div class="small-2 large-2 columns"><a class="small button expand" onclick='javascript: document.getelementbyid("qtym102").value++;' value='+'>+</a></div>
+    <div class="large-3 small-3 columns"><a href="#" data-reveal-id="handlevogn" class="small button expand success">kjøp</a></div>
         </div>
         </div>
-      </div>
-      </div>
       </div>
     </form>
     </div>
