@@ -202,9 +202,9 @@
       <div class="row">
   <div class="small-12 large-12 columns"><div class="row collapse">
           <div class="small-3 large-3 columns"> <span class="prefix">antall:</span></div>
-          <div class="small-2 large-2 columns"><a class="small button expand" onclick='javascript: document.getelementbyid("qtym102").value--;' value='-'>-</a></div>
+          <div class="small-2 large-2 columns"><a class="small button expand" onclick='javascript: document.getelementbyid("qtym102").value--;' value='-'><i class="fi-minus"></i></a></div>
           <div class="small-2 large-2 columns"><input type="tel" id="qtym102" value="1" /></div>
-    <div class="small-2 large-2 columns"><a class="small button expand" onclick='javascript: document.getelementbyid("qtym102").value++;' value='+'>+</a></div>
+    <div class="small-2 large-2 columns"><a class="small button expand" onclick='javascript: document.getelementbyid("qtym102").value++;' value='+'><i class="fi-plus"></i></a></div>
     <div class="large-3 small-3 columns"><a href="#" data-reveal-id="handlevogn" class="small button expand success">kjøp</a></div>
         </div>
         </div>
