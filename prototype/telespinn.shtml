@@ -5,7 +5,7 @@
 <p>test</p>
 </div>
 <div class="large-6 columns">
-<iframe style="width:320px;height:480;border:15px solid #000;border-radius:7px" src="http://telespinn-stabil.martinhj.net"></iframe>
+<iframe style="width:320px;height:480px;border:15px solid #000;border-radius:7px" src="http://telespinn-stabil.martinhj.net"></iframe>
 </div>
 </div>
 </body>
