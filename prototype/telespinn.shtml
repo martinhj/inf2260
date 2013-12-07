@@ -32,10 +32,11 @@ jeg ble faktisk ganske imponert”<br>
 </div>
 
 <div class="large-4 columns">
-<div class="flex-video" style="height:480px">
-<iframe style="width:320px;height:480px;border:15px solid #000;border-radius:7px" src="http://telespinn-stabil.martinhj.net"></iframe>
+<!--<div class="flex-video" style="height:480px">-->
+<iframe width="320px" height="480px" style="border:15px solid #000;border-radius:7px" src="http://telespinn-stabil.martinhj.net"></iframe>
+<!--</div>-->
 </div>
-</div>
+
 </div>
 </body>
 </html>
