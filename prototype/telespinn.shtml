@@ -21,7 +21,9 @@ Norge.
 </div>
 
 <div class="large-6 columns">
+<div class="flex-video">
 <iframe style="width:320px;height:480px;border:15px solid #000;border-radius:7px" src="http://telespinn-stabil.martinhj.net"></iframe>
+</div>
 </div>
 </div>
 </body>
