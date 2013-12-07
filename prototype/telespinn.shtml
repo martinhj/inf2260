@@ -6,8 +6,16 @@
 <div class="row">
 <div class="large-6 columns">
 <img src="images/telespinn-goes-mobile.png" alt="-">
-<p>test</p>
+<p>Vi har laget en prototype av en mobilvennlig, responsiv nettbutikk for
+Telespinn.
+
+Telespinn jobber med bevaring av kulturlandskapet igjennom en bærekraftig
+produksjon samt salg av garn og relaterte produkter. Spinneriet ligger i
+Telemark og er eneste garnprodusent som har hele produksjonsprosessen i
+Norge.
+</p>
 </div>
+
 <div class="large-6 columns">
 <iframe style="width:320px;height:480px;border:15px solid #000;border-radius:7px" src="http://telespinn-stabil.martinhj.net"></iframe>
 </div>
