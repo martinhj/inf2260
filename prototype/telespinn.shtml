@@ -1,6 +1,9 @@
 <!--#include virtual="snippets/head.html" --> 
 <body>
 <div class="row">
+<p></p>
+</div>
+<div class="row">
 <div class="large-6 columns">
 <img src="images/telespinn-goes-mobile.png" alt="-">
 <p>test</p>
